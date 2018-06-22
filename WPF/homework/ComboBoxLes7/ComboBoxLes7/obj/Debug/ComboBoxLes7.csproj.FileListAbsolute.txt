@@ -1,0 +1,29 @@
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\bin\Debug\ComboBoxLes7.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\bin\Debug\ComboBoxLes7.exe
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\bin\Debug\ComboBoxLes7.pdb
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\MainWindow.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\App.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7_MarkupCompile.cache
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7_MarkupCompile.lref
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\MainWindow.baml
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.g.resources
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.exe
+c:\users\09701\documents\visual studio 2015\Projects\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.pdb
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\bin\Debug\ComboBoxLes7.exe.config
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\bin\Debug\ComboBoxLes7.exe
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\bin\Debug\ComboBoxLes7.pdb
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\MainWindow.g.cs
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\App.g.cs
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7_MarkupCompile.cache
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7_MarkupCompile.lref
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\MainWindow.baml
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.g.resources
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.Properties.Resources.resources
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.exe
+C:\Users\froze\Desktop\ComboBoxLes7\ComboBoxLes7\obj\Debug\ComboBoxLes7.pdb

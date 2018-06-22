@@ -1,0 +1,8 @@
+c:\users\froze\documents\visual studio 2017\Projects\hw4.2form\hw4.2form\bin\Debug\hw4.2form.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw4.2form\hw4.2form\bin\Debug\hw4.2form.pdb
+c:\users\froze\documents\visual studio 2017\Projects\hw4.2form\hw4.2form\obj\Debug\hw4._2form.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\hw4.2form\hw4.2form\obj\Debug\hw4._2form.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\hw4.2form\hw4.2form\obj\Debug\hw4.2form.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\hw4.2form\hw4.2form\obj\Debug\hw4.2form.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw4.2form\hw4.2form\obj\Debug\hw4.2form.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw4.2form\hw4.2form\obj\Debug\hw4.2form.csprojResolveAssemblyReference.cache

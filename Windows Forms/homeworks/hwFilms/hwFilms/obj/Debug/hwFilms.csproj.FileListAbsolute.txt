@@ -1,0 +1,9 @@
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwFilms\hwFilms\bin\Debug\hwFilms.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwFilms\hwFilms\bin\Debug\hwFilms.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwFilms\hwFilms\obj\Debug\hwFilms.csprojResolveAssemblyReference.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwFilms\hwFilms\obj\Debug\hwFilms.Form1.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwFilms\hwFilms\obj\Debug\hwFilms.Properties.Resources.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwFilms\hwFilms\obj\Debug\hwFilms.csproj.GenerateResource.Cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwFilms\hwFilms\obj\Debug\hwFilms.csproj.CoreCompileInputs.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwFilms\hwFilms\obj\Debug\hwFilms.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwFilms\hwFilms\obj\Debug\hwFilms.pdb

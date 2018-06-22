@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\09701\documents\visual studio 2015\projects\drawingwithmouse\drawingwithmouse\main.cpp(24): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\09701\documents\visual studio 2015\projects\drawingwithmouse\drawingwithmouse\main.cpp(127): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\09701\documents\visual studio 2015\projects\drawingwithmouse\drawingwithmouse\main.cpp(80): warning C4101: hPen: неиспользованная локальная переменная
+c:\users\09701\documents\visual studio 2015\projects\drawingwithmouse\drawingwithmouse\main.cpp(74): warning C4101: rect: неиспользованная локальная переменная
+c:\users\09701\documents\visual studio 2015\projects\drawingwithmouse\drawingwithmouse\main.cpp(73): warning C4101: text: неиспользованная локальная переменная
+  DrawingWithMouse.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\DrawingWithMouse\Debug\DrawingWithMouse.exe
+  DrawingWithMouse.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\DrawingWithMouse\Debug\DrawingWithMouse.pdb (Full PDB)

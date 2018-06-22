@@ -1,0 +1,8 @@
+c:\users\09701\documents\visual studio 2015\Projects\les4.2\les4.2\bin\Debug\les4.2.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\les4.2\les4.2\bin\Debug\les4.2.exe
+c:\users\09701\documents\visual studio 2015\Projects\les4.2\les4.2\bin\Debug\les4.2.pdb
+c:\users\09701\documents\visual studio 2015\Projects\les4.2\les4.2\obj\Debug\les4.2.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\les4.2\les4.2\obj\Debug\les4._2.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\les4.2\les4.2\obj\Debug\les4.2.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\les4.2\les4.2\obj\Debug\les4.2.exe
+c:\users\09701\documents\visual studio 2015\Projects\les4.2\les4.2\obj\Debug\les4.2.pdb

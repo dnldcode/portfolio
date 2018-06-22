@@ -1,0 +1,8 @@
+c:\users\froze\documents\visual studio 2017\Projects\hw3.2\hw3.2\bin\Debug\hw3.2.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw3.2\hw3.2\bin\Debug\hw3.2.pdb
+c:\users\froze\documents\visual studio 2017\Projects\hw3.2\hw3.2\obj\Debug\hw3.2.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\hw3.2\hw3.2\obj\Debug\hw3._2.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\hw3.2\hw3.2\obj\Debug\hw3._2.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\hw3.2\hw3.2\obj\Debug\hw3.2.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\hw3.2\hw3.2\obj\Debug\hw3.2.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw3.2\hw3.2\obj\Debug\hw3.2.pdb

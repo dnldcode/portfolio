@@ -1,0 +1,6 @@
+C:\Users\froze\Desktop\project1\Client\Client\bin\Debug\Client.exe
+C:\Users\froze\Desktop\project1\Client\Client\bin\Debug\Client.pdb
+C:\Users\froze\Desktop\project1\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\project1\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\project1\Client\Client\obj\Debug\Client.exe
+C:\Users\froze\Desktop\project1\Client\Client\obj\Debug\Client.pdb

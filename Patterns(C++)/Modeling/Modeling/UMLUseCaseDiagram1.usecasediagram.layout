@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.25" name="UMLUseCaseDiagram1">
+  <useCaseModelRootMoniker Id="8ce62c3f-f35e-457e-9202-475d8a8d9a48" />
+  <nestedChildShapes>
+    <useCaseShape Id="e6f1acb6-5975-4e56-bfd9-c2621676af16" absoluteBounds="3.25, 2.625, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="58cbd950-4306-4122-b72d-75efdcc8d0b0" LastKnownName="Принятие карточки" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="f02a7b46-bdb0-4e6d-bf5c-d3e4c5ec6dde" absoluteBounds="4.75, 3.125, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="fc1c7a3e-3403-4278-a2df-f79b68f06658" LastKnownName="Чтение пин-кода" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="6ae54c6b-3675-425b-b21b-551c8d077478" absoluteBounds="5.875, 3.875, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="48bc0b07-f054-4941-969e-63694a104312" LastKnownName="Вывод меню" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="bfc76870-7191-4a92-bad3-c6617851921d" absoluteBounds="7.125, 7.875, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3215a343-d990-474f-a60c-621ebbe6c55f" LastKnownName="Выполнение выбранного действия" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="8b5ad25c-6034-4531-802f-94c612b422bb" absoluteBounds="5.75, 8.375, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="4139e7bf-05b0-47a2-9a0a-e63ab250fb6c" LastKnownName="Выдача карточка" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <actorShape Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" absoluteBounds="1.625, 5, 0.125, 0.25" isReference="false" heightOffset="0">
+      <actorMoniker Id="59211daa-d99a-452d-b0ce-98defca3fcaa" LastKnownName="User" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 5.06743421052632); (3.7494150718471 : 3.22586769698293)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="af74dec2-7a49-49b9-a1f7-5191c9cb1d94" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" />
+        <useCaseShapeMoniker Id="e6f1acb6-5975-4e56-bfd9-c2621676af16" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 5.09778225806452); (5.0246455607692 : 3.67172693321342)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="90148c06-e56b-4bea-9fc9-6bb4d423de6c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" />
+        <useCaseShapeMoniker Id="f02a7b46-bdb0-4e6d-bf5c-d3e4c5ec6dde" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 5.11328125); (5.95716292134831 : 4.32443820224719)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="d9657461-6549-4c14-9505-5e851de0ca9c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" />
+        <useCaseShapeMoniker Id="6ae54c6b-3675-425b-b21b-551c8d077478" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 5.155625); (7.43583022889593 : 7.94168181215901)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c466f364-8464-45c8-a74a-5fb77f0cae44" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" />
+        <useCaseShapeMoniker Id="bfc76870-7191-4a92-bad3-c6617851921d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 5.17067307692308); (6.18408102332349 : 8.41096305550563)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="dccc4161-3f35-45f4-a396-834b09c976a5" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" />
+        <useCaseShapeMoniker Id="8b5ad25c-6034-4531-802f-94c612b422bb" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="0f7ee34e-e0e8-4a92-a746-6c6394421742" absoluteBounds="6.75, 4.625, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="bbcf095a-f0b1-41b0-9057-1e7201f04ca6" LastKnownName="Изменение пин-кода" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 5.12300531914894); (6.75278285884584 : 4.96334203641981)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="e182ff23-e8ac-40cd-a85f-1181e84c30cc" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" />
+        <useCaseShapeMoniker Id="0f7ee34e-e0e8-4a92-a746-6c6394421742" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="e8b4ccf8-974b-445d-8063-bfb949678363" absoluteBounds="7.875, 6.25, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e6f37f34-397e-449f-8a04-4b4544444613" LastKnownName="Установка актуального телефона" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 5.13783482142857); (7.97076545868873 : 6.41531344240929)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="a1afbce1-bcfc-41bb-b6b2-ee88a852f75c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" />
+        <useCaseShapeMoniker Id="e8b4ccf8-974b-445d-8063-bfb949678363" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="d51a5090-787f-45af-a488-b98b8d39e531" absoluteBounds="8.125, 7.125, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="9444d2dc-5192-4972-a1e4-9afa0c25af56" LastKnownName="Вывод средств" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 5.14493534482759); (8.31208458028012 : 7.23801404715831)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="691bbff3-1165-4ed7-846a-d19059c6a22d" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" />
+        <useCaseShapeMoniker Id="d51a5090-787f-45af-a488-b98b8d39e531" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="7b120f37-418f-4b8f-a134-005880ede00f" absoluteBounds="7.375, 5.5, 1.625, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="bd5835f3-8ed6-4540-a74f-8732517e509b" LastKnownName="Пополнение счета" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 5.13161057692308); (7.40408311834692 : 5.72963859905592)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="ee3fb2e9-365d-4a7d-8b42-a63adc61d08f" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b627d1ea-9bca-4306-9a56-fd6dda16348e" />
+        <useCaseShapeMoniker Id="7b120f37-418f-4b8f-a134-005880ede00f" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

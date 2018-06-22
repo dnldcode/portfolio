@@ -1,0 +1,80 @@
+﻿<Window x:Class="wpfles10triggers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfles10triggers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+	<Window.Resources>
+		<Style x:Key="TriggerExampleOne">
+			<Style.Setters>
+				<Setter Property="Control.FontFamily" Value="Courier New" />
+				<Setter Property="Control.FontWeight" Value="Bold" />
+				<Setter Property="Control.FontSize" Value="24" />
+			</Style.Setters>
+			<Style.Triggers>
+				<Trigger Property="Control.IsFocused" Value="True">
+					<Setter Property="Control.Foreground" Value="Blue" />
+				</Trigger>
+				<Trigger Property="Control.IsMouseOver" Value="True">
+					<Setter Property="Control.FontSize" Value="36" />
+					<Setter Property="Control.Foreground" Value="Red" />
+				</Trigger>
+				<Trigger Property="Button.IsPressed" Value="True">
+					<Setter Property="Control.FontWeight" Value="Regular" />
+				</Trigger>
+			</Style.Triggers>
+		</Style>
+		<Style x:Key="TriggerExampleTwo">
+			<Style.Setters>
+				<Setter Property="Control.FontFamily" Value="Courier New" />
+				<Setter Property="Control.FontWeight" Value="Bold" />
+				<Setter Property="Control.FontSize" Value="24" />
+			</Style.Setters>
+			<Style.Triggers>
+				<MultiTrigger>
+					<MultiTrigger.Conditions>
+						<Condition Property="Control.IsMouseOver" Value="True" />
+						<Condition Property="Button.IsFocused" Value="True" />
+					</MultiTrigger.Conditions>
+					<MultiTrigger.Setters>
+						<Setter Property="Control.Foreground" Value="Red" />
+						<Setter Property="Control.FontSize" Value="36"/>
+						<Setter Property="Control.FontWeight" Value="Regular"/>
+					</MultiTrigger.Setters>
+				</MultiTrigger>
+			</Style.Triggers>
+		</Style>
+		<Style x:Key="TriggerExampleThree">
+			<Setter Property="Control.FontFamily" Value="Courier New" />
+			<Setter Property="Control.FontSize" Value="40" />
+			<Style.Triggers>
+				<MultiTrigger>
+					<MultiTrigger.Conditions>
+						<Condition Property="Control.IsFocused" Value="True" />
+						<Condition Property="Control.IsMouseOver" Value="True" />
+					</MultiTrigger.Conditions>
+					<MultiTrigger.Setters>
+						<Setter Property="Control.Background">
+							<Setter.Value>
+								<SolidColorBrush Color="Red" />
+							</Setter.Value>
+						</Setter>
+					</MultiTrigger.Setters>
+				</MultiTrigger>
+			</Style.Triggers>
+		</Style>
+	</Window.Resources>
+	<UniformGrid Rows="3" Columns="3">
+		<Button Style="{StaticResource TriggerExampleOne}" Content="One" />
+		<Button Style="{StaticResource TriggerExampleOne}" Content="Two" />
+		<Button Style="{StaticResource TriggerExampleOne}" Content="Three" />
+		<Button Style="{StaticResource TriggerExampleTwo}" Content="Four" />
+		<Button Style="{StaticResource TriggerExampleTwo}" Content="Five" />
+		<Button Style="{StaticResource TriggerExampleTwo}" Content="Six" />
+		<Button Style="{StaticResource TriggerExampleThree}" Content="Seven" />
+		<Button Style="{StaticResource TriggerExampleThree}" Content="Eight" />
+		<Button Style="{StaticResource TriggerExampleThree}" Content="Nine" />
+	</UniformGrid>
+</Window>

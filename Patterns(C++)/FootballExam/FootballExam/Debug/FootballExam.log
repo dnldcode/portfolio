@@ -1,0 +1,11 @@
+﻿  main.cpp
+c:\users\froze\desktop\projects\footballexam\footballexam\absfact1.h(18): warning C4566: символ, представленный универсальным именем символа "\u00E9", невозможно представить в текущей кодовой странице (1251)
+c:\users\froze\desktop\projects\footballexam\footballexam\absfact1.h(18): warning C4566: символ, представленный универсальным именем символа "\u00D6", невозможно представить в текущей кодовой странице (1251)
+c:\users\froze\desktop\projects\footballexam\footballexam\absfact1.h(18): warning C4566: символ, представленный универсальным именем символа "\u0107", невозможно представить в текущей кодовой странице (1251)
+c:\users\froze\desktop\projects\footballexam\footballexam\absfact1.h(18): warning C4566: символ, представленный универсальным именем символа "\u00FC", невозможно представить в текущей кодовой странице (1251)
+c:\users\froze\desktop\projects\footballexam\footballexam\absfact1.h(50): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\froze\desktop\projects\footballexam\footballexam\absfact1.h(63): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\froze\desktop\projects\footballexam\footballexam\absfact1.h(71): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+c:\users\froze\desktop\projects\footballexam\footballexam\main.cpp(14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  FootballExam.vcxproj -> C:\Users\froze\Desktop\Projects\FootballExam\Debug\FootballExam.exe
+  FootballExam.vcxproj -> C:\Users\froze\Desktop\Projects\FootballExam\Debug\FootballExam.pdb (Partial PDB)

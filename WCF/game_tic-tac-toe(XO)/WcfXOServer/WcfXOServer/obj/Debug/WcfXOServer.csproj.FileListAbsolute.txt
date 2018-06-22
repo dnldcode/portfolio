@@ -1,0 +1,19 @@
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOServer\WcfXOServer\bin\Debug\WcfXOServer.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOServer\WcfXOServer\bin\Debug\WcfXOServer.exe
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOServer\WcfXOServer\bin\Debug\WcfXOServer.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.exe
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.pdb
+C:\Users\09701\Desktop\XO\WcfXOServer\WcfXOServer\bin\Debug\WcfXOServer.exe.config
+C:\Users\09701\Desktop\XO\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.exe
+C:\Users\09701\Desktop\XO\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.pdb
+C:\Users\09701\Desktop\XO\WcfXOServer\WcfXOServer\bin\Debug\WcfXOServer.exe
+C:\Users\09701\Desktop\XO\WcfXOServer\WcfXOServer\bin\Debug\WcfXOServer.pdb
+C:\Users\09701\Desktop\XO\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\XO\WcfXOServer\WcfXOServer\bin\Debug\WcfXOServer.exe.config
+C:\Users\froze\Desktop\XO\WcfXOServer\WcfXOServer\bin\Debug\WcfXOServer.exe
+C:\Users\froze\Desktop\XO\WcfXOServer\WcfXOServer\bin\Debug\WcfXOServer.pdb
+C:\Users\froze\Desktop\XO\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\XO\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\XO\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.exe
+C:\Users\froze\Desktop\XO\WcfXOServer\WcfXOServer\obj\Debug\WcfXOServer.pdb

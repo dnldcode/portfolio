@@ -1,0 +1,43 @@
+﻿<Window x:Class="ComboBoxLes7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComboBoxLes7"
+        mc:Ignorable="d"
+        Height="350" Width="525">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="24"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<ComboBox Height="23" SelectedIndex="2" SelectionChanged="comboBox_SelectionChanged" HorizontalAlignment="Left" Name="comboBox" VerticalAlignment="Top" Width="120">
+			<ComboBoxItem Name="bigImg" Content="Большие значки"/>
+			<ComboBoxItem Name="smallImg" Content="Маленькие значки"/>
+			<ComboBoxItem Name="list" Content="Список"/>
+			<ComboBoxItem Name="tile" Content="Черепица"/>
+			<ComboBoxItem Name="table" Content="Таблица"/>
+		</ComboBox>
+		<ListView Name="listView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<StackPanel Orientation="Horizontal">
+						<Label Content="{Binding Path=Name}"/>
+						<Label Content="{Binding Path=Price}"/>
+						<Label Content="{Binding Path=Weight}"/>
+					</StackPanel>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+			<ListView.ItemsPanel>
+				<ItemsPanelTemplate>
+					<!--<WrapPanel Orientation="Horizontal" Width="{Binding Path=ActualWidth, ElementName=listView}">
+						
+					</WrapPanel>-->
+					<WrapPanel Orientation="Vertical" Width="{Binding Path=ActualWidth, ElementName=listView}">
+
+					</WrapPanel>
+				</ItemsPanelTemplate>
+			</ListView.ItemsPanel>
+		</ListView>
+	</Grid>
+</Window>

@@ -1,0 +1,14 @@
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\bin\Debug\WPFLes4.1.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\bin\Debug\WPFLes4.1.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\bin\Debug\WPFLes4.1.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\WPFLes4.1.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\MainWindow.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\App.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\WPFLes4.1_MarkupCompile.cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\WPFLes4.1_MarkupCompile.lref
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\MainWindow.baml
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\WPFLes4.1.g.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\WPFLes4._1.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\WPFLes4.1.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\WPFLes4.1.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.1\WPFLes4.1\obj\Debug\WPFLes4.1.pdb

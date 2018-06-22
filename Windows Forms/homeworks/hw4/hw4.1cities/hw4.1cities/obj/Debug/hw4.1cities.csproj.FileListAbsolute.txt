@@ -1,0 +1,8 @@
+c:\users\froze\documents\visual studio 2017\Projects\hw4.1cities\hw4.1cities\bin\Debug\hw4.1cities.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw4.1cities\hw4.1cities\bin\Debug\hw4.1cities.pdb
+c:\users\froze\documents\visual studio 2017\Projects\hw4.1cities\hw4.1cities\obj\Debug\hw4.1cities.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\hw4.1cities\hw4.1cities\obj\Debug\hw4._1cities.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\hw4.1cities\hw4.1cities\obj\Debug\hw4._1cities.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\hw4.1cities\hw4.1cities\obj\Debug\hw4.1cities.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\hw4.1cities\hw4.1cities\obj\Debug\hw4.1cities.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw4.1cities\hw4.1cities\obj\Debug\hw4.1cities.pdb

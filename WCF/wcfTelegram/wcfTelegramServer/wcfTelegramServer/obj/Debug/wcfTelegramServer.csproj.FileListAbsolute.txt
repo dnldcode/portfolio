@@ -1,0 +1,14 @@
+c:\users\froze\source\repos\wcfTelegramServer\wcfTelegramServer\bin\Debug\wcfTelegramServer.exe.config
+c:\users\froze\source\repos\wcfTelegramServer\wcfTelegramServer\bin\Debug\wcfTelegramServer.exe
+c:\users\froze\source\repos\wcfTelegramServer\wcfTelegramServer\bin\Debug\wcfTelegramServer.pdb
+c:\users\froze\source\repos\wcfTelegramServer\wcfTelegramServer\obj\Debug\wcfTelegramServer.csprojResolveAssemblyReference.cache
+c:\users\froze\source\repos\wcfTelegramServer\wcfTelegramServer\obj\Debug\wcfTelegramServer.csproj.CoreCompileInputs.cache
+c:\users\froze\source\repos\wcfTelegramServer\wcfTelegramServer\obj\Debug\wcfTelegramServer.exe
+c:\users\froze\source\repos\wcfTelegramServer\wcfTelegramServer\obj\Debug\wcfTelegramServer.pdb
+C:\Users\froze\Desktop\wcfTelegram\wcfTelegramServer\wcfTelegramServer\bin\Debug\wcfTelegramServer.exe.config
+C:\Users\froze\Desktop\wcfTelegram\wcfTelegramServer\wcfTelegramServer\bin\Debug\wcfTelegramServer.exe
+C:\Users\froze\Desktop\wcfTelegram\wcfTelegramServer\wcfTelegramServer\bin\Debug\wcfTelegramServer.pdb
+C:\Users\froze\Desktop\wcfTelegram\wcfTelegramServer\wcfTelegramServer\obj\Debug\wcfTelegramServer.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\wcfTelegram\wcfTelegramServer\wcfTelegramServer\obj\Debug\wcfTelegramServer.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\wcfTelegram\wcfTelegramServer\wcfTelegramServer\obj\Debug\wcfTelegramServer.exe
+C:\Users\froze\Desktop\wcfTelegram\wcfTelegramServer\wcfTelegramServer\obj\Debug\wcfTelegramServer.pdb

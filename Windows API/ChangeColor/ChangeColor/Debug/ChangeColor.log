@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\09701\documents\visual studio 2015\projects\changecolor\changecolor\main.cpp(63): warning C4101: hDC: неиспользованная локальная переменная
+  ChangeColor.vcxproj -> C:\Users\09701\documents\visual studio 2015\Projects\ChangeColor\Debug\ChangeColor.exe
+  ChangeColor.vcxproj -> C:\Users\09701\documents\visual studio 2015\Projects\ChangeColor\Debug\ChangeColor.pdb (Full PDB)

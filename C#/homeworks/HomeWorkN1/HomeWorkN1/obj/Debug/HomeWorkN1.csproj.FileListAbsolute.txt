@@ -1,0 +1,10 @@
+c:\users\froze\documents\visual studio 2017\Projects\HomeWorkN1\HomeWorkN1\bin\Debug\HomeWorkN1.exe
+c:\users\froze\documents\visual studio 2017\Projects\HomeWorkN1\HomeWorkN1\bin\Debug\HomeWorkN1.pdb
+c:\users\froze\documents\visual studio 2017\Projects\HomeWorkN1\HomeWorkN1\obj\Debug\HomeWorkN1.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\HomeWorkN1\HomeWorkN1\obj\Debug\HomeWorkN1.exe
+c:\users\froze\documents\visual studio 2017\Projects\HomeWorkN1\HomeWorkN1\obj\Debug\HomeWorkN1.pdb
+C:\Users\froze\Desktop\C#\HomeWorkN1\HomeWorkN1\obj\Debug\HomeWorkN1.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\C#\HomeWorkN1\HomeWorkN1\obj\Debug\HomeWorkN1.exe
+C:\Users\froze\Desktop\C#\HomeWorkN1\HomeWorkN1\obj\Debug\HomeWorkN1.pdb
+C:\Users\froze\Desktop\C#\HomeWorkN1\HomeWorkN1\bin\Debug\HomeWorkN1.exe
+C:\Users\froze\Desktop\C#\HomeWorkN1\HomeWorkN1\bin\Debug\HomeWorkN1.pdb

@@ -1,0 +1,9 @@
+c:\users\09701\documents\visual studio 2015\Projects\hw3Buttons\hw3Buttons\bin\Debug\hw3Buttons.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\hw3Buttons\hw3Buttons\bin\Debug\hw3Buttons.exe
+c:\users\09701\documents\visual studio 2015\Projects\hw3Buttons\hw3Buttons\bin\Debug\hw3Buttons.pdb
+c:\users\09701\documents\visual studio 2015\Projects\hw3Buttons\hw3Buttons\obj\Debug\hw3Buttons.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\hw3Buttons\hw3Buttons\obj\Debug\hw3Buttons.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\hw3Buttons\hw3Buttons\obj\Debug\hw3Buttons.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\hw3Buttons\hw3Buttons\obj\Debug\hw3Buttons.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\hw3Buttons\hw3Buttons\obj\Debug\hw3Buttons.exe
+c:\users\09701\documents\visual studio 2015\Projects\hw3Buttons\hw3Buttons\obj\Debug\hw3Buttons.pdb

@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\09701\documents\visual studio 2015\projects\students\students\main.cpp(16): error C2662: void Student::setExam(std::pair<std::string,int>): невозможно преобразовать указатель "this" из "const Student" в "Student &"
+  c:\users\09701\documents\visual studio 2015\projects\students\students\main.cpp(16): note: В результате преобразования теряются квалификаторы
+c:\users\09701\documents\visual studio 2015\projects\students\students\main.cpp(23): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+s:\users\froze_000\desktop\list\list\source.cpp(33): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  List.vcxproj -> S:\Users\froze_000\Desktop\List\Debug\List.exe
+  List.vcxproj -> S:\Users\froze_000\Desktop\List\Debug\List.pdb (Full PDB)

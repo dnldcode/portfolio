@@ -1,0 +1,6 @@
+c:\users\09701\documents\visual studio 2015\Projects\Тхред\Тхред\bin\Debug\Тхред.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\Тхред\Тхред\bin\Debug\Тхред.exe
+c:\users\09701\documents\visual studio 2015\Projects\Тхред\Тхред\bin\Debug\Тхред.pdb
+c:\users\09701\documents\visual studio 2015\Projects\Тхред\Тхред\obj\Debug\Тхред.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\Тхред\Тхред\obj\Debug\Тхред.exe
+c:\users\09701\documents\visual studio 2015\Projects\Тхред\Тхред\obj\Debug\Тхред.pdb

@@ -1,0 +1,33 @@
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\bin\Debug\WPFLes4.2listboxes.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\bin\Debug\WPFLes4.2listboxes.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\bin\Debug\WPFLes4.2listboxes.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\MainWindow.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\App.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes_MarkupCompile.cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes_MarkupCompile.lref
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\MainWindow.baml
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.g.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4._2listboxes.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\Window1.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\Window1.baml
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\bin\Debug\WPFLes4.2listboxes.exe.config
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\bin\Debug\WPFLes4.2listboxes.exe
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\bin\Debug\WPFLes4.2listboxes.pdb
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\MainWindow.g.cs
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\Window1.g.cs
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\App.g.cs
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes_MarkupCompile.cache
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes_MarkupCompile.lref
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\MainWindow.baml
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\Window1.baml
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.g.resources
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4._2listboxes.Properties.Resources.resources
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.exe
+C:\Users\froze\Desktop\hw5\WPFLes4.2listboxes\WPFLes4.2listboxes\obj\Debug\WPFLes4.2listboxes.pdb

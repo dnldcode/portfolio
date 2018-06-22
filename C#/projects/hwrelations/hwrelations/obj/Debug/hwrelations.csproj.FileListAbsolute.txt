@@ -1,0 +1,9 @@
+c:\users\froze\documents\visual studio 2017\Projects\hwrelations\hwrelations\bin\Debug\hwrelations.exe
+c:\users\froze\documents\visual studio 2017\Projects\hwrelations\hwrelations\bin\Debug\hwrelations.pdb
+c:\users\froze\documents\visual studio 2017\Projects\hwrelations\hwrelations\obj\Debug\hwrelations.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\hwrelations\hwrelations\obj\Debug\hwrelations.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\hwrelations\hwrelations\obj\Debug\hwrelations.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\hwrelations\hwrelations\obj\Debug\hwrelations.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\hwrelations\hwrelations\obj\Debug\hwrelations.csproj.CoreCompileInputs.cache
+c:\users\froze\documents\visual studio 2017\Projects\hwrelations\hwrelations\obj\Debug\hwrelations.exe
+c:\users\froze\documents\visual studio 2017\Projects\hwrelations\hwrelations\obj\Debug\hwrelations.pdb

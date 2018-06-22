@@ -1,0 +1,8 @@
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuStripLes\ContextMenuStripLes\bin\Debug\ContextMenuStripLes.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuStripLes\ContextMenuStripLes\bin\Debug\ContextMenuStripLes.exe
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuStripLes\ContextMenuStripLes\bin\Debug\ContextMenuStripLes.pdb
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuStripLes\ContextMenuStripLes\obj\Debug\ContextMenuStripLes.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuStripLes\ContextMenuStripLes\obj\Debug\ContextMenuStripLes.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuStripLes\ContextMenuStripLes\obj\Debug\ContextMenuStripLes.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuStripLes\ContextMenuStripLes\obj\Debug\ContextMenuStripLes.exe
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuStripLes\ContextMenuStripLes\obj\Debug\ContextMenuStripLes.pdb

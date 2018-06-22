@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\froze\desktop\footballexam\footballexam\absfact1.h(53): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\froze\desktop\footballexam\footballexam\absfact1.h(67): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\froze\desktop\footballexam\footballexam\absfact1.h(75): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+c:\users\froze\desktop\footballexam\footballexam\absfact1.h(197): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\froze\desktop\footballexam\footballexam\main.cpp(28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+c:\users\froze\desktop\footballexam\footballexam\main.cpp(48): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  FootballExam.vcxproj -> C:\Users\froze\Desktop\FootballExam\Debug\FootballExam.exe
+  FootballExam.vcxproj -> C:\Users\froze\Desktop\FootballExam\Debug\FootballExam.pdb (Partial PDB)

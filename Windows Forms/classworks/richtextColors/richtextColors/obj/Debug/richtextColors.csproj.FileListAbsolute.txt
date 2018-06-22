@@ -1,0 +1,9 @@
+c:\users\09701\documents\visual studio 2015\Projects\richtextColors\richtextColors\bin\Debug\richtextColors.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\richtextColors\richtextColors\obj\Debug\richtextColors.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\richtextColors\richtextColors\obj\Debug\richtextColors.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\richtextColors\richtextColors\obj\Debug\richtextColors.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\richtextColors\richtextColors\obj\Debug\richtextColors.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\richtextColors\richtextColors\bin\Debug\richtextColors.exe
+c:\users\09701\documents\visual studio 2015\Projects\richtextColors\richtextColors\bin\Debug\richtextColors.pdb
+c:\users\09701\documents\visual studio 2015\Projects\richtextColors\richtextColors\obj\Debug\richtextColors.exe
+c:\users\09701\documents\visual studio 2015\Projects\richtextColors\richtextColors\obj\Debug\richtextColors.pdb

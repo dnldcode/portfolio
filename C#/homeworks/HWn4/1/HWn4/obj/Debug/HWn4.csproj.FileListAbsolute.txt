@@ -1,0 +1,10 @@
+C:\Users\froze\Desktop\C#\HWn4\HWn4\bin\Debug\HWn4.exe
+C:\Users\froze\Desktop\C#\HWn4\HWn4\bin\Debug\HWn4.pdb
+C:\Users\froze\Desktop\C#\HWn4\HWn4\obj\Debug\HWn4.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\C#\HWn4\HWn4\obj\Debug\HWn4.exe
+C:\Users\froze\Desktop\C#\HWn4\HWn4\obj\Debug\HWn4.pdb
+C:\Users\froze\Desktop\C#\HWn4\1\HWn4\bin\Debug\HWn4.exe
+C:\Users\froze\Desktop\C#\HWn4\1\HWn4\bin\Debug\HWn4.pdb
+C:\Users\froze\Desktop\C#\HWn4\1\HWn4\obj\Debug\HWn4.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\C#\HWn4\1\HWn4\obj\Debug\HWn4.exe
+C:\Users\froze\Desktop\C#\HWn4\1\HWn4\obj\Debug\HWn4.pdb

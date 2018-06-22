@@ -1,0 +1,6 @@
+c:\users\09701\documents\visual studio 2015\Projects\Les19.1\Les19.1\bin\Debug\Les19.1.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\Les19.1\Les19.1\obj\Debug\Les19.1.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\Les19.1\Les19.1\bin\Debug\Les19.1.exe
+c:\users\09701\documents\visual studio 2015\Projects\Les19.1\Les19.1\bin\Debug\Les19.1.pdb
+c:\users\09701\documents\visual studio 2015\Projects\Les19.1\Les19.1\obj\Debug\Les19.1.exe
+c:\users\09701\documents\visual studio 2015\Projects\Les19.1\Les19.1\obj\Debug\Les19.1.pdb

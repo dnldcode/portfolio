@@ -1,0 +1,5 @@
+c:\users\froze\documents\visual studio 2017\Projects\Author\Author\bin\Debug\Author.exe
+c:\users\froze\documents\visual studio 2017\Projects\Author\Author\bin\Debug\Author.pdb
+c:\users\froze\documents\visual studio 2017\Projects\Author\Author\obj\Debug\Author.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\Author\Author\obj\Debug\Author.exe
+c:\users\froze\documents\visual studio 2017\Projects\Author\Author\obj\Debug\Author.pdb

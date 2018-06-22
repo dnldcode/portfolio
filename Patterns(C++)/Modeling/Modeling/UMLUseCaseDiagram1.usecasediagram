@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8ce62c3f-f35e-457e-9202-475d8a8d9a48" name="UMLUseCaseDiagram1" linkedPackageId="30f7758b-865c-4991-b932-2d9382d30995" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="ce0041d9-3f34-4c48-a250-20288d3cd733" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="30a9cd59-0beb-484c-b873-041180429bd0" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="027fe2e1-81c9-4561-aba5-70717b97708b">
+          <propertyInstance Id="e830f5f2-beae-4862-bc0f-ed71435a0c4a" name="BaseName">
+            <elementDefinition Id="3eed8905-6151-43a3-a847-af5a6bb83fe3" />
+          </propertyInstance>
+          <elementDefinition Id="b38b6da6-781c-494d-9f15-8c8c94085bf7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5a8ec916-f8b5-449f-a677-732b84f2b595">
+          <propertyInstance Id="b05a2107-38c1-4634-89e1-a41c9f25c185" name="ClrAttributes">
+            <elementDefinition Id="071dddb7-cec0-406d-9e59-ee2e279292ba" />
+          </propertyInstance>
+          <elementDefinition Id="f668bf5b-1531-4d1a-a3ed-9babc7cf9856" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fc29c781-826b-44a7-ab0a-9d466fa96188">
+          <propertyInstance Id="f85644e7-c732-46c0-9cf0-f4def07d4ddb" name="Usings">
+            <elementDefinition Id="48867fbc-84f0-4c3e-8451-7a3da6a41e4d" />
+          </propertyInstance>
+          <elementDefinition Id="2d13c182-b797-42c4-9b39-b0823230717e" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="9ccac9cf-e4c5-4897-b893-aeebcc893839" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="f1706a30-290a-4f69-a5c8-9d6d5d348ff0" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fc515123-c713-4d3a-933f-fdb6cb509d5c">
+          <propertyInstance Id="1c51929f-e848-4b36-8b27-05f3c2a303e6" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="aa69fb38-5359-4267-bd7f-4c84a0b60b98" />
+          </propertyInstance>
+          <elementDefinition Id="1162d009-9fe2-4067-ae2e-aee90a6205b5" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8d297585-0e95-4357-9227-eaac3ecbc85c">
+          <propertyInstance Id="a0718a3a-6a2e-4633-8e03-93c809d1b49f" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="26088753-9eff-4b16-a518-23ed3a521da4" />
+          </propertyInstance>
+          <elementDefinition Id="3523bbb2-d97e-42e2-9dfd-afb176bd4723" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="92e4fc86-9711-4d97-879d-6a5ee96b1480">
+          <propertyInstance Id="e5d7e0a4-8848-4d6d-898c-caec25926ab1" name="ProjectPath" value="ClassTemplate=..\ModelingLib\ModelingLib.csproj|EnumTemplate=..\ModelingLib\ModelingLib.csproj|InterfaceTemplate=..\ModelingLib\ModelingLib.csproj|StructTemplate=..\ModelingLib\ModelingLib.csproj">
+            <elementDefinition Id="fe74dc17-ea86-4cbd-9143-e2e93db2cbb1" />
+          </propertyInstance>
+          <elementDefinition Id="3c30d0b0-e9cb-4501-b95b-8b067bf6b6be" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6b4b4704-f9c9-4e97-b8f1-81a06c960ac9">
+          <propertyInstance Id="7ca01134-01fc-4559-bbc7-6d30245b61fc" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="ac36bf5a-f6de-46ab-ac2b-a6652aa09474" />
+          </propertyInstance>
+          <elementDefinition Id="9cc3c1ec-cd15-4fd2-98ab-a7f0ab552f2b" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="378ec38d-9dd1-496e-a9a3-d79c2ac2bcf0">
+          <propertyInstance Id="6e73264b-8d05-43b7-99d5-114b13f7b0c8" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="955c01d9-8f06-454c-8eef-359283c50cfb" />
+          </propertyInstance>
+          <elementDefinition Id="3f5a6c55-306e-4357-b85c-779b3152d16d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5ce61a8f-7d05-4837-9f99-dd1f55da0cc7">
+          <propertyInstance Id="927dbe98-a674-4891-8a48-bcf3ef88800e" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="a93fd88f-dbc0-4df0-9f4a-4dbad4bb2279" />
+          </propertyInstance>
+          <elementDefinition Id="adce14a3-ef92-4d12-b9c7-e01d570a5443" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c04bce61-7f30-4a10-ae06-37bde351fac9">
+          <propertyInstance Id="56ad1835-ddf8-4831-8f56-dca0a2e00a38" name="Parameters">
+            <elementDefinition Id="8772fdb0-10bc-46d8-b0a5-e5d67b5014e7" />
+          </propertyInstance>
+          <elementDefinition Id="71d771fa-adbe-463c-bbcf-d970f7d12497" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="6563f605-ae3c-4fb6-b670-afab5245a88c">
+      <profileInstance Id="dd0b81f6-3230-45bf-afc8-d7fa54bf1fd7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d6927e88-0860-4351-bd06-67f90c9ddb7b">
+      <profileInstance Id="37c022e6-c808-4c7e-843b-acf73c53ee7e" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="5decc39c-ca9d-4ad7-b95d-4f0e38ee99d1">
+      <profileInstance Id="59fb0e96-9e52-404d-b8c0-bb45dea835e9" name="CSharpProfile">
+        <elementDefinition Id="7c2044da-8bc3-45a0-b977-60fa28f3724e" />
+      </profileInstance>
+      <elementDefinition Id="852cb941-53ec-4f28-8068-2f995afec98e" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="4460a513-30a7-4a8a-b66d-a91c013e453a">
+      <profileInstance Id="4970d81c-0f1b-4045-be59-32abb03c8fce" name="TextTemplateBindings">
+        <elementDefinition Id="0eb0e5cb-42c4-4f08-b167-b2061045518b" />
+      </profileInstance>
+      <elementDefinition Id="3c8d80ab-7471-43d0-8b94-e97b49b872d1" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <useCase Id="58cbd950-4306-4122-b72d-75efdcc8d0b0" name="Принятие карточки" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="76df51df-61ca-4e97-9ec4-de1f26f967e2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fc1c7a3e-3403-4278-a2df-f79b68f06658" name="Чтение пин-кода" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e90c036-fac6-4bf8-9b44-29cc704b7f71" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="48bc0b07-f054-4941-969e-63694a104312" name="Вывод меню" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="50e32543-b2c9-4819-b0bd-488296022327" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3215a343-d990-474f-a60c-621ebbe6c55f" name="Выполнение выбранного действия" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a8a7d8c4-07ad-45d8-ab73-719905a0dcaa" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4139e7bf-05b0-47a2-9a0a-e63ab250fb6c" name="Выдача карточка" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="89f0302d-4269-4ac4-8f9e-c0178353ded2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="59211daa-d99a-452d-b0ce-98defca3fcaa" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="27a5bfce-9feb-4179-a3d9-137feb9508e2" />
+        <targetEnds>
+          <association Id="af74dec2-7a49-49b9-a1f7-5191c9cb1d94" isDerived="false" sourceEndRoleName="GovnoUser" targetEndRoleName="Принятие карточки" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="58cbd950-4306-4122-b72d-75efdcc8d0b0" LastKnownName="Принятие карточки" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5b70559-8c69-42d6-9e0d-caf98375922c" name="GovnoUser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f45c71b0-dafc-4c31-b017-02a275bc06d8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58226fd2-8cf6-43d2-be22-58d9a82c060f" name="Принятие карточки" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="29d842f5-084c-4f24-9471-406d8ea92454" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f53c68f5-7e92-44e4-88b6-86b63edf42fa" />
+          </association>
+          <association Id="90148c06-e56b-4bea-9fc9-6bb4d423de6c" isDerived="false" sourceEndRoleName="GovnoUser" targetEndRoleName="Чтение пин-кода" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fc1c7a3e-3403-4278-a2df-f79b68f06658" LastKnownName="Чтение пин-кода" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="464b168c-2294-47cf-bfd7-3e45106f924b" name="GovnoUser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d3135eb8-1fc4-4e65-9bad-b837561aa8b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3b5e1dc4-7cf4-4982-a559-a9a8b57ae909" name="Чтение пин-кода" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a948073e-72fb-428d-95f7-a985c912de00" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e65c31a4-0932-4d0a-8543-f488d434fdee" />
+          </association>
+          <association Id="d9657461-6549-4c14-9505-5e851de0ca9c" isDerived="false" sourceEndRoleName="GovnoUser" targetEndRoleName="Вывод меню" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="48bc0b07-f054-4941-969e-63694a104312" LastKnownName="Вывод меню" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="50b09775-75f6-4778-b066-3cc6ca90844b" name="GovnoUser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="16dfdd25-dd77-4572-9802-e3cec2e7e05b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="419585c9-7fc2-4d9e-9a5e-dcdd9bbcbe91" name="Вывод меню" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a917986d-227b-4302-8e30-ea197ca06443" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5d78bbc0-4730-4d73-92b0-e291105392c3" />
+          </association>
+          <association Id="c466f364-8464-45c8-a74a-5fb77f0cae44" isDerived="false" sourceEndRoleName="GovnoUser" targetEndRoleName="Выполнение выбранного действия" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3215a343-d990-474f-a60c-621ebbe6c55f" LastKnownName="Выполнение выбранного действия" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3ab45a98-802e-4d31-985e-8a018c07c7ca" name="GovnoUser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1e556215-6504-466f-91ec-7a1ade100127" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dddf09cb-3bc4-4f78-920e-cd113392a0db" name="Выполнение выбранного действия" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d15ba98d-013c-4417-b575-d41313ec720f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="89fed7ac-4ac5-40b7-90b2-d851de1b67d0" />
+          </association>
+          <association Id="dccc4161-3f35-45f4-a396-834b09c976a5" isDerived="false" sourceEndRoleName="GovnoUser" targetEndRoleName="Выдача карточка" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4139e7bf-05b0-47a2-9a0a-e63ab250fb6c" LastKnownName="Выдача карточка" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="42dad97c-8f74-4273-9557-7c6b29e1eb49" name="GovnoUser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2648c204-6870-48c1-80a8-209ab9f11dec" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ab64ac6e-ba55-40d0-a99a-522d86a15008" name="Выдача карточка" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3c64169f-89df-497f-8dc5-7a273ce7edae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2e0bd08c-0074-416d-b92d-9e7e4ec98e48" />
+          </association>
+          <association Id="e182ff23-e8ac-40cd-a85f-1181e84c30cc" isDerived="false" sourceEndRoleName="GovnoUser" targetEndRoleName="Изменение пин-кода" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bbcf095a-f0b1-41b0-9057-1e7201f04ca6" LastKnownName="Изменение пин-кода" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="407ba47a-fe42-4a21-8dfb-5572f6252842" name="GovnoUser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e1ae0d3e-b0df-41d6-b342-d641f125762b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bbd800dd-47e7-4204-a901-5f546b7a315b" name="Изменение пин-кода" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dc80a201-3574-492f-8f9b-43155f9c50a6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="029fc6f0-f95e-4e25-9843-ff292cd3309b" />
+          </association>
+          <association Id="a1afbce1-bcfc-41bb-b6b2-ee88a852f75c" isDerived="false" sourceEndRoleName="GovnoUser" targetEndRoleName="Установка актуального телефона" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e6f37f34-397e-449f-8a04-4b4544444613" LastKnownName="Установка актуального телефона" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="401ec521-ed47-4bcc-b47d-43c9c6600d51" name="GovnoUser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6ec9a0d8-aa18-4e82-a9d9-f102ca3d4670" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4af8fdff-0c2f-4a10-ac74-dd607758c05d" name="Установка актуального телефона" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7a78168e-4a0a-4d22-9533-5b02cf580dd4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c07201da-ce7e-4895-a98e-ceefe1efb263" />
+          </association>
+          <association Id="ee3fb2e9-365d-4a7d-8b42-a63adc61d08f" isDerived="false" sourceEndRoleName="GovnoUser" targetEndRoleName="Пополнение счета" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bd5835f3-8ed6-4540-a74f-8732517e509b" LastKnownName="Пополнение счета" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a5e46e3d-0795-44c0-af27-a3d8f46942c3" name="GovnoUser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="16eb9918-2b4d-43d9-bb9b-e528fd784885" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7556764e-bb9b-4910-b37c-9fe454d7d85c" name="Пополнение счета" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d0406b23-0420-4eb4-af8d-93bfaec6855f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="762a971a-5842-486d-a96e-9401bf2831de" />
+          </association>
+          <association Id="691bbff3-1165-4ed7-846a-d19059c6a22d" isDerived="false" sourceEndRoleName="GovnoUser" targetEndRoleName="Вывод средств" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9444d2dc-5192-4972-a1e4-9afa0c25af56" LastKnownName="Вывод средств" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="af4059f7-805e-45f7-9fc7-affd80974eba" name="GovnoUser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a6dd5e5f-00a0-4079-9290-105cd7426ee0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a596d47d-2869-4036-9bf0-b6456165b43e" name="Вывод средств" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d88b409d-495e-4807-949b-06a1656cf4c0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7690e84c-24a9-4ef6-841d-44163268e2bd" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bbcf095a-f0b1-41b0-9057-1e7201f04ca6" name="Изменение пин-кода" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a8af65dd-2323-452a-b78f-37762bc0e043" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e6f37f34-397e-449f-8a04-4b4544444613" name="Установка актуального телефона" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="66ad6a79-9ba2-47bd-8eb6-a6f463de1720" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9444d2dc-5192-4972-a1e4-9afa0c25af56" name="Вывод средств" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="315f680d-602d-4437-b90b-ef356e030d04" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bd5835f3-8ed6-4540-a74f-8732517e509b" name="Пополнение счета" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fd855e35-8ef8-46f8-bf9c-fecc0b2fcc75" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="30f7758b-865c-4991-b932-2d9382d30995" name="Modeling">
+    <elementDefinition Id="48be00db-cfb2-4042-94d5-1902513239b9" />
+  </package>
+</useCaseModelRoot>

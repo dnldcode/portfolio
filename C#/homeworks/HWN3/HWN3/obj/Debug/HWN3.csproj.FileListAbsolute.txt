@@ -1,0 +1,5 @@
+C:\Users\froze\Desktop\C#\HWN3\HWN3\bin\Debug\HWN3.exe
+C:\Users\froze\Desktop\C#\HWN3\HWN3\bin\Debug\HWN3.pdb
+C:\Users\froze\Desktop\C#\HWN3\HWN3\obj\Debug\HWN3.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\C#\HWN3\HWN3\obj\Debug\HWN3.exe
+C:\Users\froze\Desktop\C#\HWN3\HWN3\obj\Debug\HWN3.pdb

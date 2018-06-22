@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sp2822Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cities_09358_09701_09625">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="id_country" Type="Int32" />
+    <NavigationProperty Name="Countries_09358_09701_09625" Relationship="Self.FK__Cities_09__id_co__218BE82B" FromRole="Cities_09358_09701_09625" ToRole="Countries_09358_09701_09625" />
+  </EntityType>
+  <EntityType Name="Countries_09358_09701_09625">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cities_09358_09701_09625" Relationship="Self.FK__Cities_09__id_co__218BE82B" FromRole="Countries_09358_09701_09625" ToRole="Cities_09358_09701_09625" />
+  </EntityType>
+  <Association Name="FK__Cities_09__id_co__218BE82B">
+    <End Role="Countries_09358_09701_09625" Type="Self.Countries_09358_09701_09625" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Cities_09358_09701_09625" Type="Self.Cities_09358_09701_09625" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries_09358_09701_09625">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Cities_09358_09701_09625">
+        <PropertyRef Name="id_country" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sp2822Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cities_09358_09701_09625" EntityType="Self.Cities_09358_09701_09625" />
+    <EntitySet Name="Countries_09358_09701_09625" EntityType="Self.Countries_09358_09701_09625" />
+    <AssociationSet Name="FK__Cities_09__id_co__218BE82B" Association="Self.FK__Cities_09__id_co__218BE82B">
+      <End Role="Countries_09358_09701_09625" EntitySet="Countries_09358_09701_09625" />
+      <End Role="Cities_09358_09701_09625" EntitySet="Cities_09358_09701_09625" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

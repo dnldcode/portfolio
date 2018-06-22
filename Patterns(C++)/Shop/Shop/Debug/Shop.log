@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\09701\documents\visual studio 2015\projects\shop\shop\main.cpp(58): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\09701\documents\visual studio 2015\projects\shop\shop\main.cpp(83): warning C4018: >=: несоответствие типов со знаком и без знака
+  Shop.vcxproj -> C:\Users\09701\documents\visual studio 2015\Projects\Shop\Debug\Shop.exe
+  Shop.vcxproj -> C:\Users\09701\documents\visual studio 2015\Projects\Shop\Debug\Shop.pdb (Full PDB)

@@ -1,0 +1,7 @@
+C:\Users\ni_whale\source\repos\WCF_GuessWordClient\WCF_GuessWordClient\bin\Debug\WCF_GuessWordClient.exe.config
+C:\Users\ni_whale\source\repos\WCF_GuessWordClient\WCF_GuessWordClient\bin\Debug\WCF_GuessWordClient.exe
+C:\Users\ni_whale\source\repos\WCF_GuessWordClient\WCF_GuessWordClient\bin\Debug\WCF_GuessWordClient.pdb
+C:\Users\ni_whale\source\repos\WCF_GuessWordClient\WCF_GuessWordClient\obj\Debug\WCF_GuessWordClient.csproj.CoreCompileInputs.cache
+C:\Users\ni_whale\source\repos\WCF_GuessWordClient\WCF_GuessWordClient\obj\Debug\WCF_GuessWordClient.exe
+C:\Users\ni_whale\source\repos\WCF_GuessWordClient\WCF_GuessWordClient\obj\Debug\WCF_GuessWordClient.pdb
+C:\Users\ni_whale\source\repos\WCF_GuessWordClient\WCF_GuessWordClient\obj\Debug\WCF_GuessWordClient.csprojResolveAssemblyReference.cache

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Modeling", "Modeling\Modeling.modelproj", "{D4C9EDDA-DFFD-4144-8D7E-D391F2A14B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelingLib", "ModelingLib\ModelingLib.csproj", "{A1EA9808-CD2A-47DD-9523-1A019586F539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4C9EDDA-DFFD-4144-8D7E-D391F2A14B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C9EDDA-DFFD-4144-8D7E-D391F2A14B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C9EDDA-DFFD-4144-8D7E-D391F2A14B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C9EDDA-DFFD-4144-8D7E-D391F2A14B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EA9808-CD2A-47DD-9523-1A019586F539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EA9808-CD2A-47DD-9523-1A019586F539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EA9808-CD2A-47DD-9523-1A019586F539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EA9808-CD2A-47DD-9523-1A019586F539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

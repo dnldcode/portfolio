@@ -1,0 +1,8 @@
+c:\users\froze\documents\visual studio 2017\Projects\NumGame\NumGame\bin\Debug\NumGame.exe
+c:\users\froze\documents\visual studio 2017\Projects\NumGame\NumGame\bin\Debug\NumGame.pdb
+c:\users\froze\documents\visual studio 2017\Projects\NumGame\NumGame\obj\Debug\NumGame.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\NumGame\NumGame\obj\Debug\NumGame.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\NumGame\NumGame\obj\Debug\NumGame.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\NumGame\NumGame\obj\Debug\NumGame.exe
+c:\users\froze\documents\visual studio 2017\Projects\NumGame\NumGame\obj\Debug\NumGame.pdb
+C:\Users\froze\documents\visual studio 2017\Projects\NumGame\NumGame\obj\Debug\NumGame.csprojResolveAssemblyReference.cache

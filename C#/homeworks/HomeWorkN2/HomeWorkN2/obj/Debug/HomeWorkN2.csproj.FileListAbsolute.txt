@@ -1,0 +1,5 @@
+C:\Users\froze\Desktop\C#\HomeWorkN2\HomeWorkN2\bin\Debug\HomeWorkN2.exe
+C:\Users\froze\Desktop\C#\HomeWorkN2\HomeWorkN2\bin\Debug\HomeWorkN2.pdb
+C:\Users\froze\Desktop\C#\HomeWorkN2\HomeWorkN2\obj\Debug\HomeWorkN2.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\C#\HomeWorkN2\HomeWorkN2\obj\Debug\HomeWorkN2.exe
+C:\Users\froze\Desktop\C#\HomeWorkN2\HomeWorkN2\obj\Debug\HomeWorkN2.pdb

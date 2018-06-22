@@ -1,0 +1,10 @@
+﻿  main.cpp
+  CWnd.cpp
+c:\users\09701\desktop\threads_abc_new\base\cwnd.cpp(29): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(101): note:  см. объявление "wcscat"
+c:\users\09701\desktop\threads_abc_new\base\cwnd.cpp(41): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(101): note:  см. объявление "wcscat"
+  Создание кода...
+CWnd.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  Base.vcxproj -> C:\Users\09701\Desktop\Threads_ABC_new\Debug\Base.exe
+  Base.vcxproj -> C:\Users\09701\Desktop\Threads_ABC_new\Debug\Base.pdb (Full PDB)

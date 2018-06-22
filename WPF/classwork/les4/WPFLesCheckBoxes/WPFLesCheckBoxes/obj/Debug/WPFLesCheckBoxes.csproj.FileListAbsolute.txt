@@ -1,0 +1,13 @@
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\bin\Debug\WPFLesCheckBoxes.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\MainWindow.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\App.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes_MarkupCompile.cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes_MarkupCompile.lref
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\bin\Debug\WPFLesCheckBoxes.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\bin\Debug\WPFLesCheckBoxes.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\MainWindow.baml
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.g.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.pdb

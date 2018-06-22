@@ -1,0 +1,28 @@
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\bin\Debug\WPFLesCheckBoxes.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\MainWindow.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\App.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes_MarkupCompile.cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes_MarkupCompile.lref
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\bin\Debug\WPFLesCheckBoxes.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\bin\Debug\WPFLesCheckBoxes.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\MainWindow.baml
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.g.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.pdb
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\bin\Debug\WPFLesCheckBoxes.exe.config
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\bin\Debug\WPFLesCheckBoxes.exe
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\bin\Debug\WPFLesCheckBoxes.pdb
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\MainWindow.g.cs
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\App.g.cs
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes_MarkupCompile.cache
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes_MarkupCompile.lref
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\MainWindow.baml
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.g.resources
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.Properties.Resources.resources
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.exe
+C:\Users\froze\Desktop\les4\WPFLesCheckBoxes\WPFLesCheckBoxes\obj\Debug\WPFLesCheckBoxes.pdb

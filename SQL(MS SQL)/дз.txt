@@ -1,0 +1,83 @@
+1. SELECT Press.Name , SUM(Books.NPages)
+FROM Press, Books
+WHERE Books.Id_Press = Press.ID
+GROUP BY Press.Name;
+2. SELECT COUNT(*)
+FROM S_Cards, Students, groups, Faculties
+WHERE S_Cards.Id_Student = Students.ID
+AND Students.Id_Group = groups.id
+AND groups.id_faculty = Faculties.ID
+AND Faculties.Name = 'Программирования';
+3. SELECT COUNT(*), Press.Name , SUM(Books.NPages)
+FROM Press, Books
+WHERE Books.Id_Press = Press.ID
+AND Press.Name IN ('Питер','Наука','Кудиц-Образ')
+GROUP BY Press.Name;
+4. SELECT Books.ID, Books.Name,
+	Books.NPages, Books.YearPress,
+	Themes.NAME,
+	Categories.Name,
+	Authors.FirstName + ' ' + Authors.LastName,
+	Press.Name, Books.Comment,
+	Books.Quantity, Books.Price 
+FROM Books, themes,
+	Categories, Authors,
+	Press
+WHERE Books.NPages = (SELECT MAX(Books.NPages) FROM Books)
+	AND Books.Id_Themes = Themes.ID
+	AND Books.Id_Category = Categories.ID
+	AND Books.Id_Author = Authors.ID
+	AND Books.Id_Press = Press.ID
+5. SELECT Departments.Name, COUNT(*)
+FROM Departments, teachers, T_Cards
+WHERE T_Cards.Id_Teacher = teachers.ID
+AND teachers.ID_dep = Departments.ID
+GROUP BY Departments.Name;
+6. SELECT Press.Name , Books.YearPress, Books.Name
+FROM Press, Books
+WHERE Books.Id_Press = Press.ID
+AND Books.YearPress = (SELECT MIN(Books.YearPress) FROM Books WHERE books.Id_Press = Press.ID)
+7. SELECT Books.Name
+FROM Books, T_Cards, S_Cards
+WHERE T_Cards.Id_Books = Books.Id 
+AND S_Cards.Id_Book = Books.ID
+GROUP BY Books.Name;
+8. SELECT Press.Name, Books.Name, Books.NPages
+FROM Press, Books
+WHERE Books.Id_Press = Press.ID
+AND Books.NPages = (
+SELECT MAX(Books.NPages)
+FROM Books
+WHERE Books.Id_Press = Press.ID
+);
+9. CREATE VIEW test
+AS
+SELECT Faculties.Name as A, COUNT(*) as cnt
+FROM S_CARDS, Students, Faculties, groups
+WHERE S_Cards.Id_Student = Students.ID
+AND Students.Id_Group = groups.id
+AND groups.id_faculty = Faculties.ID
+GROUP BY Faculties.Name
+
+GO
+
+SELECT Faculties.Name, (test.cnt * 100) /(SELECT COUNT(*) FROM Books)
+FROM test, Faculties
+WHERE Faculties.Name = test.A
+
+DROP VIEW test
+10. CREATE VIEW aut
+AS
+SELECT Authors.FirstName + ' ' + Authors.LastName as authors, COUNT(*) AS cnt
+FROM S_Cards, Books, Authors
+WHERE S_Cards.Id_Book = Books.ID
+AND Books.Id_Author = Authors.ID
+GROUP BY Authors.FirstName, Authors.LastName
+
+GO
+
+SELECT * 
+FROM aut
+WHERE aut.cnt = (SELECT MAX(aut.cnt) FROM aut)
+
+DROP VIEW aut;

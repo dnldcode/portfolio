@@ -1,0 +1,9 @@
+c:\users\09701\documents\visual studio 2015\Projects\lastclasswork\lastclasswork\bin\Debug\lastclasswork.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\lastclasswork\lastclasswork\bin\Debug\lastclasswork.exe
+c:\users\09701\documents\visual studio 2015\Projects\lastclasswork\lastclasswork\bin\Debug\lastclasswork.pdb
+c:\users\09701\documents\visual studio 2015\Projects\lastclasswork\lastclasswork\bin\Debug\EntityFramework.dll
+c:\users\09701\documents\visual studio 2015\Projects\lastclasswork\lastclasswork\bin\Debug\EntityFramework.xml
+c:\users\09701\documents\visual studio 2015\Projects\lastclasswork\lastclasswork\bin\Debug\ru\EntityFramework.resources.dll
+c:\users\09701\documents\visual studio 2015\Projects\lastclasswork\lastclasswork\obj\Debug\lastclasswork.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\lastclasswork\lastclasswork\obj\Debug\lastclasswork.exe
+c:\users\09701\documents\visual studio 2015\Projects\lastclasswork\lastclasswork\obj\Debug\lastclasswork.pdb

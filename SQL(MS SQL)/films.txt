@@ -1,0 +1,24 @@
+CREATE TABLE Genre
+(
+  id int not null primary key identity(1,1),
+  name varchar(64)
+)
+
+CREATE TABLE Film
+(
+  id int not null primary key identity(1,1),
+  name varchar(32),
+  id_genre int foreign key references Genre(id)
+)
+
+INSERT INTO Genre(name) VALUES('Боевик');
+INSERT INTO Genre(name) VALUES('Фантастика');
+INSERT INTO Genre(name) VALUES('Комедия');
+INSERT INTO Genre(name) VALUES('Драма');
+
+
+INSERT INTO Film(name, id_genre) VALUES('Фильм 1', 1);
+INSERT INTO Film(name, id_genre) VALUES('Фильм 2', 3);
+INSERT INTO Film(name, id_genre) VALUES('Фильм 3', 4);
+INSERT INTO Film(name, id_genre) VALUES('Фильм 4', 4);
+INSERT INTO Film(name, id_genre) VALUES('Фильм 5', 2);

@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\09701\documents\visual studio 2015\projects\students\students\header.h(87): error C2440: инициализация: невозможно преобразовать "std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>" в "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>"
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+  c:\users\09701\documents\visual studio 2015\projects\students\students\header.h(87): note: Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+c:\users\09701\documents\visual studio 2015\projects\students\students\main.cpp(36): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных

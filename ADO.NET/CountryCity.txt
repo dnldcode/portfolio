@@ -1,0 +1,29 @@
+CREATE TABLE Countries
+(
+	id int not null identity(1,1),
+	name varchar(32),
+	CONSTRAINT CountConstr primary key (id)
+)
+CREATE Table Cities
+(
+	id int not null identity(1,1),
+	name varchar(32),
+	id_country int,
+	CONSTRAINT ConstrCity foreign key(id_country) REFERENCES Countries(id)
+)
+
+INSERT INTO Countries(name) VALUES('Украина');
+INSERT INTO Countries(name) VALUES('Швеция');
+INSERT INTO Countries(name) VALUES('США');
+INSERT INTO Countries(name) VALUES('Франция');
+
+INSERT INTO Cities(name, id_country) VALUES('Киев', 1);
+INSERT INTO Cities(name, id_country) VALUES('Днепр', 1);
+
+INSERT INTO Cities(name, id_country) VALUES('Стокхгольм', 2);
+INSERT INTO Cities(name, id_country) VALUES('Мальмо', 2);
+
+INSERT INTO Cities(name, id_country) VALUES('Нью Йорк', 3);
+INSERT INTO Cities(name, id_country) VALUES('Вашингтон', 3);
+
+INSERT INTO Cities(name, id_country) VALUES('Париж', 4);

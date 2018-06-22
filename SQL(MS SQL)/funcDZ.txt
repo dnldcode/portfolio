@@ -1,0 +1,248 @@
+1. CREATE FUNCTION unRead ()
+RETURNS int
+AS
+BEGIN
+
+	return (SELECT COUNT(*)
+	FROM Students
+	WHERE Students.ID NOT IN
+	(
+		SELECT S_Cards.Id_Student FROM S_Cards
+	))
+
+END
+
+GO
+
+DECLARE @answ int;
+exec @answ = unRead;
+PRINT @answ;
+
+2. CREATE FUNCTION MinIn3
+(	
+	@x1 int,
+	@x2 int,
+	@x3 int
+)
+RETURNS int
+AS
+BEGIN
+	DECLARE @answ int;
+	if (@x1 < @x2)
+		SET @answ = @x1;
+	ELSE
+		SET @answ = @x2;
+
+	if (@x3 < @answ)
+		SET @answ = @x3;
+	RETURN @answ;
+END
+
+GO
+
+DECLARE @answer int;
+exec @answer = MinIn3 2, 12, 5;
+PRINT @answer;
+3. ALTER FUNCTION MaxRaz
+(	
+	@x1 int
+)
+RETURNS int
+AS
+BEGIN
+	IF (@x1 > 99 AND @x1 < 10)
+		RETURN 0;
+	DECLARE @razr1 int = @x1 % 10;
+	SET @x1 = @x1 / 10;
+	DECLARE @razr2 int= @x1;
+
+	IF (@razr1 > @razr2)
+		RETURN @razr1;
+	ELSE
+		RETURN @razr2;
+	RETURN 0;
+END
+
+GO
+
+DECLARE @answer int;
+exec @answer = MaxRaz 12;
+PRINT @answer;
+4. ALTER FUNCTION getBooksCnt()
+RETURNS @tab table
+(
+	name VARCHAR(32),
+	cnt int
+)
+AS
+BEGIN
+INSERT @tab
+	SELECT Groups.name, COUNT(*)
+	FROM S_Cards, Students, groups
+	WHERE S_Cards.Id_Student = Students.id
+	AND Students.Id_Group = groups.id
+	GROUP BY groups.name
+INSERT @tab
+	SELECT Departments.Name, COUNT(*)
+	FROM T_Cards, Teachers, Departments
+	WHERE T_Cards.Id_Teacher = teachers.ID
+	AND teachers.ID_dep = Departments.ID
+	GROUP BY Departments.Name
+RETURN
+RETURN
+END
+GO
+SELECT * FROM getBooksCnt();
+5. ALTER FUNCTION SelectBook
+(
+	@authFNAME varchar(15),
+	@authLNAME varchar(15),
+	@theme varchar(24),
+	@category varchar(24),
+	@orderBY1 int,
+	@orderBY2 int
+)
+RETURNS @table table
+(
+	name varchar(70),
+	pages int,
+	themeName varchar(24),
+	categoryName varchar(25),
+	authorName varchar(31),
+	pressName varchar(15),
+	booksQuantity int
+)
+AS
+BEGIN
+	if (@orderBY2 = 1)
+		BEGIN 
+			if(@orderBY1 = 1)
+			INSERT @table
+				SELECT Books.Name, Books.NPages, Themes.NAME, Categories.Name, Authors.FirstName + ' ' + Authors.LastName as authName, Press.Name, Books.Quantity
+				FROM Books, Themes, Press, Categories, Authors
+				WHERE Books.Id_Themes = Themes.ID
+				AND Books.Id_Category = Categories.Id
+				AND Books.Id_Author = Authors.ID
+				AND Books.Id_Press = Press.ID
+				AND Authors.FirstName = @authFNAME
+				AND Authors.LastName = @authLNAME
+				AND themes.NAME = @theme
+				AND Categories.Name = @category
+				ORDER BY 1 DESC;
+				if(@orderBY1 = 2)
+			INSERT @table
+				SELECT Books.Name, Books.NPages, Themes.NAME, Categories.Name, Authors.FirstName + ' ' + Authors.LastName as authName, Press.Name, Books.Quantity
+				FROM Books, Themes, Press, Categories, Authors
+				WHERE Books.Id_Themes = Themes.ID
+				AND Books.Id_Category = Categories.Id
+				AND Books.Id_Author = Authors.ID
+				AND Books.Id_Press = Press.ID
+				AND Authors.FirstName = @authFNAME
+				AND Authors.LastName = @authLNAME
+				AND themes.NAME = @theme
+				AND Categories.Name = @category
+				ORDER BY 2 DESC;
+				if(@orderBY1 = 3)
+			INSERT @table
+				SELECT Books.Name, Books.NPages, Themes.NAME, Categories.Name, Authors.FirstName + ' ' + Authors.LastName as authName, Press.Name, Books.Quantity
+				FROM Books, Themes, Press, Categories, Authors
+				WHERE Books.Id_Themes = Themes.ID
+				AND Books.Id_Category = Categories.Id
+				AND Books.Id_Author = Authors.ID
+				AND Books.Id_Press = Press.ID
+				AND Authors.FirstName = @authFNAME
+				AND Authors.LastName = @authLNAME
+				AND themes.NAME = @theme
+				AND Categories.Name = @category
+				ORDER BY 3 DESC;
+				if(@orderBY1 = 4)
+			INSERT @table
+				SELECT Books.Name, Books.NPages, Themes.NAME, Categories.Name, Authors.FirstName + ' ' + Authors.LastName as authName, Press.Name, Books.Quantity
+				FROM Books, Themes, Press, Categories, Authors
+				WHERE Books.Id_Themes = Themes.ID
+				AND Books.Id_Category = Categories.Id
+				AND Books.Id_Author = Authors.ID
+				AND Books.Id_Press = Press.ID
+				AND Authors.FirstName = @authFNAME
+				AND Authors.LastName = @authLNAME
+				AND themes.NAME = @theme
+				AND Categories.Name = @category
+				ORDER BY 4 DESC;
+		END
+	else
+		BEGIN
+			if(@orderBY1 = 1)
+			INSERT @table
+				SELECT Books.Name, Books.NPages, Themes.NAME, Categories.Name, Authors.FirstName + ' ' + Authors.LastName as authName, Press.Name, Books.Quantity
+				FROM Books, Themes, Press, Categories, Authors
+				WHERE Books.Id_Themes = Themes.ID
+				AND Books.Id_Category = Categories.Id
+				AND Books.Id_Author = Authors.ID
+				AND Books.Id_Press = Press.ID
+				AND Authors.FirstName = @authFNAME
+				AND Authors.LastName = @authLNAME
+				AND themes.NAME = @theme
+				AND Categories.Name = @category
+				ORDER BY 1 ASC;
+				if(@orderBY1 = 2)
+			INSERT @table
+				SELECT Books.Name, Books.NPages, Themes.NAME, Categories.Name, Authors.FirstName + ' ' + Authors.LastName as authName, Press.Name, Books.Quantity
+				FROM Books, Themes, Press, Categories, Authors
+				WHERE Books.Id_Themes = Themes.ID
+				AND Books.Id_Category = Categories.Id
+				AND Books.Id_Author = Authors.ID
+				AND Books.Id_Press = Press.ID
+				AND Authors.FirstName = @authFNAME
+				AND Authors.LastName = @authLNAME
+				AND themes.NAME = @theme
+				AND Categories.Name = @category
+				ORDER BY 2 ASC;
+				if(@orderBY1 = 3)
+			INSERT @table
+				SELECT Books.Name, Books.NPages, Themes.NAME, Categories.Name, Authors.FirstName + ' ' + Authors.LastName as authName, Press.Name, Books.Quantity
+				FROM Books, Themes, Press, Categories, Authors
+				WHERE Books.Id_Themes = Themes.ID
+				AND Books.Id_Category = Categories.Id
+				AND Books.Id_Author = Authors.ID
+				AND Books.Id_Press = Press.ID
+				AND Authors.FirstName = @authFNAME
+				AND Authors.LastName = @authLNAME
+				AND themes.NAME = @theme
+				AND Categories.Name = @category
+				ORDER BY 3 ASC;
+				if(@orderBY1 = 4)
+			INSERT @table
+				SELECT Books.Name, Books.NPages, Themes.NAME, Categories.Name, Authors.FirstName + ' ' + Authors.LastName as authName, Press.Name, Books.Quantity
+				FROM Books, Themes, Press, Categories, Authors
+				WHERE Books.Id_Themes = Themes.ID
+				AND Books.Id_Category = Categories.Id
+				AND Books.Id_Author = Authors.ID
+				AND Books.Id_Press = Press.ID
+				AND Authors.FirstName = @authFNAME
+				AND Authors.LastName = @authLNAME
+				AND themes.NAME = @theme
+				AND Categories.Name = @category
+				ORDER BY 4 ASC;
+		END
+RETURN;
+END
+GO
+SELECT * FROM SelectBook('Михаил','Маров', 'Графические пакеты', '3D Studio Max', 2 ,1);
+6. CREATE FUNCTION libCnt()
+RETURNS @tab table
+(
+	name VARCHAR(32),
+	cnt int
+)
+AS
+BEGIN
+INSERT @tab
+	SELECT libs.firstname + ' ' + libs.lastname, count(*)
+	FROM libs, T_Cards, S_Cards
+	WHERE T_Cards.Id_Lib = libs.id
+	AND S_Cards.Id_Lib = libs.id
+	GROUP BY libs.firstname + ' ' + libs.lastname;
+RETURN
+END
+GO
+SELECT * FROM libCnt();

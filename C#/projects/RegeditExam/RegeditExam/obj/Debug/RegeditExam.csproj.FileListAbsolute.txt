@@ -1,0 +1,11 @@
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\bin\Debug\RegeditExam.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\bin\Debug\RegeditExam.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\obj\Debug\RegeditExam.csprojResolveAssemblyReference.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\obj\Debug\RegeditExam.Form1.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\obj\Debug\RegeditExam.Properties.Resources.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\obj\Debug\RegeditExam.csproj.GenerateResource.Cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\obj\Debug\RegeditExam.csproj.CoreCompileInputs.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\obj\Debug\RegeditExam.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\obj\Debug\RegeditExam.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\obj\Debug\RegeditExam.Form2.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\RegeditExam\RegeditExam\obj\Debug\RegeditExam.Form3.resources

@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\09701\documents\visual studio 2015\projects\pattern builder\pattern builder\header.h(22): warning C4018: <: несоответствие типов со знаком и без знака
+  Pattern Builder.vcxproj -> C:\Users\09701\documents\visual studio 2015\Projects\Pattern Builder\Debug\Pattern Builder.exe
+  Pattern Builder.vcxproj -> C:\Users\09701\documents\visual studio 2015\Projects\Pattern Builder\Debug\Pattern Builder.pdb (Full PDB)

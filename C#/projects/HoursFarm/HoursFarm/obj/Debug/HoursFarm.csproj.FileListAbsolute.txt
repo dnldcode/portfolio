@@ -1,0 +1,9 @@
+c:\users\froze\documents\visual studio 2017\Projects\HoursFarm\HoursFarm\bin\Debug\HoursFarm.exe
+c:\users\froze\documents\visual studio 2017\Projects\HoursFarm\HoursFarm\bin\Debug\HoursFarm.pdb
+c:\users\froze\documents\visual studio 2017\Projects\HoursFarm\HoursFarm\obj\Debug\HoursFarm.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\HoursFarm\HoursFarm\obj\Debug\HoursFarm.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\HoursFarm\HoursFarm\obj\Debug\HoursFarm.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\HoursFarm\HoursFarm\obj\Debug\HoursFarm.exe
+c:\users\froze\documents\visual studio 2017\Projects\HoursFarm\HoursFarm\obj\Debug\HoursFarm.pdb
+c:\users\froze\documents\visual studio 2017\Projects\HoursFarm\HoursFarm\bin\Debug\Steamworks.NET.dll
+c:\users\froze\documents\visual studio 2017\Projects\HoursFarm\HoursFarm\obj\Debug\HoursFarm.Form1.resources

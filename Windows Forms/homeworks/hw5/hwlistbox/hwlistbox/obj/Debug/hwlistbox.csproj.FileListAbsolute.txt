@@ -1,0 +1,17 @@
+c:\users\09701\documents\visual studio 2015\Projects\hwlistbox\hwlistbox\bin\Debug\hwlistbox.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\hwlistbox\hwlistbox\bin\Debug\hwlistbox.exe
+c:\users\09701\documents\visual studio 2015\Projects\hwlistbox\hwlistbox\bin\Debug\hwlistbox.pdb
+c:\users\09701\documents\visual studio 2015\Projects\hwlistbox\hwlistbox\obj\Debug\hwlistbox.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\hwlistbox\hwlistbox\obj\Debug\hwlistbox.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\hwlistbox\hwlistbox\obj\Debug\hwlistbox.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\hwlistbox\hwlistbox\obj\Debug\hwlistbox.exe
+c:\users\09701\documents\visual studio 2015\Projects\hwlistbox\hwlistbox\obj\Debug\hwlistbox.pdb
+C:\Users\froze\Desktop\hwlistbox\hwlistbox\bin\Debug\hwlistbox.exe.config
+C:\Users\froze\Desktop\hwlistbox\hwlistbox\bin\Debug\hwlistbox.exe
+C:\Users\froze\Desktop\hwlistbox\hwlistbox\bin\Debug\hwlistbox.pdb
+C:\Users\froze\Desktop\hwlistbox\hwlistbox\obj\Debug\hwlistbox.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\hwlistbox\hwlistbox\obj\Debug\hwlistbox.Form1.resources
+C:\Users\froze\Desktop\hwlistbox\hwlistbox\obj\Debug\hwlistbox.Properties.Resources.resources
+C:\Users\froze\Desktop\hwlistbox\hwlistbox\obj\Debug\hwlistbox.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\hwlistbox\hwlistbox\obj\Debug\hwlistbox.exe
+C:\Users\froze\Desktop\hwlistbox\hwlistbox\obj\Debug\hwlistbox.pdb

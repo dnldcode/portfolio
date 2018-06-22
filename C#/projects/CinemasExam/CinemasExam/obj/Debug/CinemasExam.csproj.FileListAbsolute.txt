@@ -1,0 +1,13 @@
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\bin\Debug\CinemasExam.exe.config
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\bin\Debug\CinemasExam.exe
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\bin\Debug\CinemasExam.pdb
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csproj.CoreCompileInputs.cache
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.exe
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.pdb
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.LoginForm.resources
+C:\Users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.AdminPanel.resources
+C:\Users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.EditDataBaseForm.resources

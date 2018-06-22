@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище sp2822ModelContainer" CdmEntityContainer="sp2822Entities1">
+    <EntitySetMapping Name="Cities_09358_09701_09625">
+      <EntityTypeMapping TypeName="sp2822Model.Cities_09358_09701_09625">
+        <MappingFragment StoreEntitySet="Cities_09358_09701_09625">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id_country" ColumnName="id_country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries_09358_09701_09625">
+      <EntityTypeMapping TypeName="sp2822Model.Countries_09358_09701_09625">
+        <MappingFragment StoreEntitySet="Countries_09358_09701_09625">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\09701\documents\visual studio 2015\projects\bridge\bridge\source.cpp(6): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Bridge.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\Bridge\Debug\Bridge.exe
+  Bridge.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\Bridge\Debug\Bridge.pdb (Full PDB)

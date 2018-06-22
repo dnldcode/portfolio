@@ -1,0 +1,17 @@
+C:\Users\froze\documents\visual studio 2017\Projects\RaceGame\RaceGame\bin\Debug\RaceGame.exe
+C:\Users\froze\documents\visual studio 2017\Projects\RaceGame\RaceGame\bin\Debug\RaceGame.pdb
+C:\Users\froze\documents\visual studio 2017\Projects\RaceGame\RaceGame\obj\Debug\RaceGame.csprojResolveAssemblyReference.cache
+C:\Users\froze\documents\visual studio 2017\Projects\RaceGame\RaceGame\obj\Debug\RaceGame.exe
+C:\Users\froze\documents\visual studio 2017\Projects\RaceGame\RaceGame\obj\Debug\RaceGame.pdb
+C:\Users\09701\Desktop\RaceGame\RaceGame\obj\Debug\RaceGame.exe
+C:\Users\09701\Desktop\RaceGame\RaceGame\obj\Debug\RaceGame.pdb
+C:\Users\09701\Desktop\RaceGame\RaceGame\bin\Debug\RaceGame.exe
+C:\Users\09701\Desktop\RaceGame\RaceGame\bin\Debug\RaceGame.pdb
+C:\Users\09701\Desktop\RaceGame\RaceGame\obj\Debug\RaceGame.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\RaceGame\RaceGame\bin\Debug\RaceGame.exe
+C:\Users\froze\Desktop\RaceGame\RaceGame\bin\Debug\RaceGame.pdb
+C:\Users\froze\Desktop\RaceGame\RaceGame\obj\Debug\RaceGame.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\RaceGame\RaceGame\obj\Debug\RaceGame.exe
+C:\Users\froze\Desktop\RaceGame\RaceGame\obj\Debug\RaceGame.pdb
+C:\Users\froze\Desktop\RaceGame\RaceGame\bin\Debug\RaceGame.exe.config
+C:\Users\09701\Desktop\RaceGame\RaceGame\bin\Debug\RaceGame.exe.config

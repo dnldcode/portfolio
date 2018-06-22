@@ -1,0 +1,31 @@
+.wrapper{
+    font-weight: bold;
+    font-size: 200%;
+}
+.top{
+    width: 100%;
+    height: 150px;
+    background-color: lightseagreen;
+}
+.navigation{
+    background-color: lightcoral;
+    height: 50px;
+}
+.menu{
+    background-color: darkseagreen;
+    float:left;
+    height: 600px;
+    width: 25%;
+}
+.content{
+    background-color: lightgrey;
+    float:right;
+    width: 75%;
+    height: 600px;
+}
+.footer{
+    background-color: blue;
+    float:left;
+    width:100%;
+    height: 100px;
+}

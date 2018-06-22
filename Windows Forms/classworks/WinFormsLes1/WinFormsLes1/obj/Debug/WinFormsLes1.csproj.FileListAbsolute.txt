@@ -1,0 +1,9 @@
+c:\users\09701\documents\visual studio 2015\Projects\WinFormsLes1\WinFormsLes1\bin\Debug\WinFormsLes1.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\WinFormsLes1\WinFormsLes1\bin\Debug\WinFormsLes1.exe
+c:\users\09701\documents\visual studio 2015\Projects\WinFormsLes1\WinFormsLes1\bin\Debug\WinFormsLes1.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WinFormsLes1\WinFormsLes1\obj\Debug\WinFormsLes1.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\WinFormsLes1\WinFormsLes1\obj\Debug\WinFormsLes1.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\WinFormsLes1\WinFormsLes1\obj\Debug\WinFormsLes1.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\WinFormsLes1\WinFormsLes1\obj\Debug\WinFormsLes1.exe
+c:\users\09701\documents\visual studio 2015\Projects\WinFormsLes1\WinFormsLes1\obj\Debug\WinFormsLes1.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WinFormsLes1\WinFormsLes1\obj\Debug\WinFormsLes1.Form1.resources

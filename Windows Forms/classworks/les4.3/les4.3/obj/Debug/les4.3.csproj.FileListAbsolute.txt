@@ -1,0 +1,8 @@
+c:\users\09701\documents\visual studio 2015\Projects\les4.3\les4.3\bin\Debug\les4.3.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\les4.3\les4.3\bin\Debug\les4.3.exe
+c:\users\09701\documents\visual studio 2015\Projects\les4.3\les4.3\bin\Debug\les4.3.pdb
+c:\users\09701\documents\visual studio 2015\Projects\les4.3\les4.3\obj\Debug\les4._3.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\les4.3\les4.3\obj\Debug\les4._3.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\les4.3\les4.3\obj\Debug\les4.3.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\les4.3\les4.3\obj\Debug\les4.3.exe
+c:\users\09701\documents\visual studio 2015\Projects\les4.3\les4.3\obj\Debug\les4.3.pdb

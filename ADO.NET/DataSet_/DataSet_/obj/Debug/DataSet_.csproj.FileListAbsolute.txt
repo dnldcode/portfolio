@@ -1,0 +1,10 @@
+C:\Users\vPC\source\repos\DataSet_\DataSet_\bin\Debug\DataSet_.exe.config
+C:\Users\vPC\source\repos\DataSet_\DataSet_\bin\Debug\DataSet_.exe
+C:\Users\vPC\source\repos\DataSet_\DataSet_\bin\Debug\DataSet_.pdb
+C:\Users\vPC\source\repos\DataSet_\DataSet_\obj\Debug\DataSet_.csprojResolveAssemblyReference.cache
+C:\Users\vPC\source\repos\DataSet_\DataSet_\obj\Debug\DataSet_.Form1.resources
+C:\Users\vPC\source\repos\DataSet_\DataSet_\obj\Debug\DataSet_.Properties.Resources.resources
+C:\Users\vPC\source\repos\DataSet_\DataSet_\obj\Debug\DataSet_.csproj.GenerateResource.Cache
+C:\Users\vPC\source\repos\DataSet_\DataSet_\obj\Debug\DataSet_.csproj.CoreCompileInputs.cache
+C:\Users\vPC\source\repos\DataSet_\DataSet_\obj\Debug\DataSet_.exe
+C:\Users\vPC\source\repos\DataSet_\DataSet_\obj\Debug\DataSet_.pdb

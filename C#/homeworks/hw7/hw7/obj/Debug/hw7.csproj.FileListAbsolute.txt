@@ -1,0 +1,5 @@
+c:\users\froze\documents\visual studio 2017\Projects\hw7\hw7\bin\Debug\hw7.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw7\hw7\bin\Debug\hw7.pdb
+c:\users\froze\documents\visual studio 2017\Projects\hw7\hw7\obj\Debug\hw7.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\hw7\hw7\obj\Debug\hw7.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw7\hw7\obj\Debug\hw7.pdb

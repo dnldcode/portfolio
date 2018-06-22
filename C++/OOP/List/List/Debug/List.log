@@ -1,0 +1,8 @@
+﻿  main.cpp
+s:\users\froze_000\desktop\просрочки\list2\list\header.h(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  s:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+s:\users\froze_000\desktop\просрочки\list2\list\header.h(37): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+s:\users\froze_000\desktop\просрочки\list2\list\header.h(41): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+s:\users\froze_000\desktop\просрочки\list2\list\main.cpp(7): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  List.vcxproj -> S:\Users\froze_000\Desktop\просрочки\List2\Debug\List.exe
+  List.vcxproj -> S:\Users\froze_000\Desktop\просрочки\List2\Debug\List.pdb (Full PDB)

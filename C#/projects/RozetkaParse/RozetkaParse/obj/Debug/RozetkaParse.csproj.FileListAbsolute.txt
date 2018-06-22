@@ -1,0 +1,6 @@
+c:\users\froze\documents\visual studio 2017\Projects\RozetkaParse\RozetkaParse\bin\Debug\RozetkaParse.exe
+c:\users\froze\documents\visual studio 2017\Projects\RozetkaParse\RozetkaParse\bin\Debug\RozetkaParse.pdb
+c:\users\froze\documents\visual studio 2017\Projects\RozetkaParse\RozetkaParse\obj\Debug\RozetkaParse.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\RozetkaParse\RozetkaParse\obj\Debug\RozetkaParse.csproj.CoreCompileInputs.cache
+c:\users\froze\documents\visual studio 2017\Projects\RozetkaParse\RozetkaParse\obj\Debug\RozetkaParse.exe
+c:\users\froze\documents\visual studio 2017\Projects\RozetkaParse\RozetkaParse\obj\Debug\RozetkaParse.pdb

@@ -1,0 +1,10 @@
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\bin\Debug\DbFactoryhw.exe
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\bin\Debug\DbFactoryhw.pdb
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\obj\Debug\DbFactoryhw.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\obj\Debug\DbFactoryhw.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\obj\Debug\DbFactoryhw.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\obj\Debug\DbFactoryhw.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\obj\Debug\DbFactoryhw.csproj.CoreCompileInputs.cache
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\obj\Debug\DbFactoryhw.exe
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\obj\Debug\DbFactoryhw.pdb
+c:\users\froze\documents\visual studio 2017\Projects\DbFactoryhw\DbFactoryhw\bin\Debug\DbFactoryhw.exe.config

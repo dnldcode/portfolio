@@ -1,0 +1,86 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstCode
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //    int a = 12;
+            //    double b= 56.78;
+            //    string c = "Hello";
+            //    Console.WriteLine("a = {0}, b = {1}, c = {2}", a, b, c);
+            //Console.Write("Введите строку : ");
+            //string s = Console.ReadLine();
+            //Console.WriteLine("String : {0}", s);
+
+            //while (true)
+            //{
+            //    try
+            //    {
+            //        Console.WriteLine("Введите число : ");
+            //        String str = Console.ReadLine();
+            //        int a = Int32.Parse(str);
+            //        a++;
+            //    }
+            //    catch (FormatException fe)
+            //    {
+            //        Console.WriteLine("Ошибка ввода = {0}", fe.Message);
+            //        continue;
+            //    }
+            //    break;
+            //}
+            //Console.WriteLine("Good Bye");
+            //// string S = String.Format("{0} + {1} = {2}",5,7,12);
+            //int az = 12;
+            //string s = az.ToString();
+            //Console.WriteLine(s);
+            //Console.WriteLine("Введите слвоо : ");
+            //string s = Console.ReadLine();
+
+            //switch(s)
+            //{
+            //    case "apple":
+            //        Console.WriteLine("Яблоко");
+            //        break;
+            //    case "orange":
+            //        Console.WriteLine("апельсин");
+            //        break;
+            //    default:
+            //        Console.WriteLine("NoName");
+            //        break;
+            //}
+            int month;
+            while(true)
+            {
+                try
+                {
+                    Console.Write("Введите номер месяца : ");
+                    month = Int32.Parse(Console.ReadLine());
+                    break;
+                }
+                catch(FormatException fe)
+                {
+                    continue;
+                }
+            }
+            switch(month)
+            {
+                case 1:
+                case 2:
+                case 12:
+                    Console.WriteLine("Winter");
+                    break;
+
+            }
+        }
+    }
+}
+
+1) Вводит 2 числа, оператор и результат.Спрос о выходе.
+2) Пользователь вводит число и степень.
+3) Пользователь вводит целое. Необходимо подсчитать кол-во цифр.

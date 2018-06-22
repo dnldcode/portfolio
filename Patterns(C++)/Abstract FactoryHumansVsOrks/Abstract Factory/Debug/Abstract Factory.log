@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\09701\documents\visual studio 2015\projects\abstract factory\abstract factory\main.cpp(21): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+main.obj : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы ""private: static class Mage * Mage::psm" (?psm@Mage@@0PAV1@A)"
+main.obj : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы ""private: static class Shaman * Shaman::pss" (?pss@Shaman@@0PAV1@A)"
+C:\Users\09701\documents\visual studio 2015\Projects\Abstract Factory\Debug\Abstract Factory.exe : fatal error LNK1120: эхЁрчЁх°хээ√ї тэх°эшї ¤ыхьхэЄют: 2

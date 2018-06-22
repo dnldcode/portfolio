@@ -1,0 +1,6 @@
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ExamThreadsReaderWriter\ExamThreadsReaderWriter\bin\Debug\ExamThreadsReaderWriter.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ExamThreadsReaderWriter\ExamThreadsReaderWriter\bin\Debug\ExamThreadsReaderWriter.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ExamThreadsReaderWriter\ExamThreadsReaderWriter\obj\Debug\ExamThreadsReaderWriter.csprojResolveAssemblyReference.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ExamThreadsReaderWriter\ExamThreadsReaderWriter\obj\Debug\ExamThreadsReaderWriter.csproj.CoreCompileInputs.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ExamThreadsReaderWriter\ExamThreadsReaderWriter\obj\Debug\ExamThreadsReaderWriter.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ExamThreadsReaderWriter\ExamThreadsReaderWriter\obj\Debug\ExamThreadsReaderWriter.pdb

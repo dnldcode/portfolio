@@ -1,0 +1,158 @@
+part 1
+1. SELECT Sellers.name, CD.name, CD.CD_Date, Bands.name, Bands.year, format.name
+FROM Sellers, CD, Selling, Bands, Format
+WHERE Selling.id_seller = Sellers.id
+AND Selling.id_cd = CD.id
+AND CD.id_band = Bands.id
+AND CD.id_format = Format.ID;
+2. SELECT Bands.Name, COUNT(*)
+FROM Bands, CD, Selling
+WHERE Selling.id_cd = CD.id
+AND CD.id_band = Bands.id
+GROUP BY Bands.Name;
+3. CREATE VIEW sell
+AS
+SELECT Bands.Name as name, COUNT(*) as sells
+FROM Bands, CD, Selling
+WHERE Selling.id_cd = CD.id
+AND CD.id_band = Bands.id
+GROUP BY Bands.Name
+
+GO
+
+SELECT sell.Name, sell.sells
+FROM sell
+WHERE sell.sells = (SELECT MAX(sell.sells) FROM sell)
+GROUP BY sell.Name, sell.sells
+
+DROP VIEW sell;
+4. CREATE VIEW sellings
+AS
+SELECT Sellers.name as name, COUNT(*) as cnt
+FROM Sellers, Selling
+WHERE Selling.id_seller = Sellers.id
+GROUP BY Sellers.name
+
+GO
+
+SELECT sellings.name, sellings.cnt
+FROM sellings
+WHERE sellings.cnt =(SELECT MAX(sellings.cnt) FROM sellings)
+GROUP BY sellings.name, sellings.cnt
+
+DROP VIEW sellings;
+5. CREATE VIEW popularY
+AS
+SELECT CD.CD_Date as date, COUNT(*) as cnt
+FROM CD
+GROUP BY CD.CD_Date;
+
+GO
+
+SELECT popularY.date
+FROM popularY
+WHERE popularY.cnt = (SELECT MAX(popularY.cnt) FROM popularY)
+GROUP BY popularY.date
+
+DROP VIEW popularY;
+
+PART 2
+
+1. CREATE VIEW pressMax
+AS
+SELECT Press.Name, SUM(Books.Quantity) as cnt
+FROM Press, Books, themes
+WHERE Books.Id_Press = Press.ID
+AND Books.Id_Themes = Themes.ID
+AND Themes.NAME = 'Программирование'
+GROUP BY Press.Name;
+
+GO
+SELECT pressMax.Name
+FROM pressMax
+WHERE pressMax.cnt = (SELECT MAX(pressMax.cnt) FROM pressMax)
+
+DROP VIEW pressMax;
+2. CREATE VIEW theme
+AS
+SELECT Themes.NAME, SUM(Books.NPages) as pages
+FROM themes, Books
+WHERE Books.Id_Themes = themes.ID
+GROUP BY Themes.NAME;
+
+GO
+
+SELECT Theme.NAME
+FROM theme
+WHERE Theme.pages = (SELECT MIN(Theme.pages) FROM theme);
+3. SELECT Press.Name, Books.Name, Books.Price
+FROM Books, Press
+WHERE Books.Id_Press = Press.ID
+AND Press.Name = 'BHV'
+AND Books.Price = 
+(SELECT MIN(Books.Price)
+FROM Books
+WHERE Books.Id_Press = Press.ID
+AND Press.Name = 'BHV')
+4. ELECT Books.Name, Books.NPages
+FROM Books
+WHERE Books.NPages > (
+SELECT SUM(Books.NPages) FROM Books) / (
+SELECT COUNT(*) FROM Books)
+
+PART 3
+1. CREATE VIEW lib
+AS
+SELECT libs.firstname + ' '+ libs.lastname as name, count(*) as cnt
+FROM libs, S_cards, T_Cards
+WHERE S_Cards.Id_Lib = libs.id
+AND T_Cards.Id_Lib = libs.id
+GROUP BY libs.firstname + ' '+ libs.lastname;
+
+GO
+
+ALTER PROCEDURE popularLib
+AS
+SELECT lib.name 
+FROM lib
+WHERE lib.cnt = (SELECT MAX(lib.cnt) FROM lib);
+
+exec popularLib;
+DROP VIEW lib;
+DROP PROCEDURE popularLib;
+2. ALTER PROCEDURE factorial
+@a int
+AS
+	DECLARE @sum int = 1;
+	WHILE (@a > 0)
+	BEGIN
+		SET @sum = @sum * @a;
+		SET @a = @a - 1;
+	END
+	PRINT(@sum);
+
+
+DECLARE @num int;
+execute @num = factorial 5;
+3.CREATE VIEW popFac
+AS
+SELECT themes.NAME, count(*) as cnt
+	FROM themes, S_Cards, Books, Students, groups, Faculties
+	WHERE S_Cards.Id_Book = Books.ID
+	AND Books.Id_Themes = themes.ID
+	AND S_Cards.Id_Student = Students.ID
+	AND Students.Id_Group = groups.id
+	AND groups.id_faculty = Faculties.ID
+	GROUP BY themes.Name;
+
+GO
+
+ALTER PROCEDURE thpop
+AS
+	SELECT popFac.NAME
+	FROM popFac
+	WHERE popFac.cnt = (SELECT MAX(popFac.cnt) FROM popFac);
+
+execute thpop;
+
+

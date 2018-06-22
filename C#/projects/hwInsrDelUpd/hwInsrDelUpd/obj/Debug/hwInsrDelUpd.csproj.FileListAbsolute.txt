@@ -1,0 +1,9 @@
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwInsrDelUpd\hwInsrDelUpd\bin\Debug\hwInsrDelUpd.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwInsrDelUpd\hwInsrDelUpd\bin\Debug\hwInsrDelUpd.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwInsrDelUpd\hwInsrDelUpd\obj\Debug\hwInsrDelUpd.csprojResolveAssemblyReference.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwInsrDelUpd\hwInsrDelUpd\obj\Debug\hwInsrDelUpd.Form1.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwInsrDelUpd\hwInsrDelUpd\obj\Debug\hwInsrDelUpd.Properties.Resources.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwInsrDelUpd\hwInsrDelUpd\obj\Debug\hwInsrDelUpd.csproj.GenerateResource.Cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwInsrDelUpd\hwInsrDelUpd\obj\Debug\hwInsrDelUpd.csproj.CoreCompileInputs.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwInsrDelUpd\hwInsrDelUpd\obj\Debug\hwInsrDelUpd.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hwInsrDelUpd\hwInsrDelUpd\obj\Debug\hwInsrDelUpd.pdb

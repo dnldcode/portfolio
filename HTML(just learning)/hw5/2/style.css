@@ -1,0 +1,25 @@
+.yellow{
+    background-color: yellow;
+    border: 3px solid red;
+    text-align: center;
+}
+.blue{
+    background-color: lightsteelblue;
+    border: 3px solid red;
+    text-align: center;
+}
+.red{
+    background-color: lightcoral;
+    border: 1px solid red;
+    text-align: center;
+}
+.green{
+    background-color: palegreen;
+    border: 3px solid red;
+    text-align: center;
+}
+.grey{
+    background-color: #ececec;
+    border: 1px solid red;
+    text-align: center;
+}

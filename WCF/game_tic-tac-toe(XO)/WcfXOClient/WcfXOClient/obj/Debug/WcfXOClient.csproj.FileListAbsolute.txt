@@ -1,0 +1,33 @@
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\bin\Debug\WcfXOClient.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\bin\Debug\WcfXOClient.exe
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\bin\Debug\WcfXOClient.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.exe
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.Resource1.resources
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\bin\Debug\WcfXOClient.exe.config
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\bin\Debug\WcfXOClient.exe
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\bin\Debug\WcfXOClient.pdb
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.Form1.resources
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.Properties.Resources.resources
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.Resource1.resources
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.csproj.GenerateResource.cache
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.exe
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.pdb
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\bin\Debug\WcfXOClient.exe.config
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.exe
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.pdb
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\bin\Debug\WcfXOClient.exe
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\bin\Debug\WcfXOClient.pdb
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.csprojResolveAssemblyReference.cache
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.Properties.Resources.resources
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.Resource1.resources
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.LogIn.resources
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.Form1.resources
+C:\Users\09701\Desktop\XO\WcfXOClient\WcfXOClient\obj\Debug\WcfXOClient.LogIn.resources

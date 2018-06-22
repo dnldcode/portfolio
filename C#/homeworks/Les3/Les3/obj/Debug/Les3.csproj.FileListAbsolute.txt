@@ -1,0 +1,6 @@
+c:\users\09701\documents\visual studio 2015\Projects\Les3\Les3\bin\Debug\Les3.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\Les3\Les3\bin\Debug\Les3.exe
+c:\users\09701\documents\visual studio 2015\Projects\Les3\Les3\bin\Debug\Les3.pdb
+c:\users\09701\documents\visual studio 2015\Projects\Les3\Les3\obj\Debug\Les3.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\Les3\Les3\obj\Debug\Les3.exe
+c:\users\09701\documents\visual studio 2015\Projects\Les3\Les3\obj\Debug\Les3.pdb

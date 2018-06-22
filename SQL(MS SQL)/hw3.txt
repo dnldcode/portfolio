@@ -1,0 +1,17 @@
+3. SELECT Authors.FirstName, Authors.LastName, Books.Name, Themes.Name
+FROM Authors, Books, Themes
+WHERE Books.id_Themes = Themes.id AND Books.id_Author = Authors.id;
+
+4. SELECT Teachers.FirstName, Teachers.LastName, Departments.Name
+FROM Teachers, Departments
+WHERE Departments.Id = Teachers.Id_Dep;
+
+5. SELECT Students.FirstName, Students.LastName
+FROM Students, S_Cards
+WHERE S_Cards.Id_Student = Students.Id;
+
+6. SELECT Students.FirstName, Students.LastName, Books.Name
+FROM Students, S_Cards, Books
+WHERE S_Cards.Id_Student = Students.Id AND Books.id = S_Cards.id_book;
+
+

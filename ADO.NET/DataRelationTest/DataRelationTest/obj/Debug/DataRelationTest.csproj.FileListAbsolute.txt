@@ -1,0 +1,6 @@
+c:\users\09701\documents\visual studio 2015\Projects\DataRelationTest\DataRelationTest\bin\Debug\DataRelationTest.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\DataRelationTest\DataRelationTest\obj\Debug\DataRelationTest.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\DataRelationTest\DataRelationTest\bin\Debug\DataRelationTest.exe
+c:\users\09701\documents\visual studio 2015\Projects\DataRelationTest\DataRelationTest\bin\Debug\DataRelationTest.pdb
+c:\users\09701\documents\visual studio 2015\Projects\DataRelationTest\DataRelationTest\obj\Debug\DataRelationTest.exe
+c:\users\09701\documents\visual studio 2015\Projects\DataRelationTest\DataRelationTest\obj\Debug\DataRelationTest.pdb

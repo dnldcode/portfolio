@@ -1,0 +1,9 @@
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ClientCalc\ClientCalc\bin\Debug\ClientCalc.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ClientCalc\ClientCalc\bin\Debug\ClientCalc.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ClientCalc\ClientCalc\obj\Debug\ClientCalc.csprojResolveAssemblyReference.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ClientCalc\ClientCalc\obj\Debug\ClientCalc.Form1.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ClientCalc\ClientCalc\obj\Debug\ClientCalc.Properties.Resources.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ClientCalc\ClientCalc\obj\Debug\ClientCalc.csproj.GenerateResource.Cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ClientCalc\ClientCalc\obj\Debug\ClientCalc.csproj.CoreCompileInputs.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ClientCalc\ClientCalc\obj\Debug\ClientCalc.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\ClientCalc\ClientCalc\obj\Debug\ClientCalc.pdb

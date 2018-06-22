@@ -1,0 +1,8 @@
+c:\users\09701\documents\visual studio 2015\Projects\newMenu\newMenu\bin\Debug\newMenu.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\newMenu\newMenu\bin\Debug\newMenu.exe
+c:\users\09701\documents\visual studio 2015\Projects\newMenu\newMenu\bin\Debug\newMenu.pdb
+c:\users\09701\documents\visual studio 2015\Projects\newMenu\newMenu\obj\Debug\newMenu.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\newMenu\newMenu\obj\Debug\newMenu.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\newMenu\newMenu\obj\Debug\newMenu.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\newMenu\newMenu\obj\Debug\newMenu.exe
+c:\users\09701\documents\visual studio 2015\Projects\newMenu\newMenu\obj\Debug\newMenu.pdb

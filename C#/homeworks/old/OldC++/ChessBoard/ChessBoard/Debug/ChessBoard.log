@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\froze\documents\visual studio 2017\projects\chessboard\chessboard\main.cpp(60): warning C4101: hBrush: неиспользованная локальная переменная
+c:\users\froze\documents\visual studio 2017\projects\chessboard\chessboard\main.cpp(61): warning C4101: hBrushOld: неиспользованная локальная переменная
+c:\users\froze\documents\visual studio 2017\projects\chessboard\chessboard\main.cpp(56): warning C4101: rect: неиспользованная локальная переменная
+c:\users\froze\documents\visual studio 2017\projects\chessboard\chessboard\main.cpp(57): warning C4101: nUserReply: неиспользованная локальная переменная
+c:\users\froze\documents\visual studio 2017\projects\chessboard\chessboard\main.cpp(59): warning C4101: hPenOld: неиспользованная локальная переменная
+c:\users\froze\documents\visual studio 2017\projects\chessboard\chessboard\main.cpp(69): warning C4700: использована неинициализированная локальная переменная "hPen"
+  ChessBoard.vcxproj -> c:\users\froze\documents\visual studio 2017\Projects\ChessBoard\Debug\ChessBoard.exe
+  ChessBoard.vcxproj -> c:\users\froze\documents\visual studio 2017\Projects\ChessBoard\Debug\ChessBoard.pdb (Partial PDB)

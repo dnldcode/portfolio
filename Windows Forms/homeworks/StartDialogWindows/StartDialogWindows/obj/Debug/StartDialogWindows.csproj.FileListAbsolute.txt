@@ -1,0 +1,19 @@
+c:\users\09701\documents\visual studio 2015\Projects\StartDialogWindows\StartDialogWindows\bin\Debug\StartDialogWindows.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\StartDialogWindows\StartDialogWindows\bin\Debug\StartDialogWindows.exe
+c:\users\09701\documents\visual studio 2015\Projects\StartDialogWindows\StartDialogWindows\bin\Debug\StartDialogWindows.pdb
+c:\users\09701\documents\visual studio 2015\Projects\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.exe
+c:\users\09701\documents\visual studio 2015\Projects\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.pdb
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\bin\Debug\StartDialogWindows.exe.config
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\bin\Debug\StartDialogWindows.exe
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\bin\Debug\StartDialogWindows.pdb
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.Form1.resources
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.Properties.Resources.resources
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.exe
+C:\Users\froze\Desktop\StartDialogWindows\StartDialogWindows\obj\Debug\StartDialogWindows.pdb

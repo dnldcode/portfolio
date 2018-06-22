@@ -1,0 +1,47 @@
+﻿<Window x:Class="wpfhw3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfhw3"
+        mc:Ignorable="d"
+        Title="Калькулятор" Height="355" MinHeight="355" Width="279.772" MinWidth="275" Background="White">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Label Name="label1" Content="0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Height="50" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="35"/>
+		<Button Name="button1" Content="1" Grid.Row="4" Grid.Column="0" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="button2" Content="2" Grid.Row="4" Grid.Column="1" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="button3" Content="3" Grid.Row="4" Grid.Column="2" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="button4" Content="4" Grid.Row="3" Grid.Column="0" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="button5" Content="5" Grid.Row="3" Grid.Column="1" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="button6" Content="6" Grid.Row="3" Grid.Column="2" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="button7" Content="7" Grid.Row="2" Grid.Column="0" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="button8" Content="8" Grid.Row="2" Grid.Column="1" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="button9" Content="9" Grid.Row="2" Grid.Column="2" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="button0" Content="0" Grid.Row="5" Grid.Column="1" Margin="2" FontSize="25" Click="button_Click" Background="GhostWhite"/>
+		<Button Name="buttonDouble" Content="," Grid.Row="5" Grid.Column="0" Margin="2" FontSize="20" Click="buttonDouble_Click" Background="Gainsboro"/>
+		<Button Name="buttonIs" Content="=" Grid.Row="5" Grid.Column="2" Margin="2" FontSize="20" Click="buttonIs_Click" Background="Gainsboro"/>
+		<Button Name="buttonPlus" Content="+" Grid.Row="5" Grid.Column="3" Margin="2" FontSize="20" Click="buttonAct_Click"  Background="Gainsboro"/>
+		<Button Name="buttonMinus" Content="-" Grid.Row="4" Grid.Column="3" Margin="2" FontSize="20" Click="buttonAct_Click" Background="Gainsboro"/>
+		<Button Name="buttonMult" Content="*" Grid.Row="3" Grid.Column="3" Margin="2" FontSize="20" Click="buttonAct_Click" Background="Gainsboro"/>
+		<Button Name="buttonDiv" Content="/" Grid.Row="2" Grid.Column="3" Margin="2" FontSize="20" Click="buttonAct_Click" Background="Gainsboro"/>
+		<Button Name="buttonSqrt" Content="^2" Grid.Row="1" Grid.Column="0" Margin="2" FontSize="20" Click="buttonAct_Click" Background="Gainsboro"/>
+		<Button Name="buttonClear" Content="C" Grid.Row="1" Grid.Column="1" Margin="2" FontSize="20" Click="buttonClear_Click" Background="Gainsboro"/>
+		<Button Name="buttonRemoveAt" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Margin="2" FontSize="20" Click="buttonRemoveAt_Click" Background="Gainsboro">
+			<Image Source="C:\Users\froze\Documents\Visual Studio 2017\Projects\wpfhw3\wpfhw3\bin\Debug\back.png" Width="40" Height="35"/>
+		</Button>
+	</Grid>
+</Window>

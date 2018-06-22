@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\09701\documents\visual studio 2015\projects\abstract factory\abstract factory\main.cpp(25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Abstract Factory.vcxproj -> C:\Users\09701\Documents\Visual Studio 2015\Projects\Abstract Factory\Debug\Abstract Factory.exe
+  Abstract Factory.vcxproj -> C:\Users\09701\Documents\Visual Studio 2015\Projects\Abstract Factory\Debug\Abstract Factory.pdb (Full PDB)

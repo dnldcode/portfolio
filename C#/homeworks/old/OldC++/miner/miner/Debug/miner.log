@@ -1,0 +1,33 @@
+﻿  miner1.cpp
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(32): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(30): warning C4101: hConsole: неиспользованная локальная переменная
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(176): warning C4553: ==: оператор не имеет результата; возможно, имелся в виду "="
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(374): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(486): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(488): warning C4477: "fwprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "time_t"
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(488): note: рекомендуется использовать "%lld" в строке форматирования
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(488): note: рекомендуется использовать "%I64d" в строке форматирования
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(489): warning C4477: "fwprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "time_t"
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(489): note: рекомендуется использовать "%lld" в строке форматирования
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(489): note: рекомендуется использовать "%I64d" в строке форматирования
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(490): warning C4477: "fwprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "time_t"
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(490): note: рекомендуется использовать "%lld" в строке форматирования
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(490): note: рекомендуется использовать "%I64d" в строке форматирования
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(502): warning C4477: "wprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "time_t"
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(502): note: рекомендуется использовать "%lld" в строке форматирования
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(502): note: рекомендуется использовать "%I64d" в строке форматирования
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(503): warning C4477: "wprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "time_t"
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(503): note: рекомендуется использовать "%lld" в строке форматирования
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(503): note: рекомендуется использовать "%I64d" в строке форматирования
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(504): warning C4477: "wprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "time_t"
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(504): note: рекомендуется использовать "%lld" в строке форматирования
+  c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(504): note: рекомендуется использовать "%I64d" в строке форматирования
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(531): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note:  см. объявление "getch"
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(551): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note:  см. объявление "getch"
+c:\users\froze\documents\visual studio 2017\projects\miner\miner\miner1.cpp(579): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note:  см. объявление "getch"
+  miner.vcxproj -> c:\users\froze\documents\visual studio 2017\Projects\miner\Debug\miner.exe
+  miner.vcxproj -> c:\users\froze\documents\visual studio 2017\Projects\miner\Debug\miner.pdb (Partial PDB)

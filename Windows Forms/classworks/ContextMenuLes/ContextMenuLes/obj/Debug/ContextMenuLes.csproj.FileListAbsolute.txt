@@ -1,0 +1,9 @@
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuLes\ContextMenuLes\bin\Debug\ContextMenuLes.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuLes\ContextMenuLes\bin\Debug\ContextMenuLes.exe
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuLes\ContextMenuLes\bin\Debug\ContextMenuLes.pdb
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuLes\ContextMenuLes\obj\Debug\ContextMenuLes.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuLes\ContextMenuLes\obj\Debug\ContextMenuLes.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuLes\ContextMenuLes\obj\Debug\ContextMenuLes.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuLes\ContextMenuLes\obj\Debug\ContextMenuLes.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuLes\ContextMenuLes\obj\Debug\ContextMenuLes.exe
+c:\users\09701\documents\visual studio 2015\Projects\ContextMenuLes\ContextMenuLes\obj\Debug\ContextMenuLes.pdb

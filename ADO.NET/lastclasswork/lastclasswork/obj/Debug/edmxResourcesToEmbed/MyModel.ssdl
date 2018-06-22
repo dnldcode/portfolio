@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище sp2822Model" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cities_09358_09701_09625">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="64" />
+    <Property Name="id_country" Type="int" />
+  </EntityType>
+  <EntityType Name="Countries_09358_09701_09625">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="64" />
+  </EntityType>
+  <Association Name="FK__Cities_09__id_co__218BE82B">
+    <End Role="Countries_09358_09701_09625" Type="Self.Countries_09358_09701_09625" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Cities_09358_09701_09625" Type="Self.Cities_09358_09701_09625" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries_09358_09701_09625">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Cities_09358_09701_09625">
+        <PropertyRef Name="id_country" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище sp2822ModelContainer">
+    <EntitySet Name="Cities_09358_09701_09625" EntityType="Self.Cities_09358_09701_09625" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Countries_09358_09701_09625" EntityType="Self.Countries_09358_09701_09625" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Cities_09__id_co__218BE82B" Association="Self.FK__Cities_09__id_co__218BE82B">
+      <End Role="Countries_09358_09701_09625" EntitySet="Countries_09358_09701_09625" />
+      <End Role="Cities_09358_09701_09625" EntitySet="Cities_09358_09701_09625" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

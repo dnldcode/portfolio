@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\09701\documents\visual studio 2015\projects\defaultwindow\defaultwindow\main.cpp(55): warning C4101: hDC: неиспользованная локальная переменная
+  DefaultWindow.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\DefaultWindow\Debug\DefaultWindow.exe
+  DefaultWindow.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\DefaultWindow\Debug\DefaultWindow.pdb (Full PDB)

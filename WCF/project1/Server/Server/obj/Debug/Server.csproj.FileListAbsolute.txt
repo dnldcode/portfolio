@@ -1,0 +1,5 @@
+C:\Users\froze\Desktop\project1\Server\Server\bin\Debug\Server.exe
+C:\Users\froze\Desktop\project1\Server\Server\bin\Debug\Server.pdb
+C:\Users\froze\Desktop\project1\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\project1\Server\Server\obj\Debug\Server.exe
+C:\Users\froze\Desktop\project1\Server\Server\obj\Debug\Server.pdb

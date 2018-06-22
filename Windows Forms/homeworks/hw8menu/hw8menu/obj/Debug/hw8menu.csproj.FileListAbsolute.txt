@@ -1,0 +1,29 @@
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\bin\Debug\hw8menu.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\bin\Debug\hw8menu.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\obj\Debug\hw8menu.csprojResolveAssemblyReference.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\obj\Debug\hw8menu.Form1.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\obj\Debug\hw8menu.Form2.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\obj\Debug\hw8menu.Properties.Resources.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\obj\Debug\hw8menu.csproj.GenerateResource.Cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\obj\Debug\hw8menu.csproj.CoreCompileInputs.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\obj\Debug\hw8menu.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\hw8menu\hw8menu\obj\Debug\hw8menu.pdb
+C:\Users\09701\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.exe
+C:\Users\09701\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.pdb
+C:\Users\09701\Desktop\hw8menu\hw8menu\bin\Debug\hw8menu.exe
+C:\Users\09701\Desktop\hw8menu\hw8menu\bin\Debug\hw8menu.pdb
+C:\Users\09701\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.csprojResolveAssemblyReference.cache
+C:\Users\09701\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.Form1.resources
+C:\Users\09701\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.Form2.resources
+C:\Users\09701\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.Properties.Resources.resources
+C:\Users\09701\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\hw8menu\hw8menu\bin\Debug\hw8menu.exe
+C:\Users\froze\Desktop\hw8menu\hw8menu\bin\Debug\hw8menu.pdb
+C:\Users\froze\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.Form1.resources
+C:\Users\froze\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.Form2.resources
+C:\Users\froze\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.Properties.Resources.resources
+C:\Users\froze\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.exe
+C:\Users\froze\Desktop\hw8menu\hw8menu\obj\Debug\hw8menu.pdb

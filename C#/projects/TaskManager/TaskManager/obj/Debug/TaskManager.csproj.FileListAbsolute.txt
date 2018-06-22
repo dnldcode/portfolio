@@ -1,0 +1,10 @@
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\TaskManager\TaskManager\obj\Debug\TaskManager.Form2.resources

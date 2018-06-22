@@ -1,0 +1,8 @@
+c:\users\froze\documents\visual studio 2017\Projects\wf2\wf2\bin\Debug\wf2.exe
+c:\users\froze\documents\visual studio 2017\Projects\wf2\wf2\bin\Debug\wf2.pdb
+c:\users\froze\documents\visual studio 2017\Projects\wf2\wf2\obj\Debug\wf2.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\wf2\wf2\obj\Debug\wf2.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\wf2\wf2\obj\Debug\wf2.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\wf2\wf2\obj\Debug\wf2.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\wf2\wf2\obj\Debug\wf2.exe
+c:\users\froze\documents\visual studio 2017\Projects\wf2\wf2\obj\Debug\wf2.pdb

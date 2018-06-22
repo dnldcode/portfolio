@@ -1,0 +1,6 @@
+c:\users\09701\documents\visual studio 2015\Projects\les18\les18\bin\Debug\les18.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\les18\les18\bin\Debug\les18.exe
+c:\users\09701\documents\visual studio 2015\Projects\les18\les18\bin\Debug\les18.pdb
+c:\users\09701\documents\visual studio 2015\Projects\les18\les18\obj\Debug\les18.exe
+c:\users\09701\documents\visual studio 2015\Projects\les18\les18\obj\Debug\les18.pdb
+c:\users\09701\documents\visual studio 2015\Projects\les18\les18\obj\Debug\les18.csprojResolveAssemblyReference.cache

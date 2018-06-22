@@ -1,0 +1,14 @@
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\bin\Debug\WPLes4.1listboxes.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\bin\Debug\WPLes4.1listboxes.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\bin\Debug\WPLes4.1listboxes.pdb
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\WPLes4.1listboxes.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\MainWindow.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\App.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\WPLes4.1listboxes_MarkupCompile.cache
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\WPLes4.1listboxes_MarkupCompile.lref
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\MainWindow.baml
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\WPLes4.1listboxes.g.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\WPLes4._1listboxes.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\WPLes4.1listboxes.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\WPLes4.1listboxes.exe
+c:\users\09701\documents\visual studio 2015\Projects\WPLes4.1listboxes\WPLes4.1listboxes\obj\Debug\WPLes4.1listboxes.pdb

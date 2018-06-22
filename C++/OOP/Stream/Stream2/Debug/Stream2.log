@@ -1,0 +1,4 @@
+﻿  Source.cpp
+s:\users\froze_000\desktop\stream\stream2\source.cpp(11): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Stream2.vcxproj -> S:\Users\froze_000\Desktop\Stream\Debug\Stream2.exe
+  Stream2.vcxproj -> S:\Users\froze_000\Desktop\Stream\Debug\Stream2.pdb (Full PDB)

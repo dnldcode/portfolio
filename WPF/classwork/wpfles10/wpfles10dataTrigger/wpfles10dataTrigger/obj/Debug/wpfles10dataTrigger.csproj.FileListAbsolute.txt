@@ -1,0 +1,13 @@
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\bin\Debug\wpfles10dataTrigger.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\bin\Debug\wpfles10dataTrigger.exe
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\bin\Debug\wpfles10dataTrigger.pdb
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\MainWindow.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\App.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\wpfles10dataTrigger_MarkupCompile.cache
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\wpfles10dataTrigger_MarkupCompile.lref
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\MainWindow.baml
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\wpfles10dataTrigger.g.resources
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\wpfles10dataTrigger.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\wpfles10dataTrigger.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\wpfles10dataTrigger.exe
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10dataTrigger\wpfles10dataTrigger\obj\Debug\wpfles10dataTrigger.pdb

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\09701\documents\visual studio 2015\projects\adapter\adapter\header1.h(9): error C2062: тип "int" не требуется
+c:\users\09701\documents\visual studio 2015\projects\adapter\adapter\header1.h(10): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции

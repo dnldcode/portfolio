@@ -1,0 +1,883 @@
+CREATE DATABASE Championship;
+
+USE Championship;
+
+CREATE TABLE Trainers
+(
+	id int not null IDENTITY(1,1),
+	firstname varchar(32),
+	lastname varchar(32),
+
+	CONSTRAINT KeyTrainers primary key (id),
+);
+
+INSERT INTO Trainers(firstname, lastname) VALUES('Роберто', 'Манчини');--Зенит
+INSERT INTO Trainers(firstname, lastname) VALUES('Яннис', 'Христопулос');--Таврия
+INSERT INTO Trainers(firstname, lastname) VALUES('Владимир', 'Богданович');--Александрия
+INSERT INTO Trainers(firstname, lastname) VALUES('Зинедин', 'Зидан');--Реал Мадрид
+INSERT INTO Trainers(firstname, lastname) VALUES('Гурбан', 'Гурбанов');--Карабах
+INSERT INTO Trainers(firstname, lastname) VALUES('Алос', 'Феррер');--Кайрат
+
+CREATE TABLE Stadiums
+(
+	id int not null IDENTITY(1,1),
+	name varchar(32),
+
+	CONSTRAINT KeyS primary key (id),
+	CONSTRAINT UniqNameS unique (name)
+);
+
+INSERT INTO Stadiums(name) VALUES('Санкт-Петербург');--Зенит
+INSERT INTO Stadiums(name) VALUES('Машиностроитель');--Таврия
+INSERT INTO Stadiums(name) VALUES('Ника');--Александрия
+INSERT INTO Stadiums(name) VALUES('Сантьяго Бернабеу');--Реал Мадрид
+INSERT INTO Stadiums(name) VALUES('Азерсун Арена');--Карабах
+INSERT INTO Stadiums(name) VALUES('Центральный');--Кайрат
+
+CREATE TABLE Position
+(
+	id int not null IDENTITY(1,1),
+	name varchar(32),
+
+	CONSTRAINT KeyPos primary key (id),
+	CONSTRAINT UniqNamePos unique (name)
+);
+INSERT INTO Position(name) VALUES('Вратарь');
+INSERT INTO Position(name) VALUES('Защитник');
+INSERT INTO Position(name) VALUES('Полузащитник');
+INSERT INTO Position(name) VALUES('Бомбардировщик');
+
+CREATE TABLE Tours
+(
+	id int not null IDENTITY(1,1),
+	name varchar(32),
+
+	CONSTRAINT KeyTours primary key (id),
+	CONSTRAINT UniqNameTours unique (name)
+);
+INSERT INTO Tours(name) VALUES('Тур 1');
+INSERT INTO Tours(name) VALUES('Тур 2');
+INSERT INTO Tours(name) VALUES('Тур 3');
+INSERT INTO Tours(name) VALUES('Тур 4');
+INSERT INTO Tours(name) VALUES('Тур 5');
+INSERT INTO Tours(name) VALUES('Тур 6');
+INSERT INTO Tours(name) VALUES('Тур 7');
+INSERT INTO Tours(name) VALUES('Тур 8');
+INSERT INTO Tours(name) VALUES('Тур 9');
+INSERT INTO Tours(name) VALUES('Тур 10');
+
+CREATE TABLE Teams
+(
+	id int not null IDENTITY(1,1),
+	name varchar(32),
+	id_trainer int not null,
+	id_stadium int not null
+
+	CONSTRAINT KeyTeams primary key (id),
+	CONSTRAINT UniqNameTeams unique (name),
+	CONSTRAINT Id_trainerTeams FOREIGN KEY(id_trainer) REFERENCES Trainers(id),
+	CONSTRAINT Id_stadiumTeams FOREIGN KEY(id_stadium) REFERENCES Stadiums(id)
+);
+
+INSERT INTO Teams(name, id_trainer, id_stadium) VALUES('Зенит', 1, 1);
+INSERT INTO Teams(name, id_trainer, id_stadium) VALUES('Таврия', 2, 2);
+INSERT INTO Teams(name, id_trainer, id_stadium) VALUES('Александрия', 3, 3);
+INSERT INTO Teams(name, id_trainer, id_stadium) VALUES('Реал Мадрид', 4, 4);
+INSERT INTO Teams(name, id_trainer, id_stadium) VALUES('Карабах', 5, 5);
+INSERT INTO Teams(name, id_trainer, id_stadium) VALUES('Кайрат', 6, 6);
+
+CREATE TABLE Players
+(
+	id int not null IDENTITY(1,1),
+	firstname varchar(32),
+	lastname varchar(32),
+	id_position int not null,
+	id_team int not null
+
+	CONSTRAINT KeyP primary key (id),
+	CONSTRAINT Id_teamPlayers FOREIGN KEY(id_team) REFERENCES Teams(id),
+	CONSTRAINT Id_PositionPlayers FOREIGN KEY(id_position) REFERENCES Position(id)
+);
+CREATE TABLE Games
+(
+	id int not null IDENTITY(1,1),
+	id_team1 int not null,
+	id_team2 int not null,
+	id_tour int not null
+
+	CONSTRAINT KeyGames primary key (id),
+	CONSTRAINT Id_Team1Games FOREIGN KEY(id_team1) REFERENCES Teams(id),
+	CONSTRAINT Id_Team2Games FOREIGN KEY(id_team2) REFERENCES Teams(id),
+	CONSTRAINT Id_TourGames FOREIGN KEY(id_tour) REFERENCES Tours(id),	
+);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(1, 6, 1);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(2, 4, 1);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(3, 5, 1);
+
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(1, 5, 2);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(2, 3, 2);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(4, 6, 2);
+
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(1, 4, 3);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(2, 5, 3);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(3, 6, 3);
+
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(1, 3, 4);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(2, 6, 4);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(4, 5, 4);
+
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(1, 2, 5);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(3, 4, 5);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(5, 6, 5);
+
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(6, 1, 6);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(4, 2, 6);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(5, 3, 6);
+
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(5, 1, 7);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(3, 2, 7);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(6, 4, 7);
+
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(4, 1, 8);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(5, 2, 8);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(6, 3, 8);
+
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(3, 1, 9);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(6, 2, 9);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(5, 4, 9);
+
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(2, 1, 10);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(4, 3, 10);
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(6, 5, 10);
+
+CREATE Table Goals
+(
+	id int not null IDENTITY(1,1),
+	id_players int not null,
+	id_game int not null
+
+	CONSTRAINT KeyGoals primary key (id),
+	CONSTRAINT Id_PlayerGoals FOREIGN KEY(id_players) REFERENCES Players(id),
+	CONSTRAINT Id_GameGoals FOREIGN KEY(id_game) REFERENCES Games(id),	
+);
+--GoalsInsert
+--Зенит
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Юрий', 'Лодыгин', 1, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Доменико', 'Кришито', 2, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Александр', 'Анюков', 2, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Денис', 'Терентьев', 2, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Игорь', 'Смольников', 3, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Дмитрий', 'Богаев', 3, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Бранислав', 'Иванович', 3, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Матиас', 'Краневиттер', 2, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Олег', 'Шатов', 4, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Леандро', 'Паредес', 4, 1);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Далер', 'Кузяев', 4, 1);
+--Таврия
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Игорь', 'Левченко', 1, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Владимир', 'Бижко', 3, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Дмитрий', 'Тищенко', 2, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Максим', 'Логвиненко', 3, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Владислав', 'Жавко', 2, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Богдан', 'Куксенко', 4, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Евген', 'Соколан', 2, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Дмитрий', 'Жиганов', 4, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Вадим', 'Воронченко', 3, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Вадим', 'Гриппа', 3, 2);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Владислав', 'Журавленко', 2, 2);
+--Александрия
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Дмитрий', 'Рудык', 1, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Сергей', 'Чеботаев', 4, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Иван', 'Гаврушко', 4, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Валерий', 'Бондаренко', 3, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Кирилл', 'Прокопчук', 2, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Андрей', 'Гитченко', 2, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Павел', 'Пашаев', 3, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Максим', 'Каленчук', 2, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Станислав', 'Кулиш', 2, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Виталий', 'Пономар', 3, 3);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Ярослав', 'Довгий', 4, 3);
+--Реал Мадрид
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Кейлор', 'Навас', 1, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Кико', 'Касилья', 2, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Люка', 'Зидан', 2, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Моамет', 'Айрам', 2, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Альваро', 'Техеро', 3, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Ашраф', 'Хакими', 3, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Даниэль', 'Карвахаль', 3, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Рафаэль', 'Варан', 3, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Серхио', 'Рамос', 4, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Хесус', 'Вальехо', 4, 4);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Гарет', 'Бэйл', 4, 4);
+--Карабах
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Антон', 'Каниболоцкий', 1, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Гара', 'Гараев', 4, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Николай', 'Соболев', 4, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Максим', 'Медведев', 3, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Рашад', 'Садыхов', 4, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Ариф', 'Дашдемиров', 3, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Анси', 'Аголли', 3, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Аббас', 'Хуссейнов', 2, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Эльвин', 'Юнусзаде', 2, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Рахид', 'Амиргулиев', 2, 5);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Педро', 'Энрике', 3, 5);
+--Кайрат
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Андрей', 'Сидельников', 1, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Арман', 'Биркурманов', 4, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Александр', 'Соколенко', 3, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Тимур', 'Рудосельский', 2, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Александр', 'Кислицын', 3, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Марк', 'Гурман', 4, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Любомир', 'Михалик', 2, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Сергей', 'Кейлер', 2, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Самат', 'Смаков', 3, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Сезар', 'Арсо', 3, 6);
+INSERT INTO Players(firstname, lastname, id_position, id_team) VALUES('Шелдон', 'Бато', 2, 6);
+
+INSERT INTO Goals(id_players, id_game) VALUES(9, 1);
+INSERT INTO Goals(id_players, id_game) VALUES(58, 1);
+INSERT INTO Goals(id_players, id_game) VALUES(58, 1);
+INSERT INTO Goals(id_players, id_game) VALUES(5, 1);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(41, 2);
+INSERT INTO Goals(Id_players, id_game) VALUES(40, 2);
+INSERT INTO Goals(Id_players, id_game) VALUES(15, 2);
+INSERT INTO Goals(Id_players, id_game) VALUES(40, 2);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(24, 3);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(5, 4);
+INSERT INTO Goals(Id_players, id_game) VALUES(5, 4);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(23, 5);
+INSERT INTO Goals(Id_players, id_game) VALUES(27, 5);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(35, 6);
+INSERT INTO Goals(Id_players, id_game) VALUES(35, 6);
+INSERT INTO Goals(Id_players, id_game) VALUES(64, 6);
+INSERT INTO Goals(Id_players, id_game) VALUES(39, 6);
+INSERT INTO Goals(Id_players, id_game) VALUES(62, 6);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(5, 7);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(51, 8);
+INSERT INTO Goals(Id_players, id_game) VALUES(14, 8);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(60, 9);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(1, 10);
+INSERT INTO Goals(Id_players, id_game) VALUES(28, 10);
+INSERT INTO Goals(Id_players, id_game) VALUES(26, 10);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(21, 11);
+INSERT INTO Goals(Id_players, id_game) VALUES(20, 11);
+INSERT INTO Goals(Id_players, id_game) VALUES(65, 11);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(42, 12);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(5, 13);
+INSERT INTO Goals(Id_players, id_game) VALUES(6, 13);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(23, 14);
+INSERT INTO Goals(Id_players, id_game) VALUES(24, 14);
+INSERT INTO Goals(Id_players, id_game) VALUES(35, 14);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(46, 15);
+
+--SELECT * FROM Goals;
+
+--2-я часть
+INSERT INTO Goals(Id_players, id_game) VALUES(13, 17);
+INSERT INTO Goals(Id_players, id_game) VALUES(14, 17);
+INSERT INTO Goals(Id_players, id_game) VALUES(38, 17);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(54, 18);
+INSERT INTO Goals(Id_players, id_game) VALUES(54, 18);
+INSERT INTO Goals(Id_players, id_game) VALUES(30, 18);
+INSERT INTO Goals(Id_players, id_game) VALUES(29, 18);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(2, 19);
+INSERT INTO Goals(Id_players, id_game) VALUES(48, 19);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(31, 20);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(61, 21);
+INSERT INTO Goals(Id_players, id_game) VALUES(38, 21);
+INSERT INTO Goals(Id_players, id_game) VALUES(39, 21);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(38, 22);
+INSERT INTO Goals(Id_players, id_game) VALUES(34, 22);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(52, 23);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(63, 24);
+INSERT INTO Goals(Id_players, id_game) VALUES(64, 24);
+INSERT INTO Goals(Id_players, id_game) VALUES(25, 24);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(26, 25);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(18, 26);
+INSERT INTO Goals(Id_players, id_game) VALUES(65, 26);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(49, 27);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(5, 28);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(41, 29);
+
+INSERT INTO Goals(Id_players, id_game) VALUES(49, 30);
+--TRIGGER(Защита от дурака)
+CREATE TRIGGER RepeatCheck
+ON Games
+AFTER INSERT
+AS
+DECLARE @idTeam1 int;
+DECLARE @idTeam2 varchar (36);
+DECLARE @idGame int;
+
+SELECT @idTeam1 = id_team1, @idTeam2 = id_team2, @idGame = id
+FROM inserted
+
+if @idTeam1 = @idTeam2
+BEGIN
+	DELETE FROM Games
+	WHERE Games.id = @idGame
+	PRINT 'Команда не может играть против себя';	
+END
+--ФУНКЦИИ
+--1. Подсчитать количество забитых (пропущенных) для определённой команды
+CREATE FUNCTION getMissedGoals
+(
+	@tname varchar(32)
+)
+RETURNS @tab TABLE(
+	name varchar(32),
+	cnt int
+)
+AS
+BEGIN
+INSERT @tab
+	SELECT Teams.name, count(*)
+	FROM Goals, Tours, Games, Players, Teams
+	WHERE Goals.id_game = Games.id
+	AND Goals.id_players = Players.id
+	AND Teams.name = @tname
+	AND Players.id_team <> Teams.id
+	AND Games.id = (SELECT Games.id FROM Games WHERE Games.id_tour = Tours.id AND (Games.id_team1 = Teams.id OR Games.id_team2 = Teams.id))
+GROUP BY Teams.name
+RETURN;
+END
+
+--SELECT * FROM getMissedGoals();
+--2.2. Вывести лучшего бомбардира чемпионата и лучшего бомбардира по команде.(1им запросом, возвращает ответ строкой)
+CREATE FUNCTION getBestBombardirovshik
+(
+	@tname varchar(32)
+)
+RETURNS varchar(128)
+AS
+BEGIN
+DECLARE @bombsScore TABLE(
+	id int not null IDENTITY(1,1),
+	name varchar(32),
+	cnt int
+)
+INSERT @bombsScore
+	SELECT Players.firstname + ' ' + Players.lastname as name, count(*) as cnt
+	FROM Players, Position, Goals
+	WHERE Goals.id_players = Players.id
+	AND Players.id_position = Position.id
+	AND Position.name = 'Бомбардировщик'
+	GROUP BY Players.firstname + ' ' + Players.lastname
+DECLARE @bestBombs TABLE(
+	id int not null IDENTITY(1,1),
+	name varchar(32)
+)
+INSERT @bestBombs
+	SELECT A.name
+	FROM @bombsScore A
+	WHERE A.cnt = (SELECT MAX(A.cnt) FROM @bombsScore A)
+	DECLARE @bestOne varchar(32);
+	SET @bestOne = (SELECT A.name FROM @bestBombs A WHERE A.id = 1)
+-----------
+DECLARE @bombsScoreTeam TABLE(
+	id int not null IDENTITY(1,1),
+	name varchar(32),
+	cnt int
+)
+INSERT @bombsScoreTeam
+	SELECT Players.firstname + ' ' + Players.lastname as name, count(*) as cnt
+	FROM Players, Position, Goals, Teams
+	WHERE Goals.id_players = Players.id
+	AND Players.id_position = Position.id
+	AND Position.name = 'Бомбардировщик'
+	AND Players.id_team = Teams.id
+	AND Teams.name = @tname
+	GROUP BY Players.firstname + ' ' + Players.lastname
+DECLARE @bestBombsTeam TABLE(
+	id int not null IDENTITY(1,1),
+	name varchar(32)
+)
+INSERT @bestBombsTeam
+	SELECT A.name
+	FROM @bombsScoreTeam A
+	WHERE A.cnt = (SELECT MAX(A.cnt) FROM @bombsScoreTeam A)
+	DECLARE @bestTwo varchar(32);
+	SET @bestTwo = (SELECT A.name FROM @bestBombsTeam A WHERE A.id = 1)
+	DECLARE @strAnswer varchar(128)
+	SET @strAnswer = 'Лучший бомбардировщик турнира: ' + @bestOne + '. Лучший бомбардировщик по команде ''' + @tname + ''': ' + @bestTwo
+RETURN @strAnswer;
+END
+GO
+--DECLARE @answ varchar(128);
+--execute @answ = getBestBombardirovshik 'Реал мадрид';
+--print(@answ);
+
+--2. 2 Отдельные функци
+--2.1 Выводит лучшего бомбардира чемпионата
+CREATE FUNCTION getBombChampion()
+RETURNS @tab TABLE(
+	name varchar(32),
+	team varchar(32),
+	goals int
+)
+AS
+BEGIN
+DECLARE @newtab TABLE(
+		name varchar(32),
+		team varchar(32),
+		cnt int
+)
+INSERT @newtab
+	SELECT Players.firstname + ' ' + Players.lastname as name, Teams.name as team, count(*) as cnt
+	FROM Players, Position, Goals, Teams
+	WHERE Goals.id_players = Players.id
+	AND Players.id_position = Position.id
+	AND Position.name = 'Бомбардировщик'
+	AND Players.id_team = Teams.id
+	GROUP BY Players.firstname + ' ' + Players.lastname, Teams.name;
+
+INSERT @tab
+	SELECT A.name, A.team,A.cnt
+	FROM @newtab A
+	WHERE A.cnt = (SELECT MAX(A.cnt) FROM @newtab A)
+RETURN;
+END
+
+--SELECT * FROM getBombChampion();
+--2.2 Выводит лучшего бомбардира по команде
+CREATE FUNCTION getBombByTeam
+(
+	@tname varchar(32)
+)
+RETURNS @tab TABLE(
+	name varchar(32),
+	team varchar(32),
+	goals int
+)
+AS
+BEGIN
+DECLARE @newtab TABLE(
+		name varchar(32),
+		team varchar(32),
+		cnt int
+)
+INSERT @newtab
+	SELECT Players.firstname + ' ' + Players.lastname as name, Teams.name as team, count(*) as cnt
+	FROM Players, Position, Goals, Teams
+	WHERE Goals.id_players = Players.id
+	AND Players.id_position = Position.id
+	AND Position.name = 'Бомбардировщик'
+	AND Players.id_team = Teams.id
+	AND Teams.name = @tname
+	GROUP BY Players.firstname + ' ' + Players.lastname, Teams.name;
+
+INSERT @tab
+	SELECT A.name, A.team,A.cnt
+	FROM @newtab A
+	WHERE A.cnt = (SELECT MAX(A.cnt) FROM @newtab A)
+RETURN;
+END
+
+--SELECT * FROM getBombByTeam('Реал мадрид');
+--3.Вывести лучшего голкипера.
+CREATE FUNCTION getBestGoalkeeper()
+RETURNS @tab TABLE(
+	name varchar(32),
+	team varchar(32)
+)
+AS
+BEGIN
+DECLARE @missedgoals TABLE(
+	name varchar(32),
+	cnt int
+)
+INSERT @missedgoals
+	SELECT Teams.name, count(*)
+	FROM Goals, Tours, Games, Players, Teams
+	WHERE Goals.id_game = Games.id
+	AND Goals.id_players = Players.id
+	AND Players.id_team <> Teams.id
+	AND Games.id = (SELECT Games.id FROM Games WHERE Games.id_tour = Tours.id AND (Games.id_team1 = Teams.id OR Games.id_team2 = Teams.id))
+	GROUP BY Teams.name;
+
+INSERT @tab
+	SELECT Players.firstname + ' ' + Players.lastname, Teams.name
+	FROM Players, Teams, Position
+	WHERE Teams.name IN (SELECT A.name FROM @missedgoals A WHERE A.cnt = (SELECT MIN(A.cnt) FROM @missedgoals A))
+	AND Players.id_team = Teams.id
+	AND Players.id_position = Position.id
+	AND Position.name = 'Вратарь'
+	GROUP BY Players.firstname + ' ' + Players.lastname, Teams.name;
+RETURN;
+END
+
+--SELECT * FROM getBestGoalkeeper();
+--4. Определить турнирное положение команды по заданному туру.
+CREATE FUNCTION getTeamPlaceByTour
+(
+	@teamname varchar(32),
+	@tourname varchar(32)
+)
+RETURNS @res TABLE(
+	id int,
+	name varchar(32),
+	score1 int,
+	score2 int,
+	points int
+)
+AS
+BEGIN
+
+DECLARE @tab TABLE(
+	id int not null identity(1,1),
+	name varchar(32),
+	score1 int,
+	score2 int,
+	points int
+)
+DECLARE @temp TABLE(
+	id int not null identity(1,1),
+	name varchar(32),
+	score1 int,
+	score2 int,
+	points int
+)
+
+INSERT @tab
+	SELECT Teams.name, 0, 0, 0 FROM Teams;
+
+	DECLARE @i int = 1;
+	DECLARE @p int = 0;
+
+	WHILE(@i <= (SELECT COUNT(*) FROM @tab))
+	BEGIN
+		DECLARE @sc1 int = (
+	SELECT count(*)
+	FROM Goals, Teams, Players, Games, Tours
+	WHERE Goals.id_players = Players.id
+	AND Players.id_team = Teams.id
+	AND Goals.id_game = Games.id
+	AND Games.id_tour = Tours.id
+	AND Tours.name = @tourname
+	AND Teams.name = (SELECT A.name FROM @tab A WHERE A.id = @i));
+
+	DECLARE @sc2 int= (
+	SELECT count(*)
+	FROM Goals, Games, Players, Teams, Tours
+	WHERE Goals.id_game = Games.id
+	AND Games.id_tour = Tours.id
+	AND Goals.id_players = Players.id
+	AND Players.id_team <> Teams.id
+	AND Games.id = (SELECT Games.id FROM Games WHERE Games.id_tour = Tours.id AND (Games.id_team1 = Teams.id OR Games.id_team2 = Teams.id))
+	AND Teams.name = (SELECT A.name FROM @tab A WHERE A.id = @i)
+	AND Tours.name = @tourname);
+
+	UPDATE @tab SET score1 = @sc1 WHERE id = @i;
+
+	UPDATE @tab SET score2 = @sc2 WHERE id = @i;
+
+	if (@sc1 > @sc2)
+		SET @p = @p + 3;
+	if (@sc1 = @sc2)
+		SET @p = @p + 1;
+	UPDATE @tab SET points = @p WHERE id = @i;
+	SET @p = 0;
+	SET @i = @i + 1;
+	END
+INSERT @temp
+	SELECT A.name, A.score1, A.score2, A.points FROM @tab A ORDER BY A.points DESC;
+INSERT @res
+	SELECT * FROM @temp A WHERE A.name = @teamname;
+RETURN;
+END
+
+--SELECT * FROM getTeamPlaceByTour('Реал мадрид', 'тур 10');
+--5. Вывести результаты конкретной команды по каждому туру.
+CREATE FUNCTION getTeamResultsByTours
+(
+	@tname varchar(32)
+)
+RETURNS @ttab TABLE(
+	id int,
+	tourname varchar(32),
+	score1 int,
+	score2 int,
+	points int
+)
+AS
+BEGIN
+INSERT @ttab
+	SELECT *,0,0,0 FROM Tours
+
+DECLARE @i int = 1;
+DECLARE @p int = 0;
+
+while(@i <= (SELECT COUNT(*) FROM @ttab))
+BEGIN
+	DECLARE @sc1 int = (
+	SELECT count(*)
+	FROM Goals, Teams, Players, Games, Tours
+	WHERE Goals.id_players = Players.id
+	AND Players.id_team = Teams.id
+	AND Goals.id_game = Games.id
+	AND Games.id_tour = Tours.id
+	AND Teams.name = @tname
+	AND Tours.name = (SELECT A.tourname FROM @ttab A WHERE A.id = @i));
+	DECLARE @sc2 int= (
+	SELECT count(*)
+	FROM Goals, Games, Players, Teams, Tours
+	WHERE Goals.id_game = Games.id
+	AND Games.id_tour = Tours.id
+	AND Goals.id_players = Players.id
+	AND Players.id_team <> Teams.id
+	AND Games.id = (SELECT Games.id FROM Games WHERE Games.id_tour = Tours.id AND (Games.id_team1 = Teams.id OR Games.id_team2 = Teams.id))
+	AND Teams.name = @tname
+	AND Tours.name = (SELECT A.tourname FROM @ttab A WHERE A.id = @i));
+
+	UPDATE @ttab SET score1 = @sc1 WHERE id = @i;
+
+	UPDATE @ttab SET score2 = @sc2 WHERE id = @i;
+
+	if (@sc1 > @sc2)
+		SET @p = @p + 3;
+	if (@sc1 = @sc2)
+		SET @p = @p + 1;
+	UPDATE @ttab SET points = @p WHERE id = @i;
+
+	SET @i = @i + 1;
+END
+
+
+RETURN;
+END
+--6. Вывести "турнирный путь" чемпиона.
+CREATE FUNCTION getChampionPath()
+RETURNS @tab TABLE(
+		id int not null identity(1,1),
+	gameid int,
+	team1 varchar(32),
+	team2 varchar(32),
+	score1 int,
+	score2 int,
+	points int
+)
+AS
+BEGIN
+DECLARE @newtab TABLE(
+		name varchar(32),
+		cnt int
+)
+INSERT @newtab
+	SELECT Teams.name as name, count(*) * 3 as cnt
+FROM Teams, Games, Tours
+WHERE Games.id_tour = Tours.id
+
+AND (Games.id_team1 = Teams.id OR Games.id_team2 = Teams.id)
+AND (
+SELECT count(*)
+FROM Goals, Teams A, Players,Games
+WHERE Goals.id_players = Players.id
+AND Players.id_team = A.id
+AND Goals.id_game = Games.id
+AND Games.id_tour = Tours.id
+AND A.id = Teams.id
+) >
+(
+SELECT count(*)
+FROM Goals, Games, Players, Teams A
+WHERE Goals.id_game = Games.id
+AND Games.id_tour = Tours.id
+AND Goals.id_players = Players.id
+AND Players.id_team <> A.id
+AND Games.id = (SELECT Games.id FROM Games WHERE Games.id_tour = Tours.id AND (Games.id_team1 = A.id OR Games.id_team2 = A.id))
+AND A.id = Teams.id
+)
+GROUP BY Teams.name
+
+UNION ALL
+
+SELECT Teams.name as name, count(*) as cnt
+FROM Teams, Games, Tours
+WHERE Games.id_tour = Tours.id
+AND (Games.id_team1 = Teams.id OR Games.id_team2 = Teams.id)
+AND (
+SELECT count(*)
+FROM Goals, Teams A, Players,Games
+WHERE Goals.id_players = Players.id
+AND Players.id_team = A.id
+AND Goals.id_game = Games.id
+AND Games.id_tour = Tours.id
+AND A.id = Teams.id
+) =
+(
+SELECT count(*)
+FROM Goals, Games, Players, Teams A
+WHERE Goals.id_game = Games.id
+AND Games.id_tour = Tours.id
+AND Goals.id_players = Players.id
+AND Players.id_team <> A.id
+AND Games.id = (SELECT Games.id FROM Games WHERE Games.id_tour = Tours.id AND (Games.id_team1 = A.id OR Games.id_team2 = A.id))
+AND A.id = Teams.id
+)
+GROUP BY Teams.name;
+
+DECLARE @newtabex TABLE(
+	name varchar(32),
+	cnt int
+)
+INSERT @newtabex
+	SELECT Teams.name, sum(abc.cnt)
+	FROM Teams, @newtab abc
+	WHERE Teams.name = abc.name
+	GROUP BY Teams.name
+	ORDER BY 2 DESC;
+
+DECLARE @winners TABLE(
+	id int not null identity(1,1),
+	name varchar(32)
+)
+INSERT @winners
+	SELECT A.name FROM @newtabex A WHERE A.cnt = (SELECT MAX(A.cnt) FROM @newtabex A);
+
+INSERT @tab
+	SELECT Games.id, A.name, B.name, 0, 0, 0
+	FROM Teams A, Teams B, Games
+	WHERE Games.id_team1 = A.id
+	AND Games.id_team2 = B.id
+	AND (A.name IN (SELECT A.name FROM @winners A WHERE A.id = 1) OR B.name in (SELECT A.name FROM @winners A WHERE A.id = 1))
+
+	DECLARE @i int = 1;
+	while(@i <= (SELECT COUNT(*) FROM @tab))
+	BEGIN
+		if((SELECT A.team1 FROM @tab A WHERE A.id = @i) <> (SELECT A.name FROM @winners A WHERE A.id = 1))
+		BEGIN
+			DECLARE @temp varchar(32);
+			UPDATE @tab SET team2 = (SELECT A.team1 FROM @tab A WHERE A.id = @i) WHERE id = @i;
+			UPDATE @tab SET team1 = (SELECT A.name FROM @winners A WHERE A.id = 1)  WHERE id = @i;
+		END
+		SET @i = @i + 1;
+	END
+
+SET @i = 1;
+DECLARE @p int = 0;
+
+while(@i <= (SELECT COUNT(*) FROM @tab))
+BEGIN
+	DECLARE @sc1 int = (
+	SELECT count(*)
+	FROM Goals, Teams, Players, Games, Tours
+	WHERE Goals.id_players = Players.id
+	AND Players.id_team = Teams.id
+	AND Goals.id_game = Games.id
+	AND Games.id_tour = Tours.id
+	AND Teams.name = (SELECT A.name FROM @winners A WHERE A.id = 1)
+	AND Games.id = (SELECT A.gameid from @tab A WHERE A.id = @i));
+
+	DECLARE @sc2 int= (
+	SELECT count(*)
+	FROM Goals, Games, Players, Teams, Tours
+	WHERE Goals.id_game = Games.id
+	AND Games.id_tour = Tours.id
+	AND Goals.id_players = Players.id
+	AND Players.id_team <> Teams.id
+	AND Games.id = (SELECT Games.id FROM Games WHERE Games.id_tour = Tours.id AND (Games.id_team1 = Teams.id OR Games.id_team2 = Teams.id))
+	AND Teams.name = (SELECT A.name FROM @winners A WHERE A.id = 1)
+	AND Games.id = (SELECT A.gameid from @tab A WHERE A.id = @i));
+
+
+	UPDATE @tab SET score1 = @sc1 WHERE id = @i;
+	UPDATE @tab SET score2 = @sc2 WHERE id = @i;
+
+	if (@sc1 > @sc2)
+		SET @p = @p + 3;
+	if (@sc1 = @sc2)
+		SET @p = @p + 1;
+	UPDATE @tab SET points = @p WHERE id = @i;
+
+	SET @i = @i + 1;
+END
+
+RETURN;
+END
+
+SELECT * FROM getChampionPath();
+--7. Вывести имя команды, забившей наибольшее количество голов.
+CREATE FUNCTION getTeamMaxGoals()
+RETURNS @tab TABLE(
+	name varchar(32),
+	goals int
+)
+AS
+BEGIN
+DECLARE @newtab TABLE(
+		name varchar(32),
+	cnt int
+)
+INSERT @newtab
+	SELECT Teams.name, count(*)
+	FROM Goals, Teams, Players
+	WHERE Goals.id_players = Players.id
+	AND Players.id_team = Teams.id
+	GROUP BY Teams.name
+
+INSERT @tab
+	SELECT A.name, A.cnt
+	FROM @newtab A
+	WHERE A.cnt = (SELECT MAX(A.cnt) FROM @newtab A)
+RETURN;
+END
+
+---SELECTS
+--1.
+SELECT * FROM getMissedGoals('Таврия');
+--2.
+--(1func)
+DECLARE @answ varchar(128);
+execute @answ = getBestBombardirovshik 'Реал мадрид';
+print(@answ);
+--(2funcs)
+SELECT * FROM getBombChampion();
+SELECT * FROM getBombByTeam('Таврия');
+--3.
+SELECT * FROM getBestGoalkeeper();
+--4.
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 1');
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 2');
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 3');
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 4');
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 5');
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 6');
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 7');
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 8');
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 9');
+SELECT * FROM getTeamPlaceByTour('Реал Мадрид','Тур 10');
+--5.
+SELECT * FROM getTeamResultsByTours('Реал мадрид');
+--6.
+SELECT * FROM getChampionPath();
+--7.
+SELECT * FROM getTeamMaxGoals();
+--TRIGGER
+INSERT GAMES(id_team1, id_team2, id_tour) VALUES(1, 1, 2);
+SELECT * FROM Games;

@@ -1,0 +1,14 @@
+﻿  Source.cpp
+s:\users\froze_000\desktop\football\football\player.h(3): warning C4566: символ, представленный универсальным именем символа "\u00E9", невозможно представить в текущей кодовой странице (1251)
+s:\users\froze_000\desktop\football\football\player.h(3): warning C4566: символ, представленный универсальным именем символа "\u00D6", невозможно представить в текущей кодовой странице (1251)
+s:\users\froze_000\desktop\football\football\player.h(3): warning C4566: символ, представленный универсальным именем символа "\u0107", невозможно представить в текущей кодовой странице (1251)
+s:\users\froze_000\desktop\football\football\player.h(3): warning C4566: символ, представленный универсальным именем символа "\u00FC", невозможно представить в текущей кодовой странице (1251)
+s:\users\froze_000\desktop\football\football\player.h(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  s:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+s:\users\froze_000\desktop\football\football\club.h(24): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  s:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+s:\users\froze_000\desktop\football\football\source.cpp(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  s:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+s:\users\froze_000\desktop\football\football\source.cpp(30): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Football.vcxproj -> S:\Users\froze_000\Desktop\Football\Debug\Football.exe
+  Football.vcxproj -> S:\Users\froze_000\Desktop\Football\Debug\Football.pdb (Full PDB)

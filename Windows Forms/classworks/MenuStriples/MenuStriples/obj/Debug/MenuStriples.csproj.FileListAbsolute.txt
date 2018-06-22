@@ -1,0 +1,9 @@
+c:\users\09701\documents\visual studio 2015\Projects\MenuStriples\MenuStriples\bin\Debug\MenuStriples.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\MenuStriples\MenuStriples\bin\Debug\MenuStriples.exe
+c:\users\09701\documents\visual studio 2015\Projects\MenuStriples\MenuStriples\bin\Debug\MenuStriples.pdb
+c:\users\09701\documents\visual studio 2015\Projects\MenuStriples\MenuStriples\obj\Debug\MenuStriples.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\MenuStriples\MenuStriples\obj\Debug\MenuStriples.Form1.resources
+c:\users\09701\documents\visual studio 2015\Projects\MenuStriples\MenuStriples\obj\Debug\MenuStriples.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\MenuStriples\MenuStriples\obj\Debug\MenuStriples.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\MenuStriples\MenuStriples\obj\Debug\MenuStriples.exe
+c:\users\09701\documents\visual studio 2015\Projects\MenuStriples\MenuStriples\obj\Debug\MenuStriples.pdb

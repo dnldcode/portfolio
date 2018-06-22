@@ -1,0 +1,8 @@
+c:\users\froze\documents\visual studio 2017\Projects\test2\test2\bin\Debug\test2.exe
+c:\users\froze\documents\visual studio 2017\Projects\test2\test2\bin\Debug\test2.pdb
+c:\users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\test2.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\test2.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\test2.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\test2.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\test2.exe
+c:\users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\test2.pdb

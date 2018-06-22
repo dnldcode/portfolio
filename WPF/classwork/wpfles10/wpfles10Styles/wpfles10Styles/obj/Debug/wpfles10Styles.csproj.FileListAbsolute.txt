@@ -1,0 +1,15 @@
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\bin\Debug\wpfles10Styles.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\bin\Debug\wpfles10Styles.exe
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\bin\Debug\wpfles10Styles.pdb
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\wpfles10Styles.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\MainWindow.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\App.g.cs
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\wpfles10Styles_MarkupCompile.cache
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\wpfles10Styles_MarkupCompile.lref
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\MainWindow.baml
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\wpfles10Styles.g.resources
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\wpfles10Styles.Properties.Resources.resources
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\wpfles10Styles.csproj.GenerateResource.Cache
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\wpfles10Styles.exe
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\wpfles10Styles.pdb
+c:\users\09701\documents\visual studio 2015\Projects\wpfles10Styles\wpfles10Styles\obj\Debug\wpfles10Styles.Resource1.resources

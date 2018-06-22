@@ -1,0 +1,6 @@
+C:\Users\froze\Documents\Visual Studio 2017\Projects\search\search\obj\Debug\search.csprojResolveAssemblyReference.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\search\search\obj\Debug\search.csproj.CoreCompileInputs.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\search\search\bin\Debug\search.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\search\search\bin\Debug\search.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\search\search\obj\Debug\search.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\search\search\obj\Debug\search.pdb

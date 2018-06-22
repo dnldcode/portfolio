@@ -1,0 +1,4 @@
+﻿  maincpp.cpp
+c:\users\09701\documents\visual studio 2015\projects\menu\menu\maincpp.cpp(57): warning C4101: hDC: неиспользованная локальная переменная
+  Menu.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\Menu\Debug\Menu.exe
+  Menu.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\Menu\Debug\Menu.pdb (Full PDB)

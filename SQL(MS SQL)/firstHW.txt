@@ -1,0 +1,46 @@
+1. CREATE VIEW test
+AS
+SELECT Faculties.Name as A, COUNT(*) as cnt
+FROM S_CARDS, Students, Faculties, groups
+WHERE S_Cards.Id_Student = Students.ID
+AND Students.Id_Group = groups.id
+AND groups.id_faculty = Faculties.ID
+GROUP BY Faculties.Name
+
+GO
+
+SELECT Faculties.Name, (test.cnt * 100) /(SELECT SUM(Books.Quantity) FROM Books)
+FROM test, Faculties
+WHERE Faculties.Name = test.A
+
+DROP VIEW test
+2. CREATE VIEW aut
+AS
+SELECT Authors.FirstName + ' ' + Authors.LastName as authors, COUNT(*) AS cnt
+FROM S_Cards, Books, Authors
+WHERE S_Cards.Id_Book = Books.ID
+AND Books.Id_Author = Authors.ID
+GROUP BY Authors.FirstName, Authors.LastName
+
+GO
+
+SELECT * 
+FROM aut
+WHERE aut.cnt = (SELECT MAX(aut.cnt) FROM aut)
+
+DROP VIEW aut;
+3. CREATE VIEW aut
+AS
+SELECT Authors.FirstName + ' ' + Authors.LastName as authors, COUNT(*) AS cnt
+FROM T_Cards, Books, Authors
+WHERE T_Cards.Id_Books = Books.ID
+AND Books.Id_Author = Authors.ID
+GROUP BY Authors.FirstName, Authors.LastName
+
+GO
+
+SELECT * 
+FROM aut
+WHERE aut.cnt = (SELECT MAX(aut.cnt) FROM aut)
+
+DROP VIEW aut;

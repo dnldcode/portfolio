@@ -1,0 +1,5 @@
+c:\users\froze\documents\visual studio 2017\Projects\hw13\hw13\bin\Debug\hw13.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw13\hw13\bin\Debug\hw13.pdb
+c:\users\froze\documents\visual studio 2017\Projects\hw13\hw13\obj\Debug\hw13.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\hw13\hw13\obj\Debug\hw13.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw13\hw13\obj\Debug\hw13.pdb

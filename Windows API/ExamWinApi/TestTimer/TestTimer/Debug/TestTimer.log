@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\froze\desktop\examwinapi\testtimer\testtimer\main.cpp(117): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\froze\desktop\examwinapi\testtimer\testtimer\main.cpp(123): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\froze\desktop\examwinapi\testtimer\testtimer\main.cpp(128): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\froze\desktop\examwinapi\testtimer\testtimer\main.cpp(70): warning C4101: hPenь: неиспользованная локальная переменная
+c:\users\froze\desktop\examwinapi\testtimer\testtimer\main.cpp(69): warning C4101: hBrushOld: неиспользованная локальная переменная
+c:\users\froze\desktop\examwinapi\testtimer\testtimer\main.cpp(70): warning C4101: hPenOld: неиспользованная локальная переменная
+  TestTimer.vcxproj -> C:\Users\froze\Desktop\ExamWinApi\TestTimer\Debug\TestTimer.exe
+  TestTimer.vcxproj -> C:\Users\froze\Desktop\ExamWinApi\TestTimer\Debug\TestTimer.pdb (Partial PDB)

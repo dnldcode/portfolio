@@ -1,0 +1,81 @@
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\bin\Debug\CinemasExam.exe.config
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\bin\Debug\CinemasExam.exe
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\bin\Debug\CinemasExam.pdb
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csprojResolveAssemblyReference.cache
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.Properties.Resources.resources
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csproj.GenerateResource.Cache
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csproj.CoreCompileInputs.cache
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.exe
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.pdb
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.Form1.resources
+c:\users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.LoginForm.resources
+C:\Users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.AdminPanel.resources
+C:\Users\froze\documents\visual studio 2017\Projects\CinemasExam\CinemasExam\obj\Debug\CinemasExam.EditDataBaseForm.resources
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\bin\Debug\CinemasExam.exe.config
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\bin\Debug\CinemasExam.exe
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\bin\Debug\CinemasExam.pdb
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csprojResolveAssemblyReference.cache
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.AdminPanel.resources
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.EditDataBaseForm.resources
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.Form1.resources
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.LoginForm.resources
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.Properties.Resources.resources
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csproj.GenerateResource.Cache
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.exe
+C:\Users\09701\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.pdb
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\bin\Debug\CinemasExam.exe.config
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\bin\Debug\CinemasExam.exe
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\bin\Debug\CinemasExam.pdb
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.AdminPanel.resources
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.Form1.resources
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.LoginForm.resources
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.Properties.Resources.resources
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.exe
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.pdb
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.AddingSessionsForm.resources
+C:\Users\froze\Desktop\CinemasExam\CinemasExam\obj\Debug\CinemasExam.TicketBooking.resources
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\bin\Debug\CinemasExam.exe.config
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.exe
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.pdb
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\bin\Debug\CinemasExam.exe
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\bin\Debug\CinemasExam.pdb
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.csprojResolveAssemblyReference.cache
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.AddingSessionsForm.resources
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.AdminPanel.resources
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.Form1.resources
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.LoginForm.resources
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.Properties.Resources.resources
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.TicketBooking.resources
+C:\Users\09701\Desktop\CinemasExam_v2.0\CinemasExam\obj\Debug\CinemasExam.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\bin\Debug\CinemasExam.exe.config
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\bin\Debug\CinemasExam.exe
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\bin\Debug\CinemasExam.pdb
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.csprojResolveAssemblyReference.cache
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.AddingSessionsForm.resources
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.AdminPanel.resources
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.Form1.resources
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.LoginForm.resources
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.Properties.Resources.resources
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.TicketBooking.resources
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.csproj.GenerateResource.Cache
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.exe
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.pdb
+C:\Users\froze\Desktop\CinemasExam_v2.2\CinemasExam\obj\Debug\CinemasExam.Resource1.resources
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\bin\Debug\CinemasExam.exe.config
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.exe
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.pdb
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\bin\Debug\CinemasExam.exe
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\bin\Debug\CinemasExam.pdb
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.csprojResolveAssemblyReference.cache
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.AddingSessionsForm.resources
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.AdminPanel.resources
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.Form1.resources
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.LoginForm.resources
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.Properties.Resources.resources
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.Resource1.resources
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.TicketBooking.resources
+C:\Users\09701\Desktop\CinemasExam_v0.9\CinemasExam\obj\Debug\CinemasExam.csproj.GenerateResource.Cache

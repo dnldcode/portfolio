@@ -1,0 +1,9 @@
+C:\Users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\HoursFarmer.csprojResolveAssemblyReference.cache
+C:\Users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\test2.Form1.resources
+C:\Users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\HoursFarmer.csproj.GenerateResource.Cache
+C:\Users\froze\documents\visual studio 2017\Projects\test2\test2\bin\Debug\HoursFarmer.exe
+C:\Users\froze\documents\visual studio 2017\Projects\test2\test2\bin\Debug\HoursFarmer.pdb
+C:\Users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\HoursFarmer.Properties.Resources.resources
+C:\Users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\HoursFarmer.exe
+C:\Users\froze\documents\visual studio 2017\Projects\test2\test2\obj\Debug\HoursFarmer.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\test2\test2\obj\Debug\HoursFarmer.csproj.CoreCompileInputs.cache

@@ -1,0 +1,4 @@
+c:\users\froze\documents\visual studio 2017\Projects\hw8\hw8\bin\Debug\hw8.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw8\hw8\bin\Debug\hw8.pdb
+c:\users\froze\documents\visual studio 2017\Projects\hw8\hw8\obj\Debug\hw8.exe
+c:\users\froze\documents\visual studio 2017\Projects\hw8\hw8\obj\Debug\hw8.pdb

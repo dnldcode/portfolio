@@ -1,0 +1,6 @@
+C:\Users\froze\Documents\Visual Studio 2017\Projects\Test1\Test1\bin\Debug\Test1.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\Test1\Test1\bin\Debug\Test1.pdb
+C:\Users\froze\Documents\Visual Studio 2017\Projects\Test1\Test1\obj\Debug\Test1.csprojResolveAssemblyReference.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\Test1\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
+C:\Users\froze\Documents\Visual Studio 2017\Projects\Test1\Test1\obj\Debug\Test1.exe
+C:\Users\froze\Documents\Visual Studio 2017\Projects\Test1\Test1\obj\Debug\Test1.pdb

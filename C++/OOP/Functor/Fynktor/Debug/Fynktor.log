@@ -1,0 +1,8 @@
+﻿  Source.cpp
+s:\users\froze_000\desktop\fynktor\fynktor\fishes.h(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  s:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+s:\users\froze_000\desktop\fynktor\fynktor\fishes.h(45): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+s:\users\froze_000\desktop\fynktor\fynktor\fishes.h(49): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+s:\users\froze_000\desktop\fynktor\fynktor\source.cpp(30): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Fynktor.vcxproj -> S:\Users\froze_000\Desktop\Fynktor\Debug\Fynktor.exe
+  Fynktor.vcxproj -> S:\Users\froze_000\Desktop\Fynktor\Debug\Fynktor.pdb (Full PDB)

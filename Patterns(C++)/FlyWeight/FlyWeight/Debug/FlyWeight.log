@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\09701\documents\visual studio 2015\projects\flyweight\flyweight\header.h(50): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1316): note:  см. объявление "itoa"
+  FlyWeight.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\FlyWeight\Debug\FlyWeight.exe
+  FlyWeight.vcxproj -> c:\users\09701\documents\visual studio 2015\Projects\FlyWeight\Debug\FlyWeight.pdb (Full PDB)

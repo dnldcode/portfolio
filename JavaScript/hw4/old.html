@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cw</title>
+</head>
+
+<body>
+    <div id='doll001'></div>
+    <div id='doll002'></div>
+    <div id='doll005'></div>
+    <div id='doll010'></div>
+    <div id='doll020'></div>
+    <div id='doll050'></div>
+    <div id='doll100'></div>
+    <script>
+        //Программное создание изображения:
+        //var img = new Image();
+        //или
+        //var img = new Image(height, width);
+        //затем нужно присвоить:
+        //img.src = "путь";
+        //img.onload = метод обработчик события;
+        //Пример
+        // var img = new Image();
+        // img.onload = function (evt) {
+        //     var div = document.getElementById("forKoala");
+        //     div.appendChild(this);
+        // };
+        // img.src = "Koala.jpg";
+        //Забегая вперед, в тему DOM(Document Object Model - объектная модель документа)
+        //элемент.appendChild(ссылка на созданный объект);
+        var imgNames = new Array("EURO/doll001.jpg", "EURO/doll002.jpg", "EURO/doll005.jpg", "EURO/doll010.jpg", "EURO/doll020.jpg", "EURO/doll050.jpg", "EURO/doll100.jpg");
+        var imgNamesR = new Array("EURO/doll001r.jpg", "EURO/doll002r.jpg", "EURO/doll005r.jpg", "EURO/doll010r.jpg", "EURO/doll020r.jpg", "EURO/doll050r.jpg", "EURO/doll100r.jpg");
+        var count = 0;
+        var images = new Array();
+        var imagesR = new Array();
+        for (var i = 0; i < imgNames.length; i++) {
+            var img = new Image();
+            img.onload = function (evt) {
+                count++;
+                images.push(this);
+                if (count == imgNames.length) {
+                    for (var j = 0; j < images.length; j++) {
+                        var index = images[j].src.indexOf('doll');
+                        if (index == -1) continue;
+                        var div = document.getElementById(images[j].src.substr(index, 7));
+                        div.appendChild(images[j]);
+                    }
+                }
+            }
+            img.src = imgNames[i];
+            img.onmouseover = function () { Reverse(0); };
+        }
+        for (var i = 0; i < imgNamesR.length; i++) {
+            var img = new Image();
+            img.onload = function (evt) {
+                imagesR.push(this);
+            }
+            img.src = imgNamesR[i];
+        }
+        function Reverse(id) {
+            var index = imgNames[id].indexOf('doll');
+            if (index == -1) return;
+            var child = document.getElementById(imgNames[id].substr(index, 7)).firstChild;
+
+            if (child.src.includes("r.jpg"))
+                child.src = imgNames[id];
+            else
+                child.src = imgNamesR[id];
+        }
+    </script>
+
+</body>
+
+</html>

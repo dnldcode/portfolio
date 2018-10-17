@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <title>JS15-2</title>
+</head>
+<body>
+    <button id="btn1">Animation</button>
+    <button id="btn2">Animation2</button>
+    <br/>
+    <div id="div1" style="width: 80px; height:100px;  background-color:#98bf21;"></div>
+    <div id="div2" style="width: 80px; height:100px;  background-color:#a80657;"></div>
+    <div id="div3" style="width: 80px; height:100px;  background-color:#06258d;"></div>
+  
+  <script>
+        $(document).ready(function(){
+            $("button#btn1").click(function(){
+                var div = $("div#div1");
+                div.animate({height:'300px', opacity: '0.4'}, "slow");
+                div.animate({height:'300px', opacity: '0.8'}, "slow");
+                div.animate({height:'100px', opacity: '0.4'}, "slow");
+                div.animate({height:'100px', opacity: '0.8'}, "slow");
+            })
+        })
+        $(document).ready(function(){
+            $("button#btn2").click(function(){
+                var div = $("div#div2");
+                div.animate({height:'300px', opacity: '0.4'}, 3000);
+                var div1 = $("div#div3");
+                div1.animate({height:'50px', opacity: '0.4'}, 3000);
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .block {
+            width: 40px;
+            height: 80px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div align='center' style="display:none" id="content">
+        <div class="block">
+            <img src="numbers\0.jpg" id="h1" />
+        </div>
+        <div class="block">
+            <img src="numbers\0.jpg" id="h2" />
+        </div>
+        <div class="block">
+            <img src="numbers\separator.jpg" id="sep1" />
+        </div>
+        <div class="block">
+            <img src="numbers\0.jpg" id="m1" />
+        </div>
+        <div class="block">
+            <img src="numbers\0.jpg" id="m2" />
+        </div>
+        <div class="block">
+            <img src="numbers\separator.jpg" id="sep2" />
+        </div>
+        <div class="block">
+            <img src="numbers\0.jpg" id="s1" />
+        </div>
+        <div class="block">
+            <img src="numbers\0.jpg" id="s2" />
+        </div>
+    </div>
+    <script>
+        class Clock {
+            Convert(num) {
+                return (num < 10) ? "0" + num : num;
+            }
+            Tick() {
+                var date = new Date();
+                document.getElementById("h1").src = this.getPath(this.Convert(date.getHours()).toString()[0]);
+                document.getElementById("h2").src = this.getPath(this.Convert(date.getHours()).toString()[1]);
+                document.getElementById("m1").src = this.getPath(this.Convert(date.getMinutes()).toString()[0]);
+                document.getElementById("m2").src = this.getPath(this.Convert(date.getMinutes()).toString()[1]);
+                document.getElementById("s1").src = this.getPath(this.Convert(date.getSeconds()).toString()[0]);
+                document.getElementById("s2").src = this.getPath(this.Convert(date.getSeconds()).toString()[1]);
+            }
+            sep() {
+                var sep1 = document.getElementById('sep1'), sep2 = document.getElementById('sep2');
+                (sep1.style.display == "block") ? sep1.style.display = sep2.style.display = "none" : sep1.style.display = sep2.style.display = "block";
+            }
+            Start() {
+                var self = this;
+                setInterval(function() { self.Tick(); }, 200);
+                setInterval(self.sep, 1000);
+                setTimeout('document.getElementById("content").style.display = "block"', 200);
+            }
+            getPath(time) {
+            if (time.length == 1 && ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"].indexOf(time) != -1) {
+                return "numbers\\" + time + ".jpg";
+            }
+        }
+        }
+        var clock = new Clock();
+        clock.Start();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW</title>
+</head>
+
+<body style="height:100%" id="body">
+
+    <div id="container" style="display:none">
+        <div id="abc1" style="width: 180px; height: 180px; position: absolute; top: 0px; left: 0px;">
+            <img src="face.jpg" width="100%" />
+        </div>
+        <div id="abc2" style="width: 180px; height: 180px; position: absolute; top: 0px; left: 0px;">
+            <img src="face.jpg" width="100%" />
+        </div>
+        <div id="abc3" style="width: 180px; height: 180px; position: absolute; top: 0px; left: 0px;">
+            <img src="face.jpg" width="100%" />
+        </div>
+        <div id="abc4" style="width: 180px; height: 180px; position: absolute; top: 0px; left: 0px;">
+            <img src="face.jpg" width="100%" />
+        </div>
+
+        <div id="abc5" style="width: 180px; height: 180px; position: absolute; top: 0px; left: 0px;">
+            <img src="face.jpg" width="100%" />
+        </div>
+        <div id="abc6" style="width: 180px; height: 180px; position: absolute; top: 0px; left: 0px;">
+            <img src="face.jpg" width="100%" />
+        </div>
+        <div id="abc7" style="width: 180px; height: 180px; position: absolute; top: 0px; left: 0px;">
+            <img src="face.jpg" width="100%" />
+        </div>
+        <div id="abc8" style="width: 180px; height: 180px; position: absolute; top: 0px; left: 0px;">
+            <img src="face.jpg" width="100%" />
+        </div>
+    </div>
+    <script>
+        class Move {
+            constructor(angle, divName) {
+                this.angle = angle;
+                this.div = document.getElementById(divName);
+                this.centerX;
+                this.centerY;
+                this.radius = 300;
+            }
+            moveDiv() {
+                var x = this.centerX + this.radius * Math.sin(this.angle * Math.PI / 180) - 90;
+                var y = this.centerY + this.radius * Math.cos(this.angle * Math.PI / 180) - 90;
+                this.div.style.left = x + "px";
+                this.div.style.top = y + "px";
+                this.angle += 5;
+                if (this.angle > 360)
+                    this.angle -= 360;
+            }
+        }
+        document.getElementById("body").onmousemove = MouseMove;
+        var isStarted = false;
+        var move1 = new Move(0, "abc1");
+        var move2 = new Move(180, "abc2");
+        var move3 = new Move(90, "abc3");
+        var move4 = new Move(270, "abc4");
+
+        var move5 = new Move(45, "abc5");
+        var move6 = new Move(135, "abc6");
+        var move7 = new Move(225, "abc7");
+        var move8 = new Move(315, "abc8");
+        function MouseMove(evt) {
+            // move1.centerX = evt.clientX;
+            // move2.centerY = evt.clientY;
+            // move3.centerX = evt.clientX;
+            // move4.centerY = evt.clientY;
+            move1.centerX = evt.clientX;
+            move1.centerY = evt.clientY;
+            move2.centerX = evt.clientX;
+            move2.centerY = evt.clientY;
+            move3.centerX = evt.clientX;
+            move3.centerY = evt.clientY;
+            move4.centerX = evt.clientX;
+            move4.centerY = evt.clientY;
+
+            move5.centerX = evt.clientX;
+            move5.centerY = evt.clientY;
+            move6.centerX = evt.clientX;
+            move6.centerY = evt.clientY;
+            move7.centerX = evt.clientX;
+            move7.centerY = evt.clientY;
+            move8.centerX = evt.clientX;
+            move8.centerY = evt.clientY;
+
+            if (!isStarted) {
+                setInterval(function () { move1.moveDiv() }, 1);
+                setInterval(function () { move2.moveDiv() }, 1);
+                setInterval(function () { move3.moveDiv() }, 1);
+                setInterval(function () { move4.moveDiv() }, 1);
+
+                setInterval(function () { move5.moveDiv() }, 1);
+                setInterval(function () { move6.moveDiv() }, 1);
+                setInterval(function () { move7.moveDiv() }, 1);
+                setInterval(function () { move8.moveDiv() }, 1)
+                isStarted = true;
+                setTimeout("document.getElementById('container').style.display = 'block'", 100);
+            }
+        }
+    </script>
+</body>
+
+
+</html>

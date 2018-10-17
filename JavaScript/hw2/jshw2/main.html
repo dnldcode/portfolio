@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>hw2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <body>
+        <script>
+            function Question(Question, Answer, Score) {
+                this.question = Question;
+                this.answer = Answer;
+                this.score = Score;
+                return this;
+            }
+            Question.prototype.ask = function () {
+                if (confirm(this.question) == this.answer)
+                    return this.score;
+                else
+                    return 0;
+            }
+            var questions = [
+                ['3*25 = 85?', false, 2],
+                ['635/5 = 20?', false, 2],
+                ['2^6 = 64?', true, 3],
+                ['3*3 = 9?', true, 1],
+                ['25 - 5 * 5 = 100?', false, 3]
+            ];
+            var symbols = "123456789!@#$%^&*()_+|?~";
+            while (true) {
+                var name = prompt("Введите ФИО :", "");
+                if (name.trim() === "" || name == 'null')
+                    continue;
+                for (var i = 0; i < symbols.length; i++) {
+                    if (name.includes(symbols[i]))
+                        break;
+                }
+                if (i == symbols.length) {
+                    break;
+                }
+            }
+            var score = 0;
+            for (var i = 0; i < questions.length; i++) {
+                score += new Question(questions[i][0], questions[i][1], questions[i][2]).ask();
+            }
+            alert("Имя : " + name + "\nВаш счет : " + score);
+
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <title>JS15-3</title>
+    <style>
+        #panel, #flip
+        {
+            padding: 5px;
+            font-size: 18px;
+            text-align: center;
+            background-color: #555;
+            color:white;
+            border: solid 1px #666;
+            border-radius: 3px;
+        }
+        #panel
+        {
+            padding: 50px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="stop">Stop sliding</button>
+     <br/>
+     <br/>
+    <div id="flip">Click to slide down panel</div>
+    <div id ="panel">Hello world</div>
+    <script>
+        $(document).ready(function()
+        {
+            $("#flip").click(function(){
+                $("#panel").slideDown(5000);
+            });
+            $("#stop").click(function(){
+                $("#panel").stop();
+            });
+        }
+        )
+    </script>
+</body>
+</html>

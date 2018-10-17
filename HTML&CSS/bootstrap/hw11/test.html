@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <form action='http://10.3.11.10/test.php' method='GET'>
+        <table border='0' align='center' width='50%'>
+            <tr>
+                <td>Пол :</td>
+                <td>
+                    <input type='radio' name='gender' value='1' />Мужской
+                    <br />
+                    <input type='radio' name='gender' value='0' />Женский
+                </td>
+            </tr>
+            <tr>
+                <td>Любимый цвет :</td>
+                <td>
+                    <input type='radio' name='color' value='red' />Красный
+                    <br />
+                    <input type='radio' name='color' value='green' checked='checked' />Зеленый
+                    <br />
+                    <input type='radio' name='color' value='blue' />Синий
+                    <br />
+                </td>
+            </tr>
+        </table>
+        <div align='center'>
+                <input type='submit' value='отправить'/>
+                <button>456</button>
+                <button type='button'>123</button>
+                <input type='button' value='123123123'/>
+        </div>
+    </form> -->
+    <!-- <form action='http://10.3.11.10/test.php' method='GET'>
+        <select name='mon2th' size='7'>
+            <option value='1'>Январь1</option>
+            <option value='2'>Январь2</option>
+            <option value='3'>Январь3</option>
+            <option value='4'>Январь4</option>
+            <option value='5'>Январь5</option>
+            <option value='6'>Январь6</option>
+            <option value='7' selected='selected'>Январь7</option>
+        </select>
+        <textarea name='123' cols='15' rows='5'>Текст</textarea>
+        <input type='submit' />
+    </form> -->
+    <div class='container'>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <form action='http://10.3.11.10/test.php'>
+            <div clas='from-group'>
+                <label for='lastname'>Фамилия</label>
+                <input type='text' class='form-control' id='lastname' name='lastname' placeholder='Введите фамилию' />
+            </div>
+            <div clas='from-group'>
+                <label for='name'>Имя</label>
+                <input type='text' class='form-control' id='firstname' name='firstname' placeholder='Введите имя' />
+            </div>
+            <div class='form-check'>
+                <input type='checkbox' class='form-check-input' id='coolprogrammer' name='coolprogrammer' />
+                <label class='form-check-label' for='coolprogrammer'>Крутой программист</label>
+            </div>
+            <div class='form-group'>
+                <label for='month'>Выбор месяца</label>
+                <select class='form-control' id='month' name='month'>
+                    <option value='1'>Январь1</option>
+                    <option value='2'>Январь2</option>
+                    <option value='3'>Январь3</option>
+                </select>
+            </div>
+            <div class='form-group'>
+                <label for='resume'>Краткое описание</label>
+                <textarea class='form-control' id='resume' name='resume' rows='4'></textarea>
+            </div>
+            <input class='form-control form-control-lg' type='text' placeholder='Large Большой'>
+            <input class='form-control' type='text' placeholder='Default Нормальный'>
+            <input class='form-control form-control-sm' type='text' placeholder='Small Маленький'>
+
+            <select class='form-control form-control-lg'>
+                <option>Large select</option>
+                <option>Большой список</option>
+            </select>
+            <select class='form-control'>
+                <option>Normal select</option>
+                <option>Нормальный список</option>
+            </select>
+            <select class='form-control form-control-sm'>
+                <option>Small select</option>
+                <option>Маленький список</option>
+            </select>
+            <div class='form-check'>
+                <input class='form-check-input' type='radio' name='color' id='color1' value='red' checked>
+                <label class='form-check-label' for='color1'>Red</label>
+            </div>
+            <div class='form-check'>
+                <input class='form-check-input' type='radio' name='color' id='color1' value='green'>
+                <label class='form-check-label' for='color2'>Green</label>
+            </div>
+            <div class='form-check'>
+                <input class='form-check-input' type='radio' name='color' id='color1' value='blue'>
+                <label class='form-check-label' for='color3'>Blue</label>
+            </div>
+            <div class='form-check'>
+                <input class='form-check-input' type='radio' name='color' id='color1' value='magenta' disabled>
+                <label class='form-check-label' for='color4'>Magenta</label>
+            </div>
+            <button type='submit' class='btn btn-primary'>Отправить</button>
+        </form>
+        <form action='http://10.3.11.10/test.php' method='POST'>
+            <div class='form-row'>
+                <div class='col'>
+                    <input type='text' class='form-control' placeholder='Фамилия'>
+                </div>
+                <div class='col'>
+                    <input type='text' class='form-control' placeholder='Имя'>
+                </div>
+                <div class='col'>
+                    <input type='text' class='form-control' placeholder='Имя'>
+                </div>
+            </div>
+        </form>
+        <form>
+            <div class='form-row'>
+                <div class='col-4'>
+                    <input type='text' class='form-control' placeholder='1'>
+                </div>
+                <div class='col-2'>
+                    <input type='text' class='form-control' placeholder='2'>
+                </div>
+                <div class='col-1'>
+                    <input type='text' class='form-control' placeholder='3'>
+                </div>
+            </div>
+            <div class='form-control'>
+                <div class='input-group mb-2'>
+                    <div class='input-group-prepend'>
+                        <div class='input-group-text'>@</div>
+                    </div>
+                    <input type='text' class='form-control' id='username' placeholder='username'>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

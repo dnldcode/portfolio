@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script>
+        var isToolTipShow = false;
+        var arrTexts = ["Первый div!<br />Зимой и летом одним цветом!", "Второй div!<br />Сто одежок и все без застежек!"];
+        function mouseMove(evt) {
+            evt = (evt) ? evt : ((window.event) ? event : null)
+            if (evt == null) return;
+        }
+        function showToolTip(evt) {
+            evt = (evt) ? evt : ((window.event) ? event : null)
+            if (evt == null) return;
+
+            var elem = null, tooltip = document.getElementById("tooltip");
+            if (evt.target != null) {
+                //Нормальный браузер
+                elem = evt.target;
+            }
+            else {
+                elem = evt.srcElement;
+            }
+            switch (elem.id) {
+                case "divOne":
+                    tooltip.innerHTML = arrTexts[0];
+                    break;
+                case "divTwo":
+                    tooltip.innerHTML = arrTexts[1];
+                    break;
+            }
+            tooltip.style.display = "block";
+            isToolTipShow = true;
+        }
+        function hideToolTip(evt) {
+            // evt = (evt) ? evt : ((window.event) ? event : null)
+            // if (evt == null) return;
+            var tooltip = document.getElementById('tooltip');
+            tooltip.style.display = 'none';
+        }
+    </script>
+</head>
+
+<body onmousemove='mouseMove(event)'>
+    <!-- <script>
+        function myClick(msg)
+        {
+            alert(msg);
+            document.write(msg + "<br />")
+        }
+    </script>
+    <div style='border: 1px solid red; background-color: yellow; width: 100px; height: 100px' onclick="myClick('hello world')"></div>
+    <div style='border: 1px solid red; background-color: cyan; width: 100px; height: 100px' onclick="myClick('123')"></div> -->
+
+    <!-- <script>
+        function myClick1() {
+            alert('1');
+        }
+        function myClick2() {
+            alert('2');
+        }
+    </script>
+    <div style='border: 1px solid red; background-color: yellow; width: 100px; height: 100px' id='one'></div>
+    <div style='border: 1px solid red; background-color: cyan; width: 100px; height: 100px' id='two'></div>
+    <script>
+        var divOne = document.getElementById('one');
+        divOne.onclick = myClick1;
+        var divTwo = document.getElementById('two');
+        divTwo.onclick = myClick2;
+    </script> -->
+
+    <!-- <script>
+        function myClick(evt) {
+            evt = (evt) ? evt : ((window.event) ? event : null);
+            if (evt == null) return;
+
+            var content = document.getElementById("content");
+            var str = "";
+
+            if (evt.srcElement) {
+                str += "<h1>IE</h1>";
+            }
+            else if (evt.target != null) {
+                str += "<h1>NOT IE</h1>";
+            }
+            for (var key in evt) {
+                str += (key + " : " + evt[key] + "<br />");
+            }
+            content.innerHTML = str;
+        }
+    </script>
+    <div style='border: 1px solid red; background-color: yellow; width: 100px; height: 100px' id='one'></div>
+    <div style='border: 1px solid red; background-color: cyan; width: 100px; height: 100px' onclick='myClick(event);'></div>
+    <div id='content'></div>
+    <script>
+        var divOne = document.getElementById('one');
+        divOne.onclick = myClick;
+        divOne.onmouseenter = myClick;
+    </script>
+
+    <a href='http://microsoft.com' onclick="alert('Вам сюда нельзя'); return false;">Microsoft</a> -->
+    <!-- 
+        returnValue - true / false
+        cancelBubble - отменяет всплытие события (true)
+        srcElement - элемент html "источник события"
+        toElement - элемент html, на который уходит событие для случая, если это событие mouseout
+        fromElement - при событии mouseout элемент с которого пришла мышка
+
+        button - содержит битовую информацию о нажатых кнопках. 0 - нет нажатых кнопок, 1 - левая кнопка, 2 - правая кнопка, 4 - средняя
+        wheelData - информация о смещении колеса мышки(положительное на себя, отрицательное от себя)
+        offsetX, offsetY - координаты мыши относительно верхнего левого угла, который является источником события
+        x, y - координаты относительно родительского окна
+        clientX, clientY - координаты клиентской области страницы 
+        screenX, screenY - относительно верхнего левого угла экрана
+
+        keyCode - код нажатой клавиши в юникоде
+        altKey - true, если нажат ALT
+        altLeft - true, если нажат левый ALT
+        ctrlKey - true, если нажат CTRL
+        ctrlLeft - true, если нажат левый CTRL
+        shiftKey - true, если нажат SHIFT
+        shiftLeft - true, если нажат левый SHIFT
+        repeat - зажата ли клавиша
+        //ДЛЯ НОРМАЛЬНЫХ БРАУЗЕРОВ
+        modifiers - ALT_MASK, CONTROL_MASK, SHIFT_MASK - какие кнопки нажаты
+        pageX, pageY - координаты относительно страницы относительно верхнего левого угла
+        screenX, screenY - координаты относительно экрана
+        target - объект источника событий 
+        type - тип события
+        which - число, какая кнопка мыши нажата 1 - левая, 2 - средняя, 3 - правая
+     -->
+    <!-- <div style='border: 1px solid red; width: 200px; height: 200px;background-color: yellow' onclick="alert('Yellow');">
+        <div style='border: 1px solid red; width: 100px; height: 100px;background-color: cyan' onclick="alert('Cyan');event.cancelBubble = true"></div>
+    </div> -->
+    <div id='tooltip' style='border: 1px solid red; background-color: yellow; width: 120px; position: absolute; top: 0px; left: 0px; display: none'>
+        <div id='divOne' onmouseover="showToolTip(event)" onmouseout='hideToolTip(event)' style='border: 1px solid green; background-color: #E0E0E0; width: 100px; height:100px'></div>
+        <div style='height: 30px'></div>
+        <div id='divTwo' onmouseover='showToolTip(event)' onmouseout='hideToolTip(event)' style='border: 1px solid green; background-color: #E0E0E0; width: 100px; height: 100px'></div>
+    </div>
+</body>
+
+</html>

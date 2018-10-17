@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <div class='container mt-5'>
+        <form>
+            <div class='col-12'>
+                <div class="form-group row">
+                    <div class='col-sm-6'>
+                        <div class="card">
+                            <h5 class="card-header font-weight-bold">Input Sizing</h5>
+                            <div class="card-body">
+                                <div class="input-group input-group-lg mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-lg">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Username">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-default">$</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Currency">
+                                </div>
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm">{}</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Code">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-sm-6'>
+                        <div class="card">
+                            <h5 class="card-header font-weight-bold">Height Sizing</h5>
+                            <div class="card-body">
+                                <div class="input-sm mb-3">
+                                    <select class='form-control form-control-lg'>
+                                        <option>Large select</option>
+                                        <option>Большой список</option>
+                                    </select>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <select class='form-control'>
+                                        <option>Normal select</option>
+                                        <option>Нормальный список</option>
+                                    </select>
+                                </div>
+                                <div class="input-group input-group-sm">
+                                    <select class='form-control form-control-sm'>
+                                        <option>Small select</option>
+                                        <option>Маленький список</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <div class='col-sm-12'>
+                        <div class='card'>
+                            <h5 class="card-header font-weight-bold">Input Groups</h5>
+                            <div class='card-body'>
+                                <div class='row'>
+                                    <div class='col-sm-4'>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                    <div class='col-sm-4'>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-sm-4'>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">$</span>
+                                            </div>
+                                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <div class='col-sm-12'>
+                        <div class='card'>
+                            <h5 class="card-header font-weight-bold">Button Addons</h5>
+                            <div class='card-body'>
+                                <div class='row'>
+                                    <div class='col-sm-6'>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-secondary" type="button">Go!</button>
+                                            </div>
+                                            <input type="text" class="form-control"> </div>
+                                    </div>
+                                    <div class='col-sm-6'>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-secondary" type="button">Submit!</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test</title>
+</head>
+<!-- // alert(Math.random());
+        // var a = Math.floor(Math.random() * 100);
+        // alert(a);
+        // var D = new Date();
+        // alert(D.toLocaleDateString());
+        // alert(D.toLocaleString());
+        // var now = new Date(year, month, date[, hour[, min[, sec[, msec]]]]);
+        // alert(now);
+        // Methods:
+        // number getDate();
+        // number getDay();
+        // number getMonth();
+        // number getFullYear();
+        // number getHours();
+        // number getMinutes();
+        // number getSeconds();
+        // number getMilliseconds();
+        // number getTime();
+        // setDate(number);
+        // setMonth(number);
+        // setFullYear(number);
+        // setHours(number);
+        // setMinutes(number);
+        // setSeconds(number);
+        // setMilliseconds(number);
+        // setTime(number);
+        // var date1 = new Date(2018, 9, 10);
+        // var date2 = new Date(2018, 8, 10);
+        // var delta = date1 - date2;
+        // alert(delta/(24*60*60*1000));
+        // timerId = setTimeout("код", timeout);
+        // timerId = setInterval("код javascript", period);
+        // clearTimeout(timerId); - отмена таймера
+        // setInterval("alert('Hello World')", 1000); -->
+<!-- <body onload='start();'>
+        <div id='content' onclick="stop();" style="background-color: yellow">0</div>
+        <script>
+            var timerId;
+            function start()
+            {
+                timerId = setInterval(abc, 1000);
+            }
+            function abc()
+            {
+                var elem = document.getElementById('content');
+                elem.innerHTML = parseInt(elem.innerHTML) + 1;
+            }
+            function stop()
+            {
+                clearTimeout(timerId);
+            }
+        </script>
+    </body> -->
+
+<body style="height:100%" id="body">
+
+    <div id="abc" style="width: 180px; height: 180px; position: absolute; top: 0px; left: 0px;;">
+        <img src="1.jpg" width="100%"/>
+    </div>
+    <script>
+        var angle = 0;
+        var angle = 0;
+        var div = document.getElementById("abc");
+        var centerX = 250;
+        var centerY = 250;
+        var radius = 200;
+        document.getElementById("body").onmousemove = MouseMove;
+        function MouseMove(evt) {
+            // alert(evt.clientX + "|" + evt.clientY);
+            centerX = evt.clientX;
+            centerY = evt.clientY;
+
+            // alert(centerX);
+        }
+        function moveDiv() {
+            var x = centerX + radius * Math.sin(angle * Math.PI / 180);
+            var y = centerY + radius * Math.cos(angle * Math.PI / 180);
+            div.style.left = x + "px";
+            div.style.top = y + "px";
+            angle += 5;
+            if (angle > 360)
+                angle -= 360;
+            // radius += 1;
+        }
+        setInterval(moveDiv, 15);
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,13 @@
+c:\users\09701\documents\visual studio 2015\Projects\Game\Game\bin\Debug\Game.exe.config
+c:\users\09701\documents\visual studio 2015\Projects\Game\Game\bin\Debug\Game.exe
+c:\users\09701\documents\visual studio 2015\Projects\Game\Game\bin\Debug\Game.pdb
+c:\users\09701\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+c:\users\09701\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.exe
+c:\users\09701\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.pdb
+C:\Users\froze\Desktop\works\C#\homeworks\Game\Game\bin\Debug\Game.exe.config
+C:\Users\froze\Desktop\works\C#\homeworks\Game\Game\bin\Debug\Game.exe
+C:\Users\froze\Desktop\works\C#\homeworks\Game\Game\bin\Debug\Game.pdb
+C:\Users\froze\Desktop\works\C#\homeworks\Game\Game\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\froze\Desktop\works\C#\homeworks\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\works\C#\homeworks\Game\Game\obj\Debug\Game.exe
+C:\Users\froze\Desktop\works\C#\homeworks\Game\Game\obj\Debug\Game.pdb

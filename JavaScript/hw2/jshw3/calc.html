@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <title>Калькулятор</title>
+    <style type="text/css">
+        .calcbutton {
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='container'>
+        <div class="card bg-light" style="width: 19rem;padding: 5px 15px 0px 15px;margin-top:20px;">
+            <div class='row' style='padding-bottom:15px'>
+                <div class="input-group col-10">
+                    <span id='input' class="form-control text-xl-right" style='font-size:140%'></span>
+                    <div class="input-group-append">
+                        <button class="btn input-group-text">
+                            <img id='remove' src='http://cdn.onlinewebfonts.com/svg/img_95429.png' width="30px" height='20px' />
+                        </button>
+                    </div>
+                </div>
+                <div class='text-right'>
+                    <button type="button" class="btn btn-danger btn-lg">C</button>
+                </div>
+            </div>
+            <div class='row'>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">7</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">8</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">9</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">+</button>
+            </div>
+            <div class='row'>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">4</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">5</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">6</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">-</button>
+            </div>
+            <div class='row'>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">1</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">2</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">3</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">/</button>
+            </div>
+            <div class='row'>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">.</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">0</button>
+                <button type="button" class="btn btn-secondary col-3 btn-lg calcbutton">=</button>
+                <button type="button" class="btn btn-light col-3 btn-lg calcbutton">*</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

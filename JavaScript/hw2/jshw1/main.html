@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>hw1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <script>
+        function Question(question, def, isnan = false) {
+            while (true) {
+                def = prompt(question, def);
+                if (def === null || def.trim() === "") {
+                    // def = "";
+                    // continue;
+                    return "Не введено";
+                }
+                if ((isnan) ? (!isNaN(def) && def > 0) : true)
+                    return def;
+            }
+        }
+        while (true) {
+            var answ1 = Question('Введите свое ФИО', answ1);
+            var answ2 = Question('Введите свой пол', answ2);
+            var answ3 = Question('Введите свой возраст', answ3, true);
+            var answ4 = Question('Введите свой e-mail', answ4);
+            if (confirm("ФИО: " + answ1 + "\nПол: " + answ2 + "\nВозраст: " + answ3 + "\nE-mail: " + answ4 + "\nВсе верно?"))
+                break;
+        }
+        document.write("ФИО: " + answ1 + "<br />Пол: " + answ2 + "<br />Возраст: " + answ3 + "<br />E-mail: " + answ4);
+    </script>
+</body>
+
+</html>

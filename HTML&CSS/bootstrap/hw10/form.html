@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+    <!-- Action - содержит имя сценария на сервере, которому будут отправлены данные элементы упрвления формы
+         Method - значения get или пост. Get - данные формы отправляются в адресную строку(GET : имя_сценария?поле1=значение1&поле2=значение2), post - передаются в теле http запроса
+         Name - имя формы, предназначенное для взаимодействия JS скрипта
+         Элементы управления-->
+    <form action='.' method='GET'>
+        <table border='0' align='center' width='30%'>
+            <tr>
+                <td> Фамилия :</td>
+                <td>
+                    <input type='text' name='lastname' placeholder='Pupkin'/>
+                </td>
+            </tr>
+            <tr>
+                <td>Имя :</td>
+                <td>
+                    <input type='checkbox' name='firstname' placeholder='Vasya' style='border: 1px solid green'/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

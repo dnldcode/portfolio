@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script>
+        var isToolTipShow = false;
+        var arrTexts = ["Первый div!<br />Зимой и летом одним цветом!", "Второй div!<br />Сто одежок и все без застежек!"];
+        function mouseMove(evt) {
+            if (isToolTipShow == false) return;
+            evt = (evt) ? evt : ((window.event) ? event : null)
+            if (evt == null) return;
+
+            var tooltip = document.getElementById('tooltip')
+
+            if (evt.pageX) {
+                //Normal Browser else - not
+                tooltip.style.left = (evt.pageX + 20) + "px";
+                tooltip.style.top = (evt.pageY + 20) + "px";
+            }
+        }
+        function showToolTip(evt) {
+            evt = (evt) ? evt : ((window.event) ? event : null)
+            if (evt == null) return;
+
+            var elem = null, tooltip = document.getElementById("tooltip");
+            if (evt.target != null) {
+                //Нормальный браузер
+                elem = evt.target;
+            }
+            else {
+                elem = evt.srcElement;
+            }
+            switch (elem.id) {
+                case "divOne":
+                    tooltip.innerHTML = arrTexts[0];
+                    break;
+                case "divTwo":
+                    tooltip.innerHTML = arrTexts[1];
+                    break;
+            }
+            tooltip.style.display = "block";
+            isToolTipShow = true;
+        }
+        function hideToolTip(evt) {
+            // evt = (evt) ? evt : ((window.event) ? event : null)
+            // if (evt == null) return;
+            var tooltip = document.getElementById('tooltip');
+            tooltip.style.display = 'none';
+        }
+    </script>
+</head>
+
+<body onmousemove='mouseMove(event)'>
+    <div id='tooltip' style='border: 1px solid red; background-color: yellow; width: 120px; position: absolute; top: 0px; left: 0px; display: none'>
+    </div>
+    <div id='divOne' onmouseover="showToolTip(event)" onmouseout='hideToolTip(event)' style='border: 1px solid green; background-color: #E0E0E0; width: 100px; height: 100px'></div>
+    <div style='height: 30px'></div>
+    <div id='divTwo' onmouseover='showToolTip(event)' onmouseout='hideToolTip(event)' style='border: 1px solid green; background-color: #E0E0E0; width: 100px; height: 100px'></div>
+</body>
+
+</html>

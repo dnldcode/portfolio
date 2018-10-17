@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="_Countries.js"></script>
+    <script src="_cities.js"></script>
+</head>
+
+<body>
+    <script>
+        function AutoCompiler(sizeX, sizeY, arr, formName, text, isAlpha) {
+            var self = this;
+            this.arr = arr;
+            this.domContainer = document.createElement("div");
+            this.textBox = document.createElement("input");
+            this.textBox.style.width = sizeX + "px";
+            this.textBox.style.height = sizeY + "px";
+
+            this.domContainer.appendChild(this.textBox);
+
+            var dataDiv = document.createElement("div");
+            this.datDiv = dataDiv;
+            dataDiv.style.position = "absolute";
+            dataDiv.style.display = "none";
+            dataDiv.style.border = "1px solid #808080";
+            dataDiv.style.backgroundColor = "#FFFFFF";
+            dataDiv.style.fontSize = "9pt";
+            dataDiv.style.fontWeight = "normal";
+            dataDiv.style.color = "#4A4A4A";
+            dataDiv.style.padding = "0px";
+            dataDiv.style.width = sizeX + "px";
+            dataDiv.style.zIndex = 990;
+            this.domContainer.appendChild(dataDiv);
+            this.curElem = -1;
+            this.isKeyed = false;
+            this.isDowned = false;
+            this.minTextLength = 3;
+            this.textBox.onkeydown = function (evt) {
+                self.isDowned = true;
+                self.keyPress(evt);
+                return true;
+            };
+            this.textBox.onkeypress = function (evt) {
+                if (self.isDowned == false)
+                    self.keyPress(evt);
+                return true;
+            }
+            this.textBox.onblur = function () {
+                self.datDiv.style.display = "none";
+                // self.onBlur();
+                return true;
+            }
+            try {
+                var aa = document.createAttribute("autocomplete");
+                aa.nodeValue = "off";
+                this.textBox.setAttributeNode(aa);
+            }
+            catch (e) { };
+            return this;
+        }
+        AutoCompiler.prototype = {
+            getDomObject: function () {
+                return this.domContainer;
+            },
+            repositionDiv: function () {
+                var r = getAbsolutePosition(this.textBox);
+                this.datDiv.style.left = r.x + "px";
+                this.datDiv.style.top = (r.y + this.textBox.offsetHeight + 2) + "px";
+                this.datDiv.style.width = this.textBox.offsetWidth = "px";
+                return r;
+            },
+            keyPress: function (evt) {
+                this.isKeyed = false;
+                evt = (evt) ? evt : ((window.event) ? event : null);
+                if (evt == null)
+                    return true;
+                switch (evt.keyCode) {
+                    default:
+                        var self = this;
+                        setTimeout(function () { self.textChanged(); }, 100);
+                        break;
+                }
+            },
+            textChanged: function () {
+                if (this.isKeyed == true)
+                    return;
+                var text = this.textBox.value.toLowerCase();
+
+                this.datDiv.scrollTo = 0;
+                this.curElem = -1;
+                this.datDiv.style.display = "none";
+                this.datDiv.innerHTML = "";
+                if (text.length < this.minTextLength) return;
+
+                //Заполнение списка значениями, которые удовлетворяют введенным символам
+                this.fillSubList(text, this.datDiv);
+
+                //Отображение div с выпадающим текстом
+                var itemsCnt = this.datDiv.childNodes.length;
+                if (itemsCnt > 8) {
+                    this.datDiv.style.overflow = "auto";
+                    this.datDiv.style.height = "160px";
+                }
+                else {
+                    this.datDiv.style.overflow = "visible";
+                    this.datDiv.style.height = null;
+                }
+                this.datDiv.style.display = "block";
+
+                // this.datDiv.style.height = "160px";
+                // // this.datDiv.style.width = "160px";
+                // this.datDiv.style.display = "block";
+            },
+            fillSubList: function (text, domCnt) {
+                var cnt = 0;
+                var itemsCnt = 0;
+                text = text.toLowerCase();
+                for (var i = 0; i < this.arr.length; i++) {
+                    if (this.arr[i].toLowerCase().indexOf(text) != -1) {
+                        var div = document.createElement("div");
+                        div.style.padding = "2px 5px";
+                        div.style.cursor = "pointer";
+                        div.id = "c" + itemsCnt;
+                        itemsCnt++;
+                        div.appendChild(document.createTextNode(this.arr[i]));
+
+                        domCnt.appendChild(div);
+                    }
+                }
+            }
+        }
+        function getAbsolutePosition(el) {
+            var r = { x: el.offsetHeight, y: el.offsetTop };
+            if (el.offsetParent) {
+                var tmp = getAbsolutePosition(el.offsetParent);
+                r.x += tmp.x;
+                r.y += tmp.y;
+            }
+        }
+    </script>
+    <table width="60%" align="center">
+        <tr>
+            <td id="td1"></td>
+            <td id="td2"></td>
+            <td id="td3"></td>
+        </tr>
+    </table>
+    <script>
+        var autoCompl1 = new AutoCompiler(120, 24, arrCountries, "countryFrom", "", true);
+        document.getElementById("td1").appendChild(autoCompl1.domContainer);
+        var autoCompl2 = new AutoCompiler(120, 24, arrCities, "countryTo", "", true);
+        document.getElementById("td2").appendChild(autoCompl2.domContainer);
+        var autoCompl3 = new AutoCompiler(120, 24, arrCountries, "countryThrough", "", true);
+        document.getElementById("td3").appendChild(autoCompl3.domContainer);
+    </script>
+
+</body>
+
+</html>

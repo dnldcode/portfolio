@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="content"></div>
+    <!-- <script>
+        // object document.createElement("table")
+        // row table.insertRow(index);
+        // cell row.insertCell(index);
+        // var table = document.createElement("table");
+        // table.border = "1";
+        // table.cellSpacing = "0";
+        // table.cellPadding = "10";
+        // table.align = "center";
+        // table.width = "60%";
+
+        // for (var i = 0; i < 3; i++) {
+        //     var row = table.insertRow(i);
+        //     for (var j = 0; j < 4; j++) {
+        //         var cell = row.insertCell(j);
+        //         cell.appendChild(document.createTextNode("Hello " + (i * 10 + j)));
+        //     }
+        // }
+        // document.getElementById("content").appendChild(table);
+    </script> -->
+    <!-- <div id="content"></div>
+    <script>
+        var content = document.getElementById("content");
+        var textBox = document.createElement("input");
+        textBox.type = "text";
+        textBox.name = "lastname";
+        textBox.value = "Gates";
+
+        var div1 = document.createElement("div");
+        div1.appendChild(textBox);
+        content.appendChild(div1);
+
+        var checkBox = document.createElement("input");
+        checkBox.type = "checkbox";
+        checkBox.name = "isProgrammer";
+        checkBox.checked = "checked";
+        var div2 = document.createElement("div")
+        div2.appendChild(checkBox);
+        div2.appendChild(document.createTextNode("Программист"));
+        content.appendChild(div2);
+        var div3 = document.createElement("div");
+        var colors = ["red", "green", "blue"];
+        for (var i = 0; i < colors.length; i++)
+        {
+            var radio = document.createElement("input");
+            radio.type = "radio";
+            radio.name = "colors";
+            radio.value = i;
+            var span = document.createElement("span");
+            span.appendChild(radio);
+            span.appendChild(document.createTextNode(colors[i]));
+            var itemDiv = document.createElement("div");
+            itemDiv.appendChild(span);
+
+            div3.appendChild(itemDiv);
+        }
+        content.appendChild(div3);
+    </script> -->
+    <!-- <input type="checkbox" id="cbTest" />
+    <br />
+    <button onclick="btnClick(event)">Кнопка</button>
+    <br />
+    <form name="testForm">
+        <input type="radio" name="color" value="red" />Красный
+        <br />
+        <input type="radio" name="color" value="green" />Зеленый
+        <br />
+        <input type="radio" name="color" value="blue" />Синий
+        <br />
+        <button onclick="btnClick2(event);return false;">узнать цвет</button>
+    </form>
+
+    <script>
+        function btnClick(evt) {
+            var checkBox = document.getElementById("cbTest");
+            checkBox.click();
+        }
+        function btnClick2(event) {
+            var color = document.forms["testForm"].color;
+            for (var i = 0; i < color.length; i++) {
+                if (color[i].checked) {
+                    alert("Выбран : " + color[i].value);
+                    break;
+                }
+            }
+        }
+    </script> -->
+    <!-- <form name="monthForm">
+        Выберите месяц:
+        <select name="month" onchange="selectedIndexChanged(event)">
+            <option value="1">Январь</option>
+            <option value="2">Февраль</option>
+            <option value="3">Март</option>
+            <option value="4">Апрель</option>
+            <option value="5">Май</option>
+            <option value="6">Июнь</option>
+        </select>
+    </form>
+    <script>
+        function selectedIndexChanged(evt) {
+            var monthSelect = document.forms["monthForm"].month;
+            alert(monthSelect.options[monthSelect.selectedIndex].text);
+        }
+    </script> -->
+    <!-- <div id="content"></div>
+    <script>
+        var arrMonth = ["Январь", "Февраль", "Март", "Апрель"];
+        var select = document.createElement("select");
+        for (var i = 0; i < arrMonth.length; i++) {
+            var option = document.createElement("option");
+            option.value = (i + 1);
+            option.text = arrMonth[i];
+            select.appendChild(option);
+        }
+        document.getElementById("content").appendChild(select);
+        select.onchange = function (evt) {
+            alert(select.options[select.selectedIndex].text);
+        }
+    </script> -->
+    <p>Кликните по рисунку для перехода по адресу http:/microsoft.com</p>
+    <img src="Koala.jpg" onclick="location.href='http://microsoft.com'" />
+</body>
+
+</html>

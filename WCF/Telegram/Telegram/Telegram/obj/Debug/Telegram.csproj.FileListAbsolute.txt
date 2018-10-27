@@ -19,3 +19,14 @@ C:\Users\froze\Desktop\Telegram\Telegram\Telegram\obj\Debug\Telegram.csproj.Core
 C:\Users\froze\Desktop\Telegram\Telegram\Telegram\obj\Debug\Telegram.exe
 C:\Users\froze\Desktop\Telegram\Telegram\Telegram\obj\Debug\Telegram.pdb
 C:\Users\froze\Desktop\Telegram\Telegram\Telegram\bin\Debug\Telegram.exe.config
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\bin\Debug\Telegram.exe.config
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\bin\Debug\Telegram.exe
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\bin\Debug\Telegram.pdb
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\obj\Debug\Telegram.csprojAssemblyReference.cache
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\obj\Debug\Telegram.Form1.resources
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\obj\Debug\Telegram.LoginForm.resources
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\obj\Debug\Telegram.Properties.Resources.resources
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\obj\Debug\Telegram.csproj.GenerateResource.cache
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\obj\Debug\Telegram.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\obj\Debug\Telegram.exe
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Telegram\Telegram\obj\Debug\Telegram.pdb

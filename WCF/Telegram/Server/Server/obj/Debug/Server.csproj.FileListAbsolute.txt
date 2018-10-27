@@ -10,3 +10,9 @@ C:\Users\froze\Desktop\Telegram\Server\Server\obj\Debug\Server.csproj.CoreCompil
 C:\Users\froze\Desktop\Telegram\Server\Server\obj\Debug\Server.exe
 C:\Users\froze\Desktop\Telegram\Server\Server\obj\Debug\Server.pdb
 C:\Users\froze\Desktop\Telegram\Server\Server\bin\Debug\Server.exe.config
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Server\Server\bin\Debug\Server.exe.config
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Server\Server\bin\Debug\Server.exe
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Server\Server\bin\Debug\Server.pdb
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Server\Server\obj\Debug\Server.exe
+C:\Users\froze\Desktop\Programming\works\WCF\Telegram\Server\Server\obj\Debug\Server.pdb

@@ -1,7 +1,7 @@
-# Works
-There are my works which I did during studies in ITSTEP Academy.
+# Projects
+This repository contains list of projects that I did during studies in ITSTEP Academy.
 
-They include:
+Technologies used:
 - C#
 - ADO.NET
 - Windows Forms
